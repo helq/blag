@@ -1,0 +1,19 @@
+<header id="header">
+	<div class="center">
+		<div class="wrap">
+			<div id="site">
+				<h1><a href="/blog/">{{ blog.title }}</a></h1>
+				{% if blog.subtitle %}
+				<h2><a href="/blog/">{{ blog.subtitle }}</a></h2>
+				{% endif %}
+			</div>
+			<nav id="menu">
+				<ul>
+					{% for item, url in blog.menu %}
+					<li><a href="{{ url }}">{{ __(item) }}</a></li>
+					{% endfor %}
+				</ul>
+			</nav>
+		</div>
+	</div>
+</header>

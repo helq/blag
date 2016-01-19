@@ -1,0 +1,43 @@
+<article class="{{ layout_name(item.layout) }}">
+    {#
+    {% if item.photos and item.photos.length %}
+    {% include 'post/gallery.swig' %}
+    {% endif %}
+    #}
+    <div class="post-content">
+        <header>
+            {% if layout_name(item.layout) != 'page' %}
+                <div class="meta">
+                    <div class="icon"></div>
+                    <time datetime="{{ item.date.toISOString() }}"><a href="{{ url_for(item.path) }}">{{ moment(item.date).format(blog.date_format) }}</a></time>
+                </div>
+            {% endif %}
+            {% include 'layouts/_partial/post/title.nunjucks' %}
+        </header>
+        <div class="entry">
+          {% if index and item.excerpt %}
+            {{ item.excerpt | safe }}
+          {% else %}
+            {{ item.orig_contents | safe }}
+          {% endif %}
+        </div>
+        <footer class="clearfix">
+            {% if index %}
+                {% if item.excerpt %}
+                    <div class="read-more">
+                        <a href="{{ url_for(item.path) }}#more" class="more-link">{{ blog.excerpt_more }}</a>
+                    </div>
+                {% endif %}
+                {% if blog.comments.enable and blog.comments.disqus_shortname %}
+                    <div class="disqus-comment">
+                        <a href="{{ permalink(item.path) }}#disqus_thread" class="comment-link">{{ __('comments') }}</a>
+                    </div>
+                {% endif %}
+            {% endif %}
+            {#
+            {% include 'post/category.nunjucks' %}
+            #}
+            {% include 'layouts/_partial/post/tag.nunjucks' %}
+        </footer>
+    </div>
+</article>

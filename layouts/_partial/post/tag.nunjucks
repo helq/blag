@@ -1,0 +1,9 @@
+{% if item.tagsUrlSafe and item.tagsUrlSafe.length %}
+<div class="tags">
+	{% for tag in item.tagsUrlSafe %}
+	<a href="{{ tag_path( tag ) }}">#{{ tag }}</a>
+	{% endfor %}
+</div>
+{% endif %}
+
+{# vim: set ts=4 sw=4 ft=html et: #}

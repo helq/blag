@@ -1,0 +1,10 @@
+<footer id="footer">
+	<div class="center">
+		&copy; {{ date_now }}
+		{% if blog.author -%} {{ blog.author }} {%- else -%} {{ blog.title }} {%- endif %}.
+		&nbsp;&nbsp;
+		Blog generated using <a href="http://metalsmith.io">metalsmith</a>
+		&nbsp;&nbsp;
+        Layout based on the hexo theme <a href="https://github.com/dnxbf321/hexo-theme-simplest">simplest</a>
+	</div>
+</footer>

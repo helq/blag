@@ -1,0 +1,20 @@
+{% extends 'layouts/ancestor.nunjucks' %}
+
+{% block primary %}
+
+{% set index = false %}
+{% set item = {
+            'layout': layout,
+            'date': date,
+            'path': path,
+            'title': title,
+            'orig_contents': orig_contents
+            } %}
+
+{% include 'layouts/_partial/article.nunjucks' %}
+
+{#
+{% include '_partial/disqus_count.swig' %}
+#}
+
+{% endblock %}

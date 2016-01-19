@@ -1,0 +1,12 @@
+{% if Object.keys(tags).length %}
+<div class="widget tag">
+	<h2 class="archive-title">{{ __('tag') }}</h2>
+	<ul class="entry">
+		{% for tag in Object.keys(tags).sort() %}
+		<li><a href="{{ tag_path( tag ) }}">#{{ tag }}</a>
+			<small>{{ tags[tag].length }}</small>
+		</li>
+		{% endfor %}
+	</ul>
+</div>
+{% endif %}

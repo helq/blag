@@ -1,0 +1,37 @@
+{% if layout_name(layout) == "archive" and not year %}
+    {#
+	{% include '../_widget/search.swig' %}
+	{% include '../_widget/category.swig' %}
+    #}
+	{% include 'layouts/_widget/tag.nunjucks' %}
+{% endif %}
+
+<div class="archive">
+	{% if category %}
+		<h2 class="archive-title category">{{ category }}</h2>
+	{% elif tag %}
+		<h2 class="archive-title tag">{{ tag }}</h2>
+	{% elif archive and month %}
+		<h2 class="archive-title">{{ year + '-' + month}}</h2>
+	{% elif archive and year %}
+		<h2 class="archive-title">{{ year }}</h2>
+	{% else %}
+		<h2 class="archive-title">{{ __('archive') }}</h2>
+	{% endif %}
+
+	{% for item in pagination.files %}
+	<article class="{{ layout_name(item.layout) }}">
+		<div class="post-content">
+			<header>
+				<div class="meta">
+					<div class="icon"></div>
+					<time datetime="{{ item.date.toISOString() }}"><a href="{{ url_for(item.path) }}">{{
+						moment(item.date).format(blog.date_format) }}</a></time>
+				</div>
+				<h1 class="title"><a href="{{ url_for(item.path) }}">{{ item.title }}</a></h1>
+			</header>
+		</div>
+	</article>
+	{% endfor %}
+
+</div>

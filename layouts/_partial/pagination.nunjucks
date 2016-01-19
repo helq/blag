@@ -1,0 +1,8 @@
+<nav id="pagination">
+	{% if pagination.previous %}
+	<a href="{{ url_for(pagination.previous.path) }}" class="prev">{{ __('prev') }}</a>
+	{% endif %}
+	{% if pagination.next %}
+	<a href="{{ url_for(pagination.next.path) }}" class="next">{{ __('next') }}</a>
+	{% endif %}
+</nav>
