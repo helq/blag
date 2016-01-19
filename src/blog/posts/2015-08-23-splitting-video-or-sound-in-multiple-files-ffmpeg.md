@@ -4,7 +4,7 @@ date: 2015-08-23 15:12 (COT)
 tags: ffmpeg, bash, programming, scripting
 ---
 
-The present article describes how to split a video/sound in multiple files of same duration using ffmpeg. [Clic to download automated bash script.](/blog/data/splitVideo.sh)
+The present article describes how to split a video/sound in multiple files of same duration using ffmpeg. [Click to download automated bash script.](/blog/data/splitVideo.sh)
 
 With ffmpeg, to copy just a fraction of a sound (`.mp3`, `.wma`, `.aac`, ...) or video file (`.mp4`, `.wma`, ...) use:
 

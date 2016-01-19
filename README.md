@@ -29,3 +29,8 @@ This directory structure
   |-/posts
     |-/hello-world.md
 ```
+
+License
+-------
+
+The `layouts` and `assets` folders are based on the [hexo](https://hexo.io/) theme: [sipmlest](https://github.com/dnxbf321/hexo-theme-simplest) by Jason Tung, which is license under MIT, but sublicense for this project under BSD-3

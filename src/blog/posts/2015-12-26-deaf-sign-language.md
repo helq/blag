@@ -1,7 +1,7 @@
 ---
 title: Deaf Sign Language
 date: 2015-12-26 12:40 (COT)
-tags: language, deaf sign language
+tags: languages, deaf sign language
 ---
 
 *This article is based in an essay I wrote for an English class in the second semester of 2015*
