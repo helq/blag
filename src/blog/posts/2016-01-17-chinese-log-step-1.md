@@ -1,8 +1,10 @@
 ---
-title: 'Chinese Log - Step 1: Reading'
+title: 'Chinese Log - Step 1: Searching for Resources'
 date: 2016-01-17 17:25 (COT)
-tags: languages, Chinese, learning
+tags: languages, Chinese, learning, Chinese Log
 ---
+
+_This article is part of a series of posts on my Chinese learning experience,_ _for more information visit the [main series page](/blog/posts/2016/01/en/my-chinese-learning-log/)_
 
 Here are the web pages I found useful when reading about Chinese Language as a complete beginner (huh, I'm talking like I knew Chinese, for the record: I'm a beginner!). Not all links are meant to be helpful for the beginner though, they're just resources I found useful.
 
@@ -11,6 +13,7 @@ The bold links are the most relevant for the first stage of the learning process
 First of all, why do you wanna learn chinese?:
 ----------------------------------------------
 - **[Goals and motivation, part 1 – Introduction](http://www.hackingchinese.com/goals-and-motivation-part-1-introduction/)** (my answer: just to know a different language. I wanted to learn French, Portuguese, or Chinese, and I decide for Chinese because is the hardest from my mother language (spanish, btw))
+- **[How to learn effectively](http://www.sciencealert.com/here-are-4-key-strategies-for-remembering-everything-you-learn)** Few science based tips to improve learning, so you can achieve your learning goals (part of the reason why am I writting this in the first place ;) )
 
 About pronunciation and Pinyin:
 -------------------------------

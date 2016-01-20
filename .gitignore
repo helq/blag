@@ -1,4 +1,5 @@
 _site
+data
 node_modules
 .directory
 helpers/metalsmith-excerptor

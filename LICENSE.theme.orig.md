@@ -6,6 +6,7 @@ which are modifications of the [hexo](https://hexo.io/) theme: [sipmlest](https:
 See LICENSE.md for the sublicense in which I (helq) release the code.
 
 Original license:
+-----------------
 
 The MIT License (MIT)
 

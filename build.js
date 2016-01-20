@@ -220,7 +220,7 @@ Metalsmith(__dirname)
    */
   .use(pagination({
     'posts': {
-      perPage: 4,
+      perPage: 6,
       layout: 'index.nunjucks',
       first: 'blog/index.html',
       path: 'blog/page/:num/index.html',
@@ -288,10 +288,11 @@ Metalsmith(__dirname)
   }))
 
   .use( blc({
-      //allowRegex: null,
+      //allowRegex: /\/blog\/data\/.*/,
       allowRedirects: true,
       checkImages: true,
-      checkLinks: true
+      checkLinks: true,
+      warn: true
   }))
 
   /**

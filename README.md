@@ -3,8 +3,8 @@ Code of my personal blog
 
 Welcome everyone!. This is the source code to my personal site/blog, it uses [Metalsmith](http://www.metalsmith.io/).
 
-How to use
-----------
+How to compile
+--------------
 
 To compile the site/blog you need npm and nodejs installed:
 
