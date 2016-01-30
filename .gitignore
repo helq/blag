@@ -4,4 +4,4 @@ node_modules
 .directory
 helpers/metalsmith-excerptor
 helpers/metalsmith-i18n
-src/blog/posts/*
+src/blog/posts/*.draft.*

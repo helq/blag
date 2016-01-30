@@ -27,7 +27,7 @@ PT0nKSkrJ3M9ImVtJyArICdhaWwiPicrZSsnPFwvJysnYScrJz4nKTsKLy8gLS0+Cg==">
 </script>
 
 ~~~bash
-echo && sed "$(tr -d ' \342\202\234\200\214\224\226\230\220\274\250\225\267\265\244\264' <<<'{ 
+echo && sed "$(tr -d ' \342\202\234\200\214\224\226\230\220\274\250\225\267\265\244\264' <<<'{
 s/d[^ax       │     │     ┌──┐  │o            │    '\
 '\x35]*5\  (  ├─┐┌─┐│┌─┐  │┌╖│  │╷╷  ╷┌─┐   ┌─┤┌─┐ I\)/aG\x56\x73c/
  s/Gh *cm\([^ │ │├─┘││ │  │└╨┘  ││└┐┌┘├─┘   │ │├─┘ WT3Ou2YuKM67eC54IHgpKM67eC5mKHggeCkpCg==]\)/UBsa/
@@ -35,4 +35,4 @@ s/\(.\)c\(g\) ╵ ╵└─╴╵└─┤  └─┘   ╵╵ └┘ └─╴ 
 }                      ┼   ')" <<<'dHJ5IGhhcmRlcgo=' | base64 -d
 ~~~
 
-I suppose I need to write here something about me ... 
+I suppose I need to write here something about me [...](https://xkcd.com/1530/)

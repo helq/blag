@@ -6,9 +6,9 @@ tags: languages, Chinese, learning, Chinese Log
 
 _This article is part of a series of posts on my Chinese learning experience,_ _for more information visit the [main series page](/blog/posts/2016/01/en/my-chinese-learning-log/)_
 
-My first 'real' step into learning Chinese has been to learn the pronunciation of the vowels and consonants in Chinese (or rather, the initials and finals), and later combine them and learn to distinguish between different tones.
+My first 'real' step into learning Chinese has been to learn the pronunciation of vowels and consonants in Chinese (or rather, the initials and finals), and later combine them and learn to distinguish between the different tones.
 
-The Chinese syllables are composed of two parts an (optional) initial and a final, so my first step was getting to know the initials and the finals. But first of all, I learn the basics of IPA:
+The Chinese syllables are composed of two parts an (optional) initial and a final, so my first step was getting to know the initials and the finals. But first of all, I learnt the basics of IPA:
 
 1. IPA
 ------
