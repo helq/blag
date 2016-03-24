@@ -1,21 +1,20 @@
 ---
 title: About me
 date: 2015-08-24
-modified: 2015-10-04
+modified: 2016-03-11
 ---
+Hi, welcome to my (maybe) personal, mathematical, computer science and other
+things blog.
 
-Hi, welcome to my (maybe) personal, mathematical, about computer science and
-other things blog.
-
-As an imperfect **real** human as I am, and not an spider, I make many mistakes
-of many kinds, and usually, I'm not able to detect them on time.
-So, please, don't hesitate to write me if you find any grammatical,
-typographical, computational, mathematical, logical, illogical, physical,
-science fictional mistake. I thank you with all my guts!. But please don't do
-it if you are a panda or a koala, because I don't like how all humans treat you,
-it seems as they thought you're gods and not as species that are doom
-because are resilient to change and eat only one type of vegetable. So go, and
-make cute faces to others, not me.
+As I am an imperfect **real** human, and not an spider, I make many mistakes
+of many kinds and usually I’m not able to detect them on time. So, please,
+don’t hesitate to write to me if you find any grammatical, typographical,
+computational, mathematical, logical, illogical, physical or science fictional
+mistakes. I thank you with all my guts! But please don’t if you are a panda or
+a koala, because I don’t like how all humans treat you. It seems as if they
+think you’re gods and not species that are doomed because are not resilient
+to change and eat only one type of vegetable. So go and make cute faces to
+others, not to me.
 
 So, anyway, here is my email:
 <script markdown="0" src="data:text/javascript;base64,

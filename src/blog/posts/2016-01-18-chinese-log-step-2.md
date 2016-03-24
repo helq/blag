@@ -12,9 +12,9 @@ The Chinese syllables are composed of two parts an (optional) initial and a fina
 
 1. IPA
 ------
-I use IPA to know approximately the sound of every consonant and vowel. For an explanation of the IPA system visit the [IPA explanation | Pronunciation/Ear training](https://fluent-forever.com/chapter3/) from [Fluent Forever](https://fluent-forever.com), it is fundamental!.
+I use IPA to know approximately the sound of every consonant and vowel. For an explanation of the IPA system visit [IPA explanation | Pronunciation/Ear training](https://fluent-forever.com/chapter3/) from [Fluent Forever](https://fluent-forever.com), it is fundamental!.
 
-Then you can read the [IPA for Chinese](https://en.wikipedia.org/wiki/Help:IPA_for_Mandarin).
+Then you can read [IPA for Chinese](https://en.wikipedia.org/wiki/Help:IPA_for_Mandarin).
 
 And don't forget to read the [Pinyin Article (wikipedia)](https://en.wikipedia.org/wiki/Pinyin) as we will base our learning in pinyin.
 

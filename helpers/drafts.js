@@ -22,8 +22,7 @@ function plugin(remove) {
   return function(files, metalsmith, done) {
     if (remove) {
       Object.keys(files).forEach(function(file){
-        var data = files[file];
-        if(data.draft) {
+        if( /\.draft\./.test(file) ) {
           debug('deleting draft file: %s', file)
           delete files[file];
         }

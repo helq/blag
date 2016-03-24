@@ -24,7 +24,6 @@ content =
 title: 'TITLE'\n\
 date: DATE\n\
 tags: \n\
-draft: true\n\
 ---\n\n".replace('TITLE', title).replace('DATE', date.format('YYYY-MM-DD HH:mm [(COT)]'));
 
 fs.writeFile(file_name, content,
