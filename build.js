@@ -14,7 +14,8 @@ var Metalsmith   = require('metalsmith'),
     beautify     = require('metalsmith-beautify'),
     feed         = require('metalsmith-feed'),
     watch        = require('metalsmith-watch'),
-    blc          = require('metalsmith-broken-link-checker');
+    blc          = require('metalsmith-broken-link-checker')
+    compressgzip = require('metalsmith-gzip');
 
 
 /**
@@ -294,6 +295,9 @@ Metalsmith(__dirname)
       checkLinks: true,
       warn: true
   }))
+
+  // compressing using gzip
+  .use( compressgzip() )
 
   /**
    * serving the site
