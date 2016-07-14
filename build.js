@@ -1,4 +1,6 @@
-var Metalsmith   = require('metalsmith'),
+"use strict";
+
+let Metalsmith   = require('metalsmith'),
     markdown     = require('metalsmith-markdown'),
     layouts      = require('metalsmith-layouts'),
     permalinks   = require('metalsmith-permalinks'),
@@ -14,23 +16,47 @@ var Metalsmith   = require('metalsmith'),
     beautify     = require('metalsmith-beautify'),
     feed         = require('metalsmith-feed'),
     watch        = require('metalsmith-watch'),
-    blc          = require('metalsmith-broken-link-checker')
+    blc          = require('metalsmith-broken-link-checker'),
     compressgzip = require('metalsmith-gzip');
 
+let debug = require('debug')('builder');
 
 /**
  * Helpers
  */
-var basename = require('./helpers/basename');
-var parse_dates = require('./helpers/parse_dates');
-var metadataadder = require('./helpers/add-metadata');
-var copying_contents = require('./helpers/copying_contents');
-var drafts = require('./helpers/drafts');
+let basename = require('./helpers/basename');
+let parse_dates = require('./helpers/parse_dates');
+let metadataadder = require('./helpers/add-metadata');
+let copying_contents = require('./helpers/copying_contents');
+let drafts = require('./helpers/drafts');
+
+/**
+ * Global variables
+ */
+let remove_drafts = true;
+
+if (process.argv.length > 2) {
+    process.argv.slice(2).forEach((val) => {
+        switch(val) {
+            case '-d':
+            case '--drafts':
+                remove_drafts = false;
+                debug("Setting: drafts are now displayed");
+                break;
+
+            case '-h':
+            case '--help':
+            default:
+                console.log("mode of use: node build [-h|--help] [-d|--drafts]");
+                process.exit(1);
+        }
+    });
+}
 
 /**
  * Simple logging plugin, helpful for debugging ;)
  */
-var log = function() {
+let log = function() {
   return function(files, metalsmith, done) {
     console.log(Object.keys(files));
     //console.log(files);
@@ -43,7 +69,7 @@ var log = function() {
 /**
  * blog data
  */
-blog = {
+let blog = {
    title: "omnomnomelq",
    subtitle: "i'm a subtitle!",
    subtitle_alt: "helq's blog",
@@ -86,7 +112,7 @@ Metalsmith(__dirname)
       layout_name: function(n) { return /^(.*)\.[^.]+$/.exec(n)[1]; }, // 'name.nunjucks' -> 'name'
       date_now: moment(Date.now()).format('YYYY'), //getting the current year
       url_for: function(path) {
-          not_index = /^(.*\/)index\.html?$/.exec(path); // removing index.html from the path
+          let not_index = /^(.*\/)index\.html?$/.exec(path); // removing index.html from the path
           return blog.root + (not_index ? not_index[1] : path);
       },
       permalink: function(path) { return blog.url + path; },
@@ -114,7 +140,7 @@ Metalsmith(__dirname)
   /**
    * Removing drafts files (if true)
    */
-  .use( drafts(true) )
+  .use( drafts(remove_drafts) )
 
   /**
    * Copying `contents' to the variable `orig_contents'

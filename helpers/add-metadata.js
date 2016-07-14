@@ -1,7 +1,7 @@
 /**
  * Dependencies
  */
-var debug = require('debug')('add-metadata');
+let debug = require('debug')('add-metadata');
  
 /**
  * Expose `plugin`.

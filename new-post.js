@@ -1,4 +1,6 @@
-var fs     = require('fs'),
+"use strict";
+
+let fs     = require('fs'),
     moment = require("moment");
 
 if (process.argv.length != 3) {
@@ -7,25 +9,28 @@ if (process.argv.length != 3) {
 }
 
 function string2urlSafe(value) { // http://stackoverflow.com/a/2497040
-    return value == undefined ? '' : value.replace(/[^a-z0-9_]+/gi, '-').replace(/^-|-$/g, '').toLowerCase();
+    return value === undefined ? '' : value.replace(/[^a-z0-9_]+/gi, '-').replace(/^-|-$/g, '').toLowerCase();
 }
 
-date = moment( Date.now() );
-title = process.argv[2];
+let date  = moment( Date.now() );
+let title = process.argv[2];
 
-file_name = "src/blog/posts/"
-          + date.format('YYYY-MM-DD-')
-          + string2urlSafe(process.argv[2])
-          + '.draft'
-          + '.md';
+let file_name = "src/blog/posts/"
+              + date.format('YYYY-MM-DD-')
+              + string2urlSafe(process.argv[2])
+              + '.draft'
+              + '.md';
 
-content = 
+let content = 
 "---\n\
 title: 'TITLE'\n\
 date: DATE\n\
 tags: \n\
 ---\n\n".replace('TITLE', title).replace('DATE', date.format('YYYY-MM-DD HH:mm [(COT)]'));
 
+/**
+ * Creating new post
+ */
 fs.writeFile(file_name, content,
     function(err) {
         if(err) {
