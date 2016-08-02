@@ -15,8 +15,7 @@ The Chinese syllables are composed of two parts an (optional) initial and a fina
 first step was getting to know the initials and the finals. But first of all, I learnt the
 basics of IPA:
 
-1. IPA
-------
+## 1. IPA ##
 
 I use IPA to know approximately the sound of every consonant and vowel. For an explanation
 of the IPA system visit [IPA explanation | Pronunciation/Ear training](https://fluent-forever.com/chapter3/)
@@ -27,8 +26,7 @@ Then you can read [IPA for Chinese](https://en.wikipedia.org/wiki/Help:IPA_for_M
 And don't forget to read the [Pinyin Article (wikipedia)](https://en.wikipedia.org/wiki/Pinyin)
 as we will base our learning in pinyin.
 
-2. Initials
------------
+## 2. Initials ##
 
 For the initials I first read the Wikipedia's Pinyin Article (or some of it) and then I
 create an [Anki](http://ankisrs.net/) Deck with "all" the initials using different audio
@@ -42,14 +40,12 @@ installation is mandatory.
 I got the IPA transcriptions from [All Set Learning](http://resources.allsetlearning.com/chinese/pronunciation/Pinyin_chart)
 and slightly modified them with the Pinyin/IPA Description from Wikipedia's Article.
 
-3. Finals
----------
+## 3. Finals ##
 
 For the finals I did exactly the same as with the initials. You can find the deck from
 ankiweb: [Pinyin - Finals - Multiple recordings per final sound](https://ankiweb.net/shared/info/509132394).
 
-4. Pairs of difficult sounds
-----------------------------
+## 4. Pairs of difficult sounds ##
 
 Some sounds are incredibly difficult for me to tell them apart, but as I read in
 [Fluent Forever](https://fluent-forever.com/gallery/ear-training-flashcards/),
@@ -79,8 +75,7 @@ You can get the audio and its IPA notation from the file:
 I got all right pinyin sound possibilities from
 [ArchChinese](http://www.archchinese.com/chinese_pinyin.html).
 
-5. Tones
---------
+## 5. Tones ##
 
 In [this Anki Deck](/blog/data/pinyin/Pinyin__Tones-v0.1.apkg) you will find 30 cards to
 practice tones. Every time a card is displayed an audio will play with a random tone (from
@@ -95,34 +90,34 @@ the tone that is learn everywhere, and the second, the 'spoken' or 'real' tone, 
 which you should learn to speak Chinese for a detailed explanation see
 [Toward Better Tones in Natural Speech](http://www.sinosplice.com/life/archives/2008/12/10/toward-better-tones-in-natural-speech).
 
-</br>
+---
 
-Sources
--------
+## Sources ##
 
 Audio sources (listed in the same order in which they appear named in the decks), all
 credit goes to them:
 
-1. http://resources.allsetlearning.com/chinese/pronunciation/Pinyin_chart (the audios from
-   this source appear with an `_1` at the end)
-*  https://chinese.yabla.com/chinese-pinyin-chart.php (`_2` is the postfix for all audios
-   from this source)
-*  http://www.yoyochinese.com/chinese-learning-tools/Mandarin-Chinese-pronunciation-lesson/pinyin-chart-table
+1. <http://resources.allsetlearning.com/chinese/pronunciation/Pinyin_chart>
+   (the audios from this source appear with an `_1` at the end)
+2. <https://chinese.yabla.com/chinese-pinyin-chart.php>
+   (`_2` is the postfix for all audios from this source)
+3. <http://www.yoyochinese.com/chinese-learning-tools/Mandarin-Chinese-pronunciation-lesson/pinyin-chart-table>
    (`_3` so on ...)
-*  http://www.archchinese.com/chinese_pinyin.html
-*  http://pinpinchinese.com/pinyin-chart/
-*  http://public.gettysburg.edu/~jli/PinYinChart/ChinesePinYinChartM.html
-*  http://lost-theory.org/chinese/phonetics/
-*  http://www.china-on-site.com/language/phonetic/phonetic.htm (this is the only source
-   which audio doesn't have a numeration in the audio saved in the card decks)
+4. <http://www.archchinese.com/chinese_pinyin.html>
+5. <http://pinpinchinese.com/pinyin-chart/>
+6. <http://public.gettysburg.edu/~jli/PinYinChart/ChinesePinYinChartM.html>
+7. <http://lost-theory.org/chinese/phonetics/>
+8. <http://www.china-on-site.com/language/phonetic/phonetic.htm>
+   (this is the only source which audio doesn't have a numeration in the audio saved in
+   the card decks)
 
-</br>
-Deck and media downloads
-------------------------
+---
+
+## Deck and media downloads ##
 
 - All audios (Anki's 'Media Folder' compressed):
-  [collection.media.zip (version 0.1)](https://www.mediafire.com/?vpbv0m0me7b81zg) (mediafire).
-  You need this! Extract it under your personal Anki Media Folder.
+  [collection.media.zip (version 0.1)](https://www.mediafire.com/?vpbv0m0me7b81zg)
+  (mediafire).  You need this! Extract it under your personal Anki Media Folder.
 - Anki Addon: [Replay Button](https://ankiweb.net/shared/info/498789867) You need this!
 - [Initials deck](/blog/data/pinyin/Pinyin__Initials-v0.1.apkg) (version 0.1)
   Alternative download [csv file](/blog/data/pinyin/initials-v0.1.csv)
@@ -132,7 +127,7 @@ Deck and media downloads
   Alternative download [csv file](/blog/data/pinyin/pairs-v0.1.csv)
 - [Tones deck](/blog/data/pinyin/Pinyin__Tones-v0.1.apkg) (version 0.1)
   Alternative download [csv file](/blog/data/pinyin/tones-v0.1.csv)
-  - [All spoken pinyin combinations](/blog/data/pinyin/all_with_IPA_per_sound-v0.1.csv)
+- [All spoken pinyin combinations](/blog/data/pinyin/all_with_IPA_per_sound-v0.1.csv)
   csv file (version 0.1)
 
 [//]: # ( vim:set ts=2 sw=2 tw=90 et : cc=92: )

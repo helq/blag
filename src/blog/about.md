@@ -17,10 +17,12 @@ to change and eat only one type of vegetable. So go and make cute faces to
 others, not to me.
 
 So, anyway, here is my email:
-<script markdown="0" src="data:text/javascript;base64,
+
+<script src="data:text/javascript;base64,
 PCEtLQpoPScmIzEwOCYjMTAnK2F0b2IoJ2RISjVJR2hoY21SbGNpQTdLU0F4TWpVbUl6RXhPQ1lq
 TVRBeEppTTBOaVlLQ2c9PScpLnN1YnN0cmluZygxNiwzMikrJyMxMDAmIzEwMSc7YT0nJiM2NDsn
 O249JyYjMTA0JiMxMDEmIzEwOCYjMTEzJztlPW4rYStoOwpkb2N1bWVudC53cml0ZSgnPGEgaCcr
+---
 ZXZhbChhdG9iKCdKM0psWmljckp6MGliV0VuS3lkcGJIUnZKeXNuT2ljclpTc25JaUJqYkdGekp3
 PT0nKSkrJ3M9ImVtJyArICdhaWwiPicrZSsnPFwvJysnYScrJz4nKTsKLy8gLS0+Cg==">
 </script>

@@ -1,7 +1,7 @@
 "use strict";
 
 const Metalsmith   = require('metalsmith'),
-      markdown     = require('metalsmith-markdown'),
+      markdown     = require('metalsmith-markdown-remarkable'),
       layouts      = require('metalsmith-layouts'),
       permalinks   = require('metalsmith-permalinks'),
       branch       = require('metalsmith-branch'),
@@ -132,8 +132,9 @@ Metalsmith(__dirname)
   /**
    * markdown processing: converting all '.md' files in '.html' files
    */
-  .use( markdown({
-      smartypants: true
+  .use( markdown('full', {
+      breaks: false,
+      typographer: true
   }))
 
   //.use( log() )

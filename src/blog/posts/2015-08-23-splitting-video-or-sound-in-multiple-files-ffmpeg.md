@@ -10,6 +10,8 @@ tags: ffmpeg, bash, programming, scripting
 I found a [simpler, built-in in ffmpeg aproach][stackoverflow] to split a sound/video file
 in multiple parts with the same time length.
 
+[stackoverflow]: http://unix.stackexchange.com/a/283547
+
 ~~~ bash
 ffmpeg -i 'input_file.mp3' \
        -acodec copy -vcodec copy \
@@ -20,8 +22,6 @@ ffmpeg -i 'input_file.mp3' \
 In this example we have an input file called `input_file.mp3` and we break it in multiple
 files of 10 minutes each (600 seconds). Each output file has a unique name of the form:
 `XXX_out_name.mp3` where `XXX` represent a 3 number digit.
-
-[stackoverflow]: http://unix.stackexchange.com/a/283547
 
 _As a reference, the old article:_
 --------------------------------------
