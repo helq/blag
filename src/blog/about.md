@@ -8,7 +8,7 @@ things blog.
 
 As I am an imperfect **real** human, and not an spider, I make many mistakes
 of many kinds and usually I’m not able to detect them on time. So, please,
-don’t hesitate to write to me if you find any grammatical, typographical,
+don't hesitate to write to me if you find any grammatical, typographical,
 computational, mathematical, logical, illogical, physical or science fictional
 mistakes. I thank you with all my guts! But please don’t if you are a panda or
 a koala, because I don’t like how all humans treat you. It seems as if they
@@ -22,7 +22,6 @@ So, anyway, here is my email:
 PCEtLQpoPScmIzEwOCYjMTAnK2F0b2IoJ2RISjVJR2hoY21SbGNpQTdLU0F4TWpVbUl6RXhPQ1lq
 TVRBeEppTTBOaVlLQ2c9PScpLnN1YnN0cmluZygxNiwzMikrJyMxMDAmIzEwMSc7YT0nJiM2NDsn
 O249JyYjMTA0JiMxMDEmIzEwOCYjMTEzJztlPW4rYStoOwpkb2N1bWVudC53cml0ZSgnPGEgaCcr
----
 ZXZhbChhdG9iKCdKM0psWmljckp6MGliV0VuS3lkcGJIUnZKeXNuT2ljclpTc25JaUJqYkdGekp3
 PT0nKSkrJ3M9ImVtJyArICdhaWwiPicrZSsnPFwvJysnYScrJz4nKTsKLy8gLS0+Cg==">
 </script>

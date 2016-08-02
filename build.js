@@ -133,6 +133,7 @@ Metalsmith(__dirname)
    * markdown processing: converting all '.md' files in '.html' files
    */
   .use( markdown('full', {
+      html: true,
       breaks: false,
       typographer: true
   }))
