@@ -16,18 +16,20 @@ The bold links are the most relevant for the first stage of the learning process
 pronunciation part. But I think it's worthed to read all the links to get an initial
 picture of the Chinese language.
 
-First of all, why do you wanna learn chinese?:
+First of all, why do you wanna learn chinese?
 ----------------------------------------------
+
 - **[Goals and motivation, part 1 – Introduction](http://www.hackingchinese.com/goals-and-motivation-part-1-introduction/)**
   (my answer: just to know a different language. I wanted to learn French, Portuguese, or
   Chinese, and I decide for Chinese because is the hardest from my mother language
-  (spanish, btw))
+  (Spanish))
 - **[How to learn effectively](http://www.sciencealert.com/here-are-4-key-strategies-for-remembering-everything-you-learn)**
   Few science based tips to improve learning, so you can achieve your learning goals (part
-  of the reason why am I writting this in the first place ;) )
+  of the reason why am I writing this in the first place ;) )
 
-About pronunciation and Pinyin:
+About pronunciation and Pinyin
 -------------------------------
+
 - **[IPA for Mandarin](https://en.wikipedia.org/wiki/Help:IPA_for_Mandarin)** Take a look
   at the awesome chart in the wikipedia. Learn what is IPA and how can you use it to learn
   a new language.
@@ -69,8 +71,9 @@ About pronunciation and Pinyin:
   I left this at last because I haven't even finish reading it. But it's the wikipedia,
   so, I think, it has valuable information.
 
-About books:
-------------
+About books
+-----------
+
 - **[Assimil Chinese with Ease](http://www.amazon.com/Assimil-Language-Courses-Chinese-compact/dp/0320006158)**
   Book focus in self-learning
 - [Schaum's Outline of Chinese Grammar](http://www.amazon.com/Schaums-Outline-Chinese-Grammar-Claudia/dp/0071377646)
@@ -79,8 +82,9 @@ About books:
   I'm not sure if this book is good because I don't plan to learn to write in Chinese
   until I have the enough knowledge to understand Spoken Chinese.
 
-Characters:
------------
+Characters
+----------
+
 - [Chinese Characters - Wikipedia](https://en.wikipedia.org/wiki/Chinese_characters)
   (Man, I love the wikipedia so much)
 - [Learn Chinese characters through radicals, etymology, ...](http://www.learnchineseok.com/2012/05/write-chinese-radicals-symbol-letters.html)
@@ -92,33 +96,38 @@ Characters:
 - [Character decomposition](http://www.hanzicraft.com/)
   (should this be in the dictionary list of resources below?)
 
-About Grammar:
---------------
-- [Chinese Grammar - Wikipedia ](https://en.wikipedia.org/wiki/Chinese_grammar)
+About Grammar
+-------------
+
+- [Chinese Grammar - Wikipedia](https://en.wikipedia.org/wiki/Chinese_grammar)
 - [Chinese Grammar Wiki](http://resources.allsetlearning.com/chinese/grammar)
 - [Basic Chinese Grammar](http://www.rci.rutgers.edu/~rsimmon/chingram/)
 - [StackExchange discussion about resources for chinese grammar](http://chinese.stackexchange.com/questions/16246/descriptive-generative-grammar-of-mandarin)
 - [Learning grammar and abstract words without translation](https://fluent-forever.com/learning-grammar-without-translation/)
   A little tip to learn grammar without using translation (or trying it)
 
-Software:
----------
+Software
+--------
+
 - [Timo’s All-In-One Chinese Deck](https://ankiweb.net/shared/info/235147699)
   a deck to use with [Anki](http://ankisrs.net/)
 - [Using Audacity to learn Chinese](http://www.hackingchinese.com/using-audacity-to-learn-chinese-speaking-and-listening/)
 - [Praat](http://www.fon.hum.uva.nl/praat/) software to study phonetics, how to use it:
   [Seeing the Tones of Mandarin Chinese with Praat](http://www.sinosplice.com/life/archives/2008/01/21/seeing-the-tones-of-mandarin-chinese-with-praat)
 
-Dictionaries and word lists:
-----------------------------
+Dictionaries and word lists
+---------------------------
+
 - [Line Dict](http://ce.linedict.com/dict.html#/cnen/home)
-- [HSK Lists](http://www.hskhsk.com/word-lists.html) word lists from the [Chinese Proficiency Test](https://en.wikipedia.org/wiki/Hanyu_Shuiping_Kaoshi)
+- [HSK Lists](http://www.hskhsk.com/word-lists.html) word lists from the
+  [Chinese Proficiency Test](https://en.wikipedia.org/wiki/Hanyu_Shuiping_Kaoshi)
 - [Pleco dictionary](http://www.pleco.com/)
 - [Forvo](http://forvo.com/languages/zh/) a web data base for thousands of word recordings
   in many languages
 
-Audios y videos:
-----------------
+Audios y videos
+---------------
+
 - [Chinesepod](https://chinesepod.com/) podcasts in Chinese/English with different levels
   of difficulty, and other audio/video resources.
 - [CCTV Learn Chinese](http://english.cntv.cn/learnchinese/)
@@ -128,8 +137,7 @@ Audios y videos:
 - I heard from [this guy (Steve Kaufmann)](https://www.youtube.com/watch?v=GjYXMFVOTmk)
   that the dialogs from "Xiang Sheng 相声 (crosstalk)" usually emphasize on the tones, so
   search for them, and tell me what you think.
-- [FluentU](http://www.fluentu.com/) a platform with videos subtitled in English and
-  Chinese
+- [FluentU](http://www.fluentu.com/) a platform with videos subtitled in English and Chinese
 - More audio video resources (_advanced_, but saved for the future):
   - Manhua ("chinese manga"):
     - [Manhua - My Anime List](http://myanimelist.net/topmanga.php?type=manhua)
@@ -138,22 +146,25 @@ Audios y videos:
     - [Sino Motion](http://sinomotion.tumblr.com)
 - [TV Series Recommendations - Chinese-forums.com](http://www.chinese-forums.com/index.php?/topic/24097-tv-series-recommendations-and-index-thread/)
 
-(more) web pages for learning Chinese:
---------------------------------------
+(more) web pages for learning Chinese
+-------------------------------------
+
 - [Learn Chinese - Livemocha](http://livemocha.com/pages/languages/learn-mandarin-chinese/)
 - [ChineseSkill](http://www.chinese-skill.com/cs.html) Chinese doulingo-ish app
 - [ArchChinese](http://www.archchinese.com/) dictionary, flashcards, tones, ...
 
-More resources pages:
----------------------
+More resources pages
+--------------------
+
 - [111 Mandarin Chinese resources you wish you knew](http://www.iwillteachyoualanguage.com/resources/mandarin-chinese-resources/)
 - [My favourite Chinese learning tools](https://eastasiastudent.net/china/mandarin/chinese-learning-tools/)
 - [Resources for learning Mandarin Chinese - StackExchange](https://chinese.stackexchange.com/questions/1120/resources-for-learning-mandarin-chinese)
 
-And some random stuff:
-----------------
+And some random stuff
+---------------------
+
 - [Lion-Eating Poet in the Stone Den](https://en.wikipedia.org/wiki/Lion-Eating_Poet_in_the_Stone_Den)
-- [Cantonese Vs. Mandarin ](https://www.youtube.com/watch?v=e73btaVo868)
+- [Cantonese Vs. Mandarin](https://www.youtube.com/watch?v=e73btaVo868)
 - [Casual Greetings in Chinese](http://popupchinese.com/lessons/absolute-beginners/casual-greetings-in-chinese)
 
 [//]: # ( vim:set ts=2 sw=2 tw=90 et : cc=92: )

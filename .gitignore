@@ -5,3 +5,4 @@ node_modules
 helpers/metalsmith-excerptor
 helpers/metalsmith-i18n
 src/blog/posts/*.draft.*
+src/.debris/

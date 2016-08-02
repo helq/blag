@@ -17,6 +17,7 @@ basics of IPA:
 
 1. IPA
 ------
+
 I use IPA to know approximately the sound of every consonant and vowel. For an explanation
 of the IPA system visit [IPA explanation | Pronunciation/Ear training](https://fluent-forever.com/chapter3/)
 from [Fluent Forever](https://fluent-forever.com), it is fundamental!.
@@ -28,6 +29,7 @@ as we will base our learning in pinyin.
 
 2. Initials
 -----------
+
 For the initials I first read the Wikipedia's Pinyin Article (or some of it) and then I
 create an [Anki](http://ankisrs.net/) Deck with "all" the initials using different audio
 recordings (links to all audio sources at the bottom of this post), you can download the
@@ -42,11 +44,13 @@ and slightly modified them with the Pinyin/IPA Description from Wikipedia's Arti
 
 3. Finals
 ---------
+
 For the finals I did exactly the same as with the initials. You can find the deck from
 ankiweb: [Pinyin - Finals - Multiple recordings per final sound](https://ankiweb.net/shared/info/509132394).
 
 4. Pairs of difficult sounds
 ----------------------------
+
 Some sounds are incredibly difficult for me to tell them apart, but as I read in
 [Fluent Forever](https://fluent-forever.com/gallery/ear-training-flashcards/),
 I could just hear one recording ([repeat it](http://www.sciencealert.com/here-are-4-key-strategies-for-remembering-everything-you-learn))
@@ -77,6 +81,7 @@ I got all right pinyin sound possibilities from
 
 5. Tones
 --------
+
 In [this Anki Deck](/blog/data/pinyin/Pinyin__Tones-v0.1.apkg) you will find 30 cards to
 practice tones. Every time a card is displayed an audio will play with a random tone (from
 one of the four "possible" tones), and you need to guess which one it is.
@@ -91,8 +96,10 @@ which you should learn to speak Chinese for a detailed explanation see
 [Toward Better Tones in Natural Speech](http://www.sinosplice.com/life/archives/2008/12/10/toward-better-tones-in-natural-speech).
 
 </br>
-Sources:
---------
+
+Sources
+-------
+
 Audio sources (listed in the same order in which they appear named in the decks), all
 credit goes to them:
 
@@ -110,8 +117,8 @@ credit goes to them:
    which audio doesn't have a numeration in the audio saved in the card decks)
 
 </br>
-Deck and media downloads:
--------------------------
+Deck and media downloads
+------------------------
 
 - All audios (Anki's 'Media Folder' compressed):
   [collection.media.zip (version 0.1)](https://www.mediafire.com/?vpbv0m0me7b81zg) (mediafire).
@@ -125,6 +132,7 @@ Deck and media downloads:
   Alternative download [csv file](/blog/data/pinyin/pairs-v0.1.csv)
 - [Tones deck](/blog/data/pinyin/Pinyin__Tones-v0.1.apkg) (version 0.1)
   Alternative download [csv file](/blog/data/pinyin/tones-v0.1.csv)
-- [All spoken pinyin combinations](/blog/data/pinyin/all_with_IPA_per_sound-v0.1.csv) csv file (version 0.1)
+  - [All spoken pinyin combinations](/blog/data/pinyin/all_with_IPA_per_sound-v0.1.csv)
+  csv file (version 0.1)
 
 [//]: # ( vim:set ts=2 sw=2 tw=90 et : cc=92: )

@@ -31,7 +31,7 @@ study plan:
    syllables).
 
 Measuring my progress
--------------------
+---------------------
 
 I will measure my progress on hours using a spread sheet. I don't wanna use days, because
 days are no reliable when talking about a portion of a day in a running time of

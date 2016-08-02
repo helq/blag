@@ -1,34 +1,34 @@
 "use strict";
 
-let Metalsmith   = require('metalsmith'),
-    markdown     = require('metalsmith-markdown'),
-    layouts      = require('metalsmith-layouts'),
-    permalinks   = require('metalsmith-permalinks'),
-    branch       = require('metalsmith-branch'),
-    collections  = require('metalsmith-collections'),
-    serve        = require('metalsmith-serve'),
-    i18n         = require('metalsmith-i18n'),
-    moment       = require("moment"),
-    assets       = require('metalsmith-assets'),
-    pagination   = require('metalsmith-pagination'),
-    excerptor    = require('metalsmith-excerptor'),
-    tags         = require('metalsmith-tags'),
-    beautify     = require('metalsmith-beautify'),
-    feed         = require('metalsmith-feed'),
-    watch        = require('metalsmith-watch'),
-    blc          = require('metalsmith-broken-link-checker'),
-    compressgzip = require('metalsmith-gzip');
+const Metalsmith   = require('metalsmith'),
+      markdown     = require('metalsmith-markdown'),
+      layouts      = require('metalsmith-layouts'),
+      permalinks   = require('metalsmith-permalinks'),
+      branch       = require('metalsmith-branch'),
+      collections  = require('metalsmith-collections'),
+      serve        = require('metalsmith-serve'),
+      i18n         = require('metalsmith-i18n'),
+      moment       = require("moment"),
+      assets       = require('metalsmith-assets'),
+      pagination   = require('metalsmith-pagination'),
+      excerptor    = require('metalsmith-excerptor'),
+      tags         = require('metalsmith-tags'),
+      beautify     = require('metalsmith-beautify'),
+      feed         = require('metalsmith-feed'),
+      watch        = require('metalsmith-watch'),
+      //compressgzip = require('metalsmith-gzip'),
+      blc          = require('metalsmith-broken-link-checker');
 
-let debug = require('debug')('builder');
+const debug = require('debug')('builder');
 
 /**
  * Helpers
  */
-let basename = require('./helpers/basename');
-let parse_dates = require('./helpers/parse_dates');
-let metadataadder = require('./helpers/add-metadata');
-let copying_contents = require('./helpers/copying_contents');
-let drafts = require('./helpers/drafts');
+const basename         = require('./helpers/basename');
+const parse_dates      = require('./helpers/parse_dates');
+const metadataadder    = require('./helpers/add-metadata');
+const copying_contents = require('./helpers/copying_contents');
+const drafts           = require('./helpers/drafts');
 
 /**
  * Global variables
@@ -56,7 +56,8 @@ if (process.argv.length > 2) {
 /**
  * Simple logging plugin, helpful for debugging ;)
  */
-let log = function() {
+const log = function() {
+  // TODO: replace `console.log` to `debug`
   return function(files, metalsmith, done) {
     console.log(Object.keys(files));
     //console.log(files);
@@ -69,7 +70,7 @@ let log = function() {
 /**
  * blog data
  */
-let blog = {
+const blog = {
    title: "omnomnomelq",
    subtitle: "i'm a subtitle!",
    subtitle_alt: "helq's blog",
@@ -323,7 +324,7 @@ Metalsmith(__dirname)
   }))
 
   // compressing using gzip
-  .use( compressgzip() )
+  //.use( compressgzip() )
 
   /**
    * serving the site

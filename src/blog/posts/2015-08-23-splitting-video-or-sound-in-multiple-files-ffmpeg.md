@@ -4,7 +4,29 @@ date: 2015-08-23 15:12 (COT)
 tags: ffmpeg, bash, programming, scripting
 ---
 
-The present article describes how to split a video/sound in multiple files of same
+**Edit: 2016-08-02**
+--------------------
+
+I found a [simpler, built-in in ffmpeg aproach][stackoverflow] to split a sound/video file
+in multiple parts with the same time length.
+
+~~~ bash
+ffmpeg -i 'input_file.mp3' \
+       -acodec copy -vcodec copy \
+       -f segment -segment_time 600 \
+       '%03d_out_name.mp3'
+~~~
+
+In this example we have an input file called `input_file.mp3` and we break it in multiple
+files of 10 minutes each (600 seconds). Each output file has a unique name of the form:
+`XXX_out_name.mp3` where `XXX` represent a 3 number digit.
+
+[stackoverflow]: http://unix.stackexchange.com/a/283547
+
+_As a reference, the old article:_
+--------------------------------------
+
+The present article describes how to split a video/sound into multiple files of same
 duration using ffmpeg. [Click to download automated bash script.](/blog/data/splitVideo.sh)
 
 With ffmpeg, to copy just a fraction of a sound (`.mp3`, `.wma`, `.aac`, ...) or video
@@ -51,7 +73,9 @@ splitVideo() {
 Mode of use: `splitVideo "$name_of_the_file" $time_in_seconds`, where `$time_in_seconds`
 is the size of the split in seconds, for example, if you put 600 it means 10 minutes.
 
-[Here's the bash script.](/blog/data/splitVideo.sh) It is the same code as in the bash
-function, just in a bash file ;)
+[Here's the bash script][script]. It is the same code as in the bash function, just in a
+bash file ;)
+
+[script]: /blog/data/splitVideo.sh
 
 [//]: # ( vim:set ts=2 sw=2 tw=90 et : cc=92: )

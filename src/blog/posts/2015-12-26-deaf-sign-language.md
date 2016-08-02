@@ -8,10 +8,10 @@ tags: languages, deaf sign language
 2015*
 
 The first time I heard somebody was studying Deaf Sign Language was from my auntie. It
-seems that the city is giving free clases to learn the Colombian Deaf Sign Language. But
+seems that the city is giving free classes to learn the Colombian Deaf Sign Language. But
 what is a Deaf Sign Language?.
 
-Before searching a little in internet, I thought that the Deaf Sign Language was a
+Before searching a little in Internet, I thought that the Deaf Sign Language was a
 language constructed mapping words from a Hearing Language, like Spanish, to hand
 gestures. This means, I thought, they only use a different set of skills to carry the
 words they are making, just like writing requires a different set of skills to what
@@ -27,7 +27,7 @@ there isn't **the** "Spanish" DSL but there is a Colombian DSL, a Mexican DSL, a
 DSL
 
 In my mind I had the idea that every deaf person who lives in a country in which Spanish
-is the lingua franca should speak the Spanish deaf version of the language with their
+is the _lingua franca_ should speak the Spanish deaf version of the language with their
 hands, but it is a foolish thought. Yes, 'we' were conquered by Spain some hundred years
 ago, and yes, 'we' (my ancestors) were forced to speak Spanish over whatever language they
 spoke, and yes, that is the reason why we speak Spanish, and that why so many people speak
@@ -69,7 +69,7 @@ and it also could be fun. But as you, dear reader, could guess, what she have th
 an easy task result in an enormous one. She is learning a new foreign language!, and that
 requires her giving a lot of her energy into learn a new grammar, vocabulary, and
 hand-body skills. She did not know it at the beginning for sure, but she knows it now, and
-now she replies that the administration is loosing money with her, because she thinks, she
+now she replies that the administration is losing money with her, because she thinks, she
 is a bad languages learner.
 
 [//]: # ( vim:set ts=2 sw=2 tw=90 et : cc=92: )
