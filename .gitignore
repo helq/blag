@@ -2,7 +2,9 @@ _site
 data
 node_modules
 .directory
+.gitignore
 helpers/metalsmith-excerptor
 helpers/metalsmith-i18n
 src/blog/posts/*.draft.*
 src/.debris/
+src/blog/notes/

@@ -1,10 +1,11 @@
-Code of my personal blog
-========================
+# Code of my personal blog #
 
-Welcome everyone!. This is the source code to my personal site/blog, it uses [Metalsmith](http://www.metalsmith.io/).
+Welcome everyone!. This is the source code to my personal site/blog, it uses
+[Metalsmith][].
 
-How to compile
---------------
+[Metalsmith]: http://www.metalsmith.io/ (Metalsmith's official site)
+
+## How to compile ##
 
 To compile the site/blog you need npm and nodejs installed:
 
@@ -17,8 +18,7 @@ node build
 
 The site will be generated inside the folder `_site`.
 
-This directory structure
-------------------------
+## This directory structure ##
 
 ```
 /blag
@@ -30,7 +30,11 @@ This directory structure
     |-/hello-world.md
 ```
 
-License
--------
+## License ##
 
-The `layouts` and `assets` folders are based on the [hexo](https://hexo.io/) theme: [simplest](https://github.com/dnxbf321/hexo-theme-simplest) by Jason Tung, which is license under MIT, but sublicense for this project under BSD-3
+The `layouts` and `assets` folders are based on the [hexo][] theme:
+[simplest][] by Jason Tung, which is licensed under MIT, but sublicensed under
+BSD-3 for this project.
+
+[hexo]: https://hexo.io/ (Hexo's official website)
+[simplest]: https://github.com/dnxbf321/hexo-theme-simplest (github link to hexo theme)

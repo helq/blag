@@ -4,8 +4,7 @@ date: 2015-08-23 15:12 (COT)
 tags: ffmpeg, bash, programming, scripting
 ---
 
-**Edit: 2016-08-02**
---------------------
+## **Edit: 2016-08-02** ##
 
 I found a [simpler, built-in in ffmpeg aproach][stackoverflow] to split a sound/video file
 in multiple parts with the same time length.
@@ -21,10 +20,9 @@ ffmpeg -i 'input_file.mp3' \
 
 In this example we have an input file called `input_file.mp3` and we break it in multiple
 files of 10 minutes each (600 seconds). Each output file has a unique name of the form:
-`XXX_out_name.mp3` where `XXX` represent a 3 number digit.
+`XXX_out_name.mp3` where `XXX` represent a 3 digit number.
 
-_As a reference, the old article:_
---------------------------------------
+## _As a reference, the old article:_ ##
 
 The present article describes how to split a video/sound into multiple files of same
 duration using ffmpeg. [Click to download automated bash script.](/blog/data/splitVideo.sh)

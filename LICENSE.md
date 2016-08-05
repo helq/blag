@@ -1,9 +1,15 @@
-The BSD-3 license is applied to all files in this project except for the `src/` directory which is released under "[Attribution-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/)" Creative Commons License. The source code written in any post (files: `src/blog/posts/*`) is released under the WTFPL unless otherwise is noted.
+The BSD-3 license is applied to all files in this project except for the `src/`
+directory which is released under
+"[Attribution-ShareAlike 4.0 International][by-sa]" Creative Commons License.
+The source code found in any post (files: `src/blog/posts/*`) is released
+under the WTFPL unless otherwise is stated.
 
-The files contained in `assets` and `layouts` are sublicensed under the BSD-3, see more in LICENSE.theme.orig.md
+[by-sa]: http://creativecommons.org/licenses/by-sa/4.0/ (license's webpage)
 
-BSD-3 License:
---------------
+The files contained in `assets` and `layouts` are sublicensed under the BSD-3, see more
+in `LICENSE.theme.orig.md`
+
+## BSD-3 License: ##
 
 Copyright (c) 2016, Elkin Cruz
 All rights reserved.
@@ -30,8 +36,7 @@ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-WTFPL:
-------
+## WTFPL ##
 
 DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
         Version 2, December 2004
