@@ -1,13 +1,14 @@
-The BSD-3 license is applied to all files in this project except for the `src/`
-directory which is released under
-"[Attribution-ShareAlike 4.0 International][by-sa]" Creative Commons License.
-The source code found in any post (files: `src/blog/posts/*`) is released
-under the WTFPL unless otherwise is stated.
+The BSD-3 license is applied to all files in this project except for those
+inside the `src/` folder which are released under the "[Attribution-ShareAlike
+4.0 International][by-sa]" Creative Commons License.
 
 [by-sa]: http://creativecommons.org/licenses/by-sa/4.0/ (license's webpage)
 
-The files contained in `assets` and `layouts` are sublicensed under the BSD-3, see more
-in `LICENSE.theme.orig.md`
+All the source code found in the posts (files: `src/blog/posts/*`) are released
+under the WTFPL unless otherwise is stated.
+
+The files contained in `assets` and `layouts` are sublicensed under the BSD-3,
+see more in `LICENSE.theme.orig.md`
 
 ## BSD-3 License: ##
 

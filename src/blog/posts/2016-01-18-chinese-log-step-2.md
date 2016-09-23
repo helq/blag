@@ -82,7 +82,7 @@ practice tones. Every time a card is displayed an audio will play with a random 
 one of the four "possible" tones), and you need to guess which one it is.
 
 **Note:** this Anki Deck is huge, in fact it contain all the pinyin sounds which are
-spoken (not all the possible pinyin and tones combinations, that are way more). You can
+spoken (not all the possible pinyin and tones combinations, those are many more). You can
 find the audio media on a zip at the bottom of this post.
 
 Beware: there are two kinds of 3rd tones in the recordings. The first, the 'traditional',

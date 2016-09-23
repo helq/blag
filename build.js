@@ -6,20 +6,20 @@ const Metalsmith   = require('metalsmith'),
       permalinks   = require('metalsmith-permalinks'),
       branch       = require('metalsmith-branch'),
       collections  = require('metalsmith-collections'),
-      serve        = require('metalsmith-serve'),
       i18n         = require('metalsmith-i18n'),
-      moment       = require("moment"),
       assets       = require('metalsmith-assets'),
       pagination   = require('metalsmith-pagination'),
       excerptor    = require('metalsmith-excerptor'),
       tags         = require('metalsmith-tags'),
-      beautify     = require('metalsmith-beautify'),
       feed         = require('metalsmith-feed'),
-      watch        = require('metalsmith-watch'),
-      //compressgzip = require('metalsmith-gzip'),
       blc          = require('metalsmith-broken-link-checker');
+      //highlight    = require('metalsmith-code-highlight'),
+      //beautify     = require('metalsmith-beautify'),
+      //compressgzip = require('metalsmith-gzip');
 
-const debug = require('debug')('builder');
+const debug  = require('debug')('build'),
+      moment = require("moment"),
+      dev    = require('metalsmith-dev');
 
 /**
  * Helpers
@@ -29,11 +29,13 @@ const parse_dates      = require('./helpers/parse_dates');
 const metadataadder    = require('./helpers/add-metadata');
 const copying_contents = require('./helpers/copying_contents');
 const drafts           = require('./helpers/drafts');
+const remove_match     = require('./helpers/remove_match');
 
 /**
  * Global variables
  */
 let remove_drafts = true;
+let serve = false;
 
 if (process.argv.length > 2) {
     process.argv.slice(2).forEach((val) => {
@@ -41,12 +43,19 @@ if (process.argv.length > 2) {
             case '-d':
             case '--drafts':
                 remove_drafts = false;
-                debug("Setting: drafts are now displayed");
+                debug("Setted: drafts are now displayed");
                 break;
+
+//            case '-s':
+//            case '--serve':
+//                serve = true;
+//                debug("Setted: serving and watching");
+//                break;
 
             case '-h':
             case '--help':
             default:
+                //console.log("mode of use: node build [-h|--help] [-d|--drafts] [-s|--serve]");
                 console.log("mode of use: node build [-h|--help] [-d|--drafts]");
                 process.exit(1);
         }
@@ -57,7 +66,7 @@ if (process.argv.length > 2) {
  * Simple logging plugin, helpful for debugging ;)
  */
 const log = function() {
-  // TODO: replace `console.log` to `debug`
+  // TODO: replace `console.log` for `debug`
   return function(files, metalsmith, done) {
     console.log(Object.keys(files));
     //console.log(files);
@@ -103,7 +112,7 @@ const blog = {
 /**
  * Metalsmith core function
  */
-Metalsmith(__dirname)
+let site = Metalsmith(__dirname)
   /**
    * common metadata for all files in this site/blog
    * metadata should be only use by the `layouts' plugin
@@ -111,7 +120,7 @@ Metalsmith(__dirname)
   .metadata({
       blog: blog,
       layout_name: function(n) { return /^(.*)\.[^.]+$/.exec(n)[1]; }, // 'name.nunjucks' -> 'name'
-      date_now: moment(Date.now()).format('YYYY'), //getting the current year
+      year: moment(Date.now()).format('YYYY'), // getting the current year
       url_for: function(path) {
           let not_index = /^(.*\/)index\.html?$/.exec(path); // removing index.html from the path
           return blog.root + (not_index ? not_index[1] : path);
@@ -130,6 +139,13 @@ Metalsmith(__dirname)
   .clean(false) // TODO: clean all the files except for the .git folder which lies in `./_site'
 
   /**
+   * Removing drafts and everything inside blog/notes and blog/.git
+   */
+  .use( drafts(remove_drafts) )
+  .use( remove_match( RegExp('^blog/\\.git') ) )
+  .use( remove_match( RegExp('^blog/notes/') ) )
+
+  /**
    * markdown processing: converting all '.md' files in '.html' files
    */
   .use( markdown('full', {
@@ -139,11 +155,6 @@ Metalsmith(__dirname)
   }))
 
   //.use( log() )
-
-  /**
-   * Removing drafts files (if true)
-   */
-  .use( drafts(remove_drafts) )
 
   /**
    * Copying `contents' to the variable `orig_contents'
@@ -291,10 +302,14 @@ Metalsmith(__dirname)
       //pattern: 'blog/**'
   }))
 
-  .use( beautify({
-      indent_size: 2,
-      indent_char: ' '
-  }))
+//  .use( highlight() )
+
+//  .use( beautify({
+//      indent_size: 2,
+//      indent_char: ' ',
+//      js: false,
+//      preserve_newlines: true
+//  }))
 
   /**
    * copying assets from the './assets' folder
@@ -315,39 +330,31 @@ Metalsmith(__dirname)
       destination: blog.rss.destination,
       postDescription: function(file) { return file.orig_contents; },
       site_url: blog.url
-  }))
-
-  .use( blc({
-      //allowRegex: /\/blog\/data\/.*/,
-      allowRedirects: true,
-      checkImages: true,
-      checkLinks: true,
-      warn: true
-  }))
+  }));
 
   // compressing using gzip
   //.use( compressgzip() )
 
-  /**
-   * serving the site
-   */
-  //.use(serve({
-  //    port: 8080,
-  //    verbose: true
-  //}))
-
-  // breaks with pagination :/
-  //.use(watch({
-  //    "**/*": true
-  //}))
-
-  /**
-   * Executing everything
-   */
-  .build( function(err) {
-    if (err)
-      throw err;
-    else {
-      console.log('Site build complete!');
-    }
-  });
+//if (serve) {
+//    /** serving site */
+//    dev.watch(site, ['./src', './layouts']);
+//    dev.serve(site, 8000);
+//} else {
+    /**
+     * building site
+     **/
+    site.use( blc({
+        //allowRegex: /\/blog\/data\/.*/,
+        allowRedirects: true,
+        checkImages: true,
+        checkLinks: true,
+        warn: true
+    }))
+    .build( function(err) {
+      if (err)
+        throw err;
+      else {
+        console.log('Site build complete!');
+      }
+    });
+//}

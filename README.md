@@ -5,9 +5,14 @@ Welcome everyone!. This is the source code to my personal site/blog, it uses
 
 [Metalsmith]: http://www.metalsmith.io/ (Metalsmith's official site)
 
-## How to compile ##
+## Requirements ##
+To compile the site/blog you will require [npm]() and [nodejs]().
 
-To compile the site/blog you need npm and nodejs installed:
+[npm]: https://www.npmjs.com/ (npm's official site)
+[nodejs]: https://nodejs.org/ (nodejs's official site)
+
+## How to compile ##
+In a shell run:
 
 ``` .sh
 git clone https://github.com/helq/blag
@@ -16,25 +21,25 @@ npm install
 node build
 ```
 
-The site will be generated inside the folder `_site`.
+You will see after a folder called `_site`, that folder contains the site/blog.
 
-## This directory structure ##
+## Directory structure ##
 
 ```
 /blag
-|-/_site
-|-/assets
-|-/layouts
-|-/src
-  |-/posts
-    |-/hello-world.md
+  /_site
+  /assets
+  /layouts
+  /src
+    /posts
+      /hello-world.md
 ```
 
 ## License ##
 
 The `layouts` and `assets` folders are based on the [hexo][] theme:
-[simplest][] by Jason Tung, which is licensed under MIT, but sublicensed under
-BSD-3 for this project.
+[simplest][] by Jason Tung, which is licensed under MIT, but sublicensed here
+under the BSD-3.
 
 [hexo]: https://hexo.io/ (Hexo's official website)
 [simplest]: https://github.com/dnxbf321/hexo-theme-simplest (github link to hexo theme)

@@ -13,7 +13,7 @@
 		unless otherwise noted.
 		<br/>
 
-		&copy; {{ date_now }}
+		&copy; 2015-{{ year }}
 		{% if blog.author -%} {{ blog.author }} {%- else -%} {{ blog.title }} {%- endif %}.
 		&nbsp;&nbsp;
 		Blog generated using <a href="http://metalsmith.io">metalsmith</a>
