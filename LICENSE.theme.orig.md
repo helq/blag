@@ -2,7 +2,7 @@ This license holds for the folders:
 - assets
 - layouts
 
-which are modifications of the [hexo][] theme [simplest][] by Jason Tung.
+which are modifications of [simplest][], a [hexo][] theme, by Jason Tung.
 
 [hexo]: https://hexo.io/ (Hexo's official site)
 [simplest]: https://github.com/dnxbf321/hexo-theme-simplest (github link to hexo theme)

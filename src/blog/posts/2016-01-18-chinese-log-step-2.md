@@ -94,11 +94,11 @@ which you should learn to speak Chinese for a detailed explanation see
 
 ## Sources ##
 
-Audio sources (listed in the same order in which they appear named in the decks), all
-credit goes to them:
+Sources of all the audios present in the compressed file (see "Deck and media downloads"
+below) and the anki decks. All credit goes to the corresponding webpages:
 
 1. <http://resources.allsetlearning.com/chinese/pronunciation/Pinyin_chart>
-   (the audios from this source appear with an `_1` at the end)
+   (the audios from this source appear in the compressed file with an `_1` at the end)
 2. <https://chinese.yabla.com/chinese-pinyin-chart.php>
    (`_2` is the postfix for all audios from this source)
 3. <http://www.yoyochinese.com/chinese-learning-tools/Mandarin-Chinese-pronunciation-lesson/pinyin-chart-table>

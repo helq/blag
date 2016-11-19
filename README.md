@@ -37,9 +37,4 @@ You will see after a folder called `_site`, that folder contains the site/blog.
 
 ## License ##
 
-The `layouts` and `assets` folders are based on the [hexo][] theme:
-[simplest][] by Jason Tung, which is licensed under MIT, but sublicensed here
-under the BSD-3.
-
-[hexo]: https://hexo.io/ (Hexo's official website)
-[simplest]: https://github.com/dnxbf321/hexo-theme-simplest (github link to hexo theme)
+For licensing details please read `LICENSE.md`
