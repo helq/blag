@@ -43,7 +43,7 @@ if (process.argv.length > 2) {
             case '-d':
             case '--drafts':
                 remove_drafts = false;
-                debug("Setted: drafts are now displayed");
+                debug("Setted: drafts are now being build");
                 break;
 
 //            case '-s':
@@ -91,9 +91,10 @@ const blog = {
    excerpt_more: 'read more',
    locale: 'en',
    menu: {
-       home: "/blog/",
-       about: "/blog/about/",
-       archive: "/blog/archive/"
+     home: "/blog/",
+     about: "/blog/about/",
+     archive: "/blog/archive/",
+     webcomics: "/blog/personal/webcomics"
    },
    google_analytics: {
        active: false
@@ -163,11 +164,12 @@ let site = Metalsmith(__dirname)
   .use( copying_contents() )
 
   /**
-   * Specific '/blog/*.htm?' configuration
+   * Specific configuration for '/blog/*.htm?' and "blog/personal/*.htm?"
    * - adding layout metadata
    * - renaming from '/blog/about.html' to '/blog/about/index.html'
    */
-  .use( branch("blog/*.htm?")
+  .use( branch()
+          .pattern( ["blog/*.htm?", "blog/personal/*.htm?"] )
           .use( metadataadder({
               layout: "page.nunjucks"
           }))
