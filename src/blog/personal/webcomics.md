@@ -1,4 +1,4 @@
-This document lists all those individual comics I've found funny over the years (I've
+This document lists all those individual comics I've found funny over the years (I've been
 doing this for probably more than 4 years now (date of writing: 2017.05.09)).
 
 **SPOILER ALERT:** I've tried to explain each webcomic, the explanation is solely with the
@@ -16,7 +16,7 @@ procastination time. Most comics are in English, but there are some in Spanish a
 and so the explanations are in the three languages too.
 
 Also, this document is full of mistakes, don't get angry at me, get angry at younger and
-less prepared me :P
+naïver me :P
 
 ## PHD-Comics ##
 url: <http://www.phdcomics.com/comics.php?f={num}>
@@ -568,7 +568,7 @@ url: <http://abstrusegoose.com/{num}>
 - `572`: this movie came out in 2003, there was not facebook ...
 
 ## Spiked Math ##
-url: <http://spikedmath.com/{num}>
+url: <http://spikedmath.com/{num}.html>
 - `557`: proofs part 1
 - `558`: proofs part 2
 - `559`: Möbius Wedding Band
