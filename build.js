@@ -143,8 +143,8 @@ let site = Metalsmith(__dirname)
    * Removing drafts and everything inside blog/notes and blog/.git
    */
   .use( drafts(remove_drafts) )
-  .use( remove_match( RegExp('^blog/\\.git') ) )
-  .use( remove_match( RegExp('^blog/notes/') ) )
+  //.use( remove_match( RegExp('^blog/\\.git') ) )
+  //.use( remove_match( RegExp('^blog/notes/') ) )
 
   /**
    * markdown processing: converting all '.md' files in '.html' files

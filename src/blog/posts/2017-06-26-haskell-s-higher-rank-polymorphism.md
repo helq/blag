@@ -82,7 +82,7 @@ fact = Y(\f n . (is0 n) 1 (mul n (f (pred n))))
 4 = (succ (succ (succ 1)))
 ```
 
-The factorial of 4 can be computed by `fact 4`. I've taken the above code from [Ben
+The factorial of 4 can be computed by `fact 4`. I've taken the code above from [Ben
 Lynn's notes on Lambda Calculus][blynn], you can even try to run the same example right on
 Lynn's page (click on the button that says _Factorial_).
 
@@ -133,7 +133,8 @@ script reduce the expression for me, you can find the python code
 [here](https://github.com/helq/ILLA)[^sorry].
 
 [^sorry]: Sorry if you see too many spelling mistakes on the python script, it's some code
-  I wrote some years for a class on "compilers"[^shameless], I didn't know any better at that time.
+  I wrote some years ago for a class on "compilers"[^shameless], I didn't know any better
+  at that time.
 [^shameless]: ikr, shameless self-promotion.
 
 
@@ -147,7 +148,7 @@ that it's trivial and left to the reader to finish (take that calculus[^calc] bo
 
 [^calc]: or should it be _calculi_? _calculuses_? _calculus's_? _calculises'_???
 
-Do you remember that we use `λ` to create an abstraction using a variable an a term? Well,
+Do you remember that we use `λ` to create an abstraction using a variable and a term? Well,
 in Typed Lambda Calculus[^systemf] we use the character `Λ` to create an "abstraction"
 where the left side holds not a variable but a **type** variable. For example:
 
