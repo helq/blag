@@ -476,3 +476,4 @@ Further readings:
 - [24 Days of GHC Extensions: Rank N Types](https://ocharles.org.uk/blog/guest-posts/2014-12-18-rank-n-types.html)
 - [Higher-Rank Polymorphism in Scala](https://apocalisp.wordpress.com/2010/07/02/higher-rank-polymorphism-in-scala/)
 - [Polimorfismo de Rango Superior (spanish for Higher Rank Polymorphism)][elmanantial]
+- [Lambda Calculus by Ben Lynn][blynn]
