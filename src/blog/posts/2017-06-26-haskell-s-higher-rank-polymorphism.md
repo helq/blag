@@ -2,7 +2,7 @@
 title: "Higher Rank Polymorphism, a beginners explanation using typed lambda calculus"
 started_writing: 2017-06-26 11:41 (COT)
 date: 2017-06-28 13:08 (COT)
-tags: development, haskell, lambda calculus
+tags: development, haskell, lambda calculus, learning
 ---
 
 **Disclaimer:** I'm not an expert on type systems, I was just trying to figure out what
@@ -40,7 +40,7 @@ build them using three rules:
   and `M` a term).
 - Application: abstractions let us build bigger terms, applications let us apply terms to
   abstractions (yeah, kinda abstract, let's see an example).  E.g., `(λx.x+1) 2` is an
-  application of `(λx.x+1)` with the term `2`, when we reduce[reduce][][^reduce] this
+  application of `(λx.x+1)` with the term `2`, when we [reduce][][^reduce] this
   application we get[^betareduction] the term `2+1`[^further].  Applications are denoted
   by two terms and a space! How weird is that!, I mean, this `E M`, and this `(λx.x+1) 2`,
   and this `y (λx.x**2)` are all valid applications (terms) in lambda
@@ -56,7 +56,7 @@ build them using three rules:
   `(λm.m+1)` or `(λz.z+1)`, ...), and **beta-reduction** (gets the right side of an
   application and replaces all appeareances of the variable on the abstraction on the left
   side of the application, e.g., `(λx.x+1) 2` gets beta-reduced into `2+1`[^further])
-[^betareduction]: Using the beta-reduction.
+[^betareduction]: Using beta-reduction.
 [^further]: `2+1` can be further reduced to `3` by using the intuitive rule of adding, or
   if you want to be less pragmatic write `2`, `1`, `+`, and `2+1` as pure lambda calculus
   terms. Some guidence on that can be found in the wikipedia
@@ -65,10 +65,8 @@ build them using three rules:
   this `sum list` (with `list = [1..10]`, for example), this `(\x->x+1) 2`, and this
   `y (\x->x**2)` (with `y f = f 3` or `y = ($3)`, for example) in Haskell.
 
-With lambda calculus we many interesting things, but it's a little cumbersome and verbose,
-for example, calculating the factorial:
-
-Given,
+With lambda calculus we can do many interesting things, but it's a little cumbersome and
+verbose, for example, to calculate the factorial we define the following terms:
 
 ``` plain
 true = \x y . x
@@ -84,7 +82,7 @@ fact = Y(\f n . (is0 n) 1 (mul n (f (pred n))))
 4 = (succ (succ (succ 1)))
 ```
 
-the factorial of 4 can be computed by `fact 4`. I've taken the above code from [Ben
+The factorial of 4 can be computed by `fact 4`. I've taken the above code from [Ben
 Lynn's notes on Lambda Calculus][blynn], you can even try to run the same example right on
 Lynn's page (click on the button that says _Factorial_).
 
@@ -99,7 +97,7 @@ With this extensions it's easy to write factorial:
 fact = \x. if (x=0) 1 (x * fact (x-1))
 ```
 
-Evaluating `fact 4` would give us:
+Reducing `fact 4` would give us:
 
 ``` plain
 fact 4
@@ -134,7 +132,9 @@ Well, that's nice, and "simple" too. In fact I didn't write that by hand, I let 
 script reduce the expression for me, you can find the python code
 [here](https://github.com/helq/ILLA)[^sorry].
 
-[^sorry]: Sorry for the spelling mistakes, I didn't know any better at that time.
+[^sorry]: Sorry if you see too many spelling mistakes on the python script, it's some code
+  I wrote some years for a class on "compilers"[^shameless], I didn't know any better at that time.
+[^shameless]: ikr, shameless self-promotion.
 
 
 ## Typed Lambda Calculus ##
@@ -147,9 +147,9 @@ that it's trivial and left to the reader to finish (take that calculus[^calc] bo
 
 [^calc]: or should it be _calculi_? _calculuses_? _calculus's_? _calculises'_???
 
-Remember we use `λ` to create an abstraction using a variable an a term? Well, in Typed
-Lambda Calculus[^systemf] we use the character `Λ` to create an "abstraction" where the left side
-holds not a variable but a **type** variable. For example:
+Do you remember that we use `λ` to create an abstraction using a variable an a term? Well,
+in Typed Lambda Calculus[^systemf] we use the character `Λ` to create an "abstraction"
+where the left side holds not a variable but a **type** variable. For example:
 
 [^systemf]: In [System F](https://en.wikipedia.org/wiki/System_F) to be more precise
 
@@ -209,14 +209,16 @@ Let's apply some types and terms to the lambda expressions above:
 Before we explore higher rank polymorphism, I would like to ask you to give me the type
 definition of some haskell functions in typed lambda calculus. For that we will need to
 translate the haskell code into typed lambda calculus, and get the type definition from
-there. For example, to get the type of `map` on typed lambda calculus:
+there. For example, the process to get the type of `map` on typed lambda calculus would
+be:
 
 ### `map`'s into typed lambda calculus ###
 
 Given `map`'s definition:
 
 ``` haskell
-rmap _ []     = []; rmap f (x:xs) = f x : map f xs
+map _ []     = []
+map f (x:xs) = f x : map f xs
 ```
 
 we can rewrite it as the untyped lambda expression[^cons]:
@@ -227,7 +229,7 @@ map = λf.λxs.if (xs=nil) nil (cons ((f (car xs)) (map f (cdr xs))))
 
 [^cons]: `cons`, `car` and `cdr` are some simple functions to operate with tuples in
   languages like lisp (`cons` creates a new tuple from two values, `car` and `cdr` take a
-  tuple and return the first element and second element, respectively)[^haskconst]. Lisp
+  tuple and return its first element and second element, respectively)[^haskconst]. Lisp
   was designed directly from untyped lambda calculus, thus it's easier to write an
   expression first in lisp and then translate it into a lambda expresion of untyped lambda
   calculus.
@@ -260,7 +262,7 @@ map = ΛX.ΛY.λf:X->Y.λxs:[X].if (xs=nil) nil (cons ((f (car xs)) (map f (cdr 
 [^drill]: you know the drill, I'm extending the typed lambda calculus with lists, and
   their type is represented by the type `[] a` or `[a]` (which has kind: unary type constructor[^kind]).
 [^kind]: kinds are another extension to Lambda Calculus which give us the power to
-  parametrized types, it's another whole topic (and to be honest, I don't get it
+  parametrize types, it's another whole topic (and to be honest, I don't get it
   completely), you can find more info in the [wikipedia](https://en.wikipedia.org/wiki/Kind_(type_theory)).
 
 with type:
@@ -327,7 +329,7 @@ Well, it wasn't that hard, was it?
 
 ### Higher Rank Polymorphism (finally) ###
 
-What should be type of `weird` (defined below), if we want to call it with parameters
+What should be the type of `weird` (defined below), if we want to call it with parameters
 `id 5 "ho"`?
 
 ```haskell
@@ -364,14 +366,14 @@ expect to receive a polymorphic function `x->x`.
 
 What the heck is happening?!
 
-Well, to understand why that type doesn't really work, we can rewrite our function as an
+Well, to understand why that type doesn't really work, we can rewrite our function as a
 typed lambda expression:
 
 ```
 weird = ΛY. ΛX. λg:(X->X). λa:Y.  λs:String. (g a, g s)
 ```
 
-with type (we hope)
+with type (we hope):
 
 ```
 ∀Y.∀X.(X->X)->Y->String->(Y, String)
@@ -390,10 +392,10 @@ weird Int String (λb.b) 5 "ho"
   FAIL!! 5 has type `Int` but (λb:String.b) requires 5 to be `String`
 ```
 
-You now why it fails? Yeah, going from line 3 to 4 the type of g gets converted from what
-we expected to be polymorphic to `String->String`. What does this mean, is that we're
-forcing to pick the type of `X->X` when we give the type of the first element `a`, in the
-end the real type of the whole lambda expression would be:
+Now you know why it fails? Yeah, going from line 3 to 4 the type of `g` gets converted from what
+we expected to be polymorphic `∀X.X->X` to `String->String`. What does this mean, is that we're
+forcing to pick the type of `X->X` when we give the type of the first element `a`. At the
+end, the real type of the whole lambda expression is:
 
 ```
 ∀Y.∀X.(String->String)->String->String->(String, String)
@@ -413,8 +415,10 @@ weird String String (λb.b) "hi" "ho"
   == ("Hi":String, "ho":String)
 ```
 
-But there is something we haven't explored, we can define the type of `g` using `∀`!
-Mmmm..., let's see what happens if we rewrite our typed lambda expression:
+You may think, there is no way to do make our function behave like we wanted to, but there
+is something we haven't explored (and I haven't tell you on purpose), we can define the
+type of `g` using `∀`!  Mmmm..., let's see what happens if we rewrite our typed lambda
+expression to make `g`'s definition polymorphic:
 
 ```
 weird = ΛY. λg:(∀X.(X->X)). λa:Y. λs:String. (g Y a, g String s)
@@ -426,7 +430,7 @@ and now, the type of `weird` would be:
 ∀Y.(∀X.X->X)->Y->String->(Y, String)
 ```
 
-Notice how `g` receives two parameters now! The first is the type and the second a term.
+Notice how `g` receives two parameters now! The first is the type and the second is a term.
 Reducing the application `weird Int (ΛX.λb:X.b) 5 "hi"` we get:
 
 
@@ -443,7 +447,7 @@ weird Int (ΛX.λb:X.b) 5 "hi"
   == (5:Int, "hi":String)
 ```
 
-Awesome, it worked! If we translate it to Haskell, we get:
+Awesome, it worked! If we translate it back to Haskell, we get:
 
 ```
 Prelude> let weird g a s = (g a, g s); weird :: forall y. (forall x. x->x) -> y -> String -> (y, String)
@@ -460,9 +464,9 @@ weird id (5::Int) "ho" :: (Int, String)
 Prelude>
 ```
 
-`weird` is then what is called a rank-2 polymorphic function ;), it's rank-2 because it
-has a `forall` nested inside. By default Haskell doesn't understand rank-2 functions, so
-to define them we need to use the GHC extension `RankNTypes` which we were using in the
+`weird` is then what is called a **rank-2 polymorphic function** ;), it's rank-2 because
+it has a `forall` nested inside. By default Haskell doesn't understand rank-2 functions,
+so to define them we need to use the GHC extension `RankNTypes` which we were using in the
 examples above.
 
 Further readings:
@@ -470,3 +474,4 @@ Further readings:
 - [Polymorphism (Haskell Wikibook)](https://en.wikibooks.org/wiki/Haskell/Polymorphism)
 - [24 Days of GHC Extensions: Rank N Types](https://ocharles.org.uk/blog/guest-posts/2014-12-18-rank-n-types.html)
 - [Higher-Rank Polymorphism in Scala](https://apocalisp.wordpress.com/2010/07/02/higher-rank-polymorphism-in-scala/)
+- [Polimorfismo de Rango Superior (spanish for Higher Rank Polymorphism)][elmanantial]
