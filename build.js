@@ -96,6 +96,7 @@ const blog = {
      archive: "/blog/archive/",
      webcomics: "/blog/personal/webcomics"
    },
+   sourcecode_url: 'https://github.com/helq/blag/blob/master/src/',
    google_analytics: {
        active: false
    },
@@ -131,6 +132,18 @@ let site = Metalsmith(__dirname)
       moment: moment, // dates formatting accesible to the layouts
       Object: Object,
   })
+  /*
+   * - preserving original file name in `orig_filename`
+   */
+  .use(
+      function(files, metalsmith, done) {
+        Object.keys(files).forEach(function(file){
+          files[file]['orig_filename'] = file;
+        });
+        done();
+      }
+  )
+
 
   /**
    * basic preprocessing

@@ -38,6 +38,9 @@
             {% include 'post/category.nunjucks' %}
             #}
             {% include 'layouts/_partial/post/tag.nunjucks' %}
+            {% include 'layouts/_partial/post/codelink.nunjucks' %}
         </footer>
     </div>
 </article>
+
+{# vim: set ts=4 sw=4 ft=html et: #}
