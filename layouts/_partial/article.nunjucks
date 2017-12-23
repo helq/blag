@@ -38,7 +38,9 @@
             {% include 'post/category.nunjucks' %}
             #}
             {% include 'layouts/_partial/post/tag.nunjucks' %}
-            {% include 'layouts/_partial/post/codelink.nunjucks' %}
+            {% if not index %}
+                {% include 'layouts/_partial/post/codelink.nunjucks' %}
+            {% endif %}
         </footer>
     </div>
 </article>
