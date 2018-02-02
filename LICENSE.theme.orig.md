@@ -1,6 +1,6 @@
 This license holds for the folders:
-- assets
-- layouts
+- assets/blog
+- layouts/blog
 
 which are modifications of [simplest][], a [hexo][] theme, by Jason Tung.
 

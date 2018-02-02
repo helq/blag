@@ -1,0 +1,17 @@
+{% extends 'layouts/blog/ancestor.nunjucks' %}
+
+{% block primary %}
+
+  {% for post in pagination.files %}
+    {% set item = post %}
+    {% set index = true %}
+    {% include 'layouts/blog/_partial/article.nunjucks' %}
+  {% endfor %}
+  
+  {% include 'layouts/blog/_partial/pagination.nunjucks' %}
+  
+  {#
+  {% include 'layouts/blog/_partial/disqus_count.swig' %}
+  #}
+
+{% endblock %}

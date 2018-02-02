@@ -22,7 +22,7 @@
     <title>{% block title %}{{ blog.title }} - {{ blog.subtitle_alt if layout_name(layout) == "index" else title }}{% endblock %}</title>
 </head>
 <body>
-{% include 'layouts/_partial/header.nunjucks' %}
+{% include 'layouts/blog/_partial/header.nunjucks' %}
 
 <div id="content">
   <div class="center">
@@ -33,7 +33,7 @@
   </div>
 </div>
 
-{% include 'layouts/_partial/footer.nunjucks' %}
+{% include 'layouts/blog/_partial/footer.nunjucks' %}
 
 {% block scripts %}
 <script src="/blog/assets/js/jquery.min.js"></script>

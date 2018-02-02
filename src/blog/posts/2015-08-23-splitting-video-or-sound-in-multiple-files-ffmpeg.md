@@ -20,7 +20,7 @@ ffmpeg -i 'input_file.mp3' \
 
 In this example we have an input file called `input_file.mp3` and we break it in multiple
 files of 10 minutes each (600 seconds). Each output file has a unique name of the form:
-`XXX_out_name.mp3` where `XXX` represent a 3 digit number.
+`XXX_out_name.mp3` where `XXX` represents a 3 digit number.
 
 ## _As a reference, the old article:_ ##
 

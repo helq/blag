@@ -1,4 +1,4 @@
-{% extends 'layouts/ancestor.nunjucks' %}
+{% extends 'layouts/blog/ancestor.nunjucks' %}
 
 {% block primary %}
 
@@ -11,8 +11,8 @@
             'orig_contents': orig_contents,
             'tagsUrlSafe': tagsUrlSafe
             } %}
-{% include 'layouts/_partial/article.nunjucks' %}
+{% include 'layouts/blog/_partial/article.nunjucks' %}
 
-{% include 'layouts/_partial/disqus.nunjucks' %}
+{% include 'layouts/blog/_partial/disqus.nunjucks' %}
 
 {% endblock %}

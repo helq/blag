@@ -3,7 +3,7 @@
 	{% include '../_widget/search.swig' %}
 	{% include '../_widget/category.swig' %}
     #}
-	{% include 'layouts/_widget/tag.nunjucks' %}
+	{% include 'layouts/blog/_widget/tag.nunjucks' %}
 {% endif %}
 
 <div class="archive">

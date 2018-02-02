@@ -8,7 +8,7 @@ tags: development, haskell, lambda calculus, learning
 **Disclaimer:** I'm not an expert on type systems, I was just trying to figure out what
 "higher rank polymorphism" was and found useful to use some ad-hoc typed lambda calculus.
 For what I've been reading for the last hour, all "code" below is in something close to
-"System F" ([wikipedia][wSf], [an in-depth explanation of System F with an interpreter
+"System F" ([wikipedia][wSf], and [an in-depth explanation of System F with an interpreter
 and actual runnable code][blynnSf]).
 
 [wSf]: https://en.wikipedia.org/wiki/System_F
@@ -16,7 +16,7 @@ and actual runnable code][blynnSf]).
 
 As I understand, Typed Lambda Calculus is the basis of Haskell, so it makes sense to try
 to understand what something means in Haskell by studying it first in Typed Lambda
-Calculus. For those of you who doesn't know what lambda calculus is, well, here is a
+Calculus. For those of you who don't know what lambda calculus is, well, here is a
 micro-introduction (if you know what lambda calculus is, jump ahead to the typed lambda
 calculus explanation).
 

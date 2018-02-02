@@ -1,0 +1,7 @@
+{% extends 'layouts/blog/ancestor.nunjucks' %}
+
+{% block primary %}
+
+{% include 'layouts/blog/_partial/archive.nunjucks' %}
+
+{% endblock %}

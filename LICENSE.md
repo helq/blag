@@ -13,8 +13,16 @@ posts are released under "[Attribution-ShareAlike 4.0 International][by-sa]".
 
 [CC0]: http://creativecommons.org/publicdomain/zero/1.0/ (CC0 license webpage)
 
-The files contained in `assets` and `layouts` are sublicensed under the BSD-3,
-see more in `LICENSE.theme.orig.md`
+The files contained in `assets/blog` and `layouts/blog` are sublicensed under
+the BSD-3, see more in `LICENSE.theme.orig.md`
+
+The files contained in `assets/root` and `layouts/root` have been taken from the
+personal webpage of [Eric Walkingshaw][eric]. He released the code for the html
+and css code under the public domain. I, here, take the liberty of changing the
+license of the modified code (based on Eric's templates) to BSD-3, just for
+convenience (but if anybody wants me to put it in CC0, please tell me).
+
+[eric]: http://web.engr.oregonstate.edu/~walkiner/
 
 ## BSD-3 License: ##
 

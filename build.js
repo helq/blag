@@ -68,6 +68,7 @@ if (process.argv.length > 2) {
 const log = function() {
   // TODO: replace `console.log` for `debug`
   return function(files, metalsmith, done) {
+    //console.log("hey ;)");
     console.log(Object.keys(files));
     //console.log(files);
     //console.log(metalsmith);
@@ -75,6 +76,14 @@ const log = function() {
     done();
   };
 };
+
+// from: https://stackoverflow.com/a/29939805
+const name = function(str, sep) {
+    return str.substr(str.lastIndexOf(sep) + 1);
+}
+const strip_extension = function(str) {
+    return str.substr(0,str.lastIndexOf('.'));
+}
 
 /**
  * blog data
@@ -91,7 +100,7 @@ const blog = {
    excerpt_more: 'read more',
    locale: 'en',
    menu: {
-     home: "/blog/",
+     home: "/",
      about: "/blog/about/",
      archive: "/blog/archive/",
      webcomics: "/blog/personal/webcomics"
@@ -121,7 +130,7 @@ let site = Metalsmith(__dirname)
    */
   .metadata({
       blog: blog,
-      layout_name: function(n) { return /^(.*)\.[^.]+$/.exec(n)[1]; }, // 'name.nunjucks' -> 'name'
+      layout_name: function(n) { return strip_extension(name(n, '/')); }, // 'name.nunjucks' -> 'name'
       year: moment(Date.now()).format('YYYY'), // getting the current year
       url_for: function(path) {
           let not_index = /^(.*\/)index\.html?$/.exec(path); // removing index.html from the path
@@ -184,7 +193,23 @@ let site = Metalsmith(__dirname)
   .use( branch()
           .pattern( ["blog/*.htm?", "blog/personal/*.htm?"] )
           .use( metadataadder({
-              layout: "page.nunjucks"
+              layout: "blog/page.nunjucks"
+          }))
+          .use( permalinks({
+              pattern: undefined,
+              relative: false
+          }))
+  )
+
+  /**
+   * Specific configuration for '*.htm?' and "teaching/*.htm?"
+   * - adding layout metadata
+   * - renaming from 'research.html' to 'research/index.html'
+   */
+  .use( branch()
+      .pattern( ["*.htm?", "teaching/*.htm?"] )
+          .use( metadataadder({
+              layout: "root/walkie.nunjucks"
           }))
           .use( permalinks({
               pattern: undefined,
@@ -205,7 +230,7 @@ let site = Metalsmith(__dirname)
   .use( branch("blog/posts/*")
           .use( metadataadder({
               locale: blog.locale,
-              layout: "post.nunjucks"
+              layout: "blog/post.nunjucks"
           }))
           .use( excerptor({
               maxLength: 800,
@@ -214,7 +239,7 @@ let site = Metalsmith(__dirname)
           .use( tags({
               handle: 'tags',
               path: 'blog/tags/:tag/index.html',
-              layout: 'tag.nunjucks',
+              layout: 'blog/tag.nunjucks',
               sortBy: 'date',
               reverse: false,
               skipMetadata: false
@@ -252,7 +277,7 @@ let site = Metalsmith(__dirname)
   .use(pagination({
     'posts': {
       perPage: 30,
-      layout: 'archive.nunjucks',
+      layout: 'blog/archive.nunjucks',
       first: 'blog/archive/index.html',
       path: 'blog/archive/page/:num/index.html',
       //filter: function (page) {
@@ -277,7 +302,7 @@ let site = Metalsmith(__dirname)
   .use(pagination({
     'posts': {
       perPage: 6,
-      layout: 'index.nunjucks',
+      layout: 'blog/index.nunjucks',
       first: 'blog/index.html',
       path: 'blog/page/:num/index.html',
       //filter: function (page) {
@@ -303,10 +328,11 @@ let site = Metalsmith(__dirname)
   .use( i18n({
       default: 'en',
       locales: ['en', 'es'],
-      directory: 'layouts/locales',
+      directory: 'layouts/blog/locales',
       updateFiles: false
   }) )
-  //.use( log() )
+
+//  .use( log() )
 
   /**
    * applying layouts
@@ -316,6 +342,8 @@ let site = Metalsmith(__dirname)
       directory: './layouts'
       //pattern: 'blog/**'
   }))
+
+//  .use( log() )
 
 //  .use( highlight() )
 
@@ -330,8 +358,12 @@ let site = Metalsmith(__dirname)
    * copying assets from the './assets' folder
    */
   .use( assets({
-      source: "./assets",
+      source: "./assets/blog",
       destination: "blog/assets"
+  }))
+  .use( assets({
+      source: "./assets/root",
+      destination: "assets"
   }))
 
   /**
@@ -373,3 +405,5 @@ let site = Metalsmith(__dirname)
       }
     });
 //}
+
+// vim:set tabstop=4 :

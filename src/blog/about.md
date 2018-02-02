@@ -3,17 +3,20 @@ title: About me
 date: 2015-08-24
 modified: 2016-03-11
 ---
+
+For a more "serious" _about me_ go to the [start page](/).
+
 Hi, welcome to my (maybe) personal, mathematical, computer science and other
 things blog.
 
-As I am an imperfect **real** human, and not a spider, I make many mistakes
-of many kinds and usually I’m not able to detect them on time. So, please,
+As an imperfect **real** human that I am, and not a spider, I make many mistakes
+of many kinds, and usually I’m not able to detect them on time. So, please,
 don't hesitate to write to me if you find any grammatical, typographical,
 computational, mathematical, logical, illogical, physical or science fictional
 mistake. I thank you with all my guts! But please don’t if you are a panda or
 a koala, because I don’t like how all humans treat you. It seems like they
-think you're like gods and not like species that are doomed because are not
-resilient to change and eat only one type of vegetable. So go and make cute
+think you're like gods and not species that are doomed because you are not
+resilient enough (come on, you eat only one kind of vegetable). So go and make cute
 faces to others, not to me.
 
 So, anyway, here is my email:
@@ -57,4 +60,4 @@ s/\(.\)c\(g\) ╵ ╵└─╴╵└─┤  └─┘   ╵╵ └┘ └─╴ 
 }                      ┼   ')" <<<'dHJ5IGhhcmRlcgo=' | base64 -d
 ~~~
 
-I suppose I need to write here something about me [...](https://xkcd.com/1530/)
+I suppose, I need to write something about me [here ...](https://xkcd.com/1530/)

@@ -1,9 +1,0 @@
-{% extends 'layouts/ancestor.nunjucks' %}
-
-{% block primary %}
-
-{% include 'layouts/_partial/archive.nunjucks' %}
-
-{% include 'layouts/_partial/pagination.nunjucks' %}
-
-{% endblock %}

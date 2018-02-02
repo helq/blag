@@ -1,7 +1,0 @@
-{% extends 'layouts/ancestor.nunjucks' %}
-
-{% block primary %}
-
-{% include 'layouts/_partial/archive.nunjucks' %}
-
-{% endblock %}

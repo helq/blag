@@ -12,7 +12,7 @@
                     <time datetime="{{ item.date.toISOString() }}"><a href="{{ url_for(item.path) }}">{{ moment(item.date).format(blog.date_format) }}</a></time>
                 </div>
             {% endif %}
-            {% include 'layouts/_partial/post/title.nunjucks' %}
+            {% include 'layouts/blog/_partial/post/title.nunjucks' %}
         </header>
         <div class="entry">
           {% if index and item.excerpt %}
@@ -37,9 +37,9 @@
             {#
             {% include 'post/category.nunjucks' %}
             #}
-            {% include 'layouts/_partial/post/tag.nunjucks' %}
+            {% include 'layouts/blog/_partial/post/tag.nunjucks' %}
             {% if not index %}
-                {% include 'layouts/_partial/post/codelink.nunjucks' %}
+                {% include 'layouts/blog/_partial/post/codelink.nunjucks' %}
             {% endif %}
         </footer>
     </div>
