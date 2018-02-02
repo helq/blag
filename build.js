@@ -100,7 +100,7 @@ const blog = {
    excerpt_more: 'read more',
    locale: 'en',
    menu: {
-     home: "/",
+     me: "/",
      about: "/blog/about/",
      archive: "/blog/archive/",
      webcomics: "/blog/personal/webcomics"
@@ -169,6 +169,29 @@ let site = Metalsmith(__dirname)
   //.use( remove_match( RegExp('^blog/notes/') ) )
 
   /**
+   * Specific configuration for '/blog/*.htm?' and "blog/personal/*.htm?"
+   * - adding layout metadata
+   */
+  .use( branch()
+          .pattern( ["blog/*.md", "blog/personal/*.md"] )
+          .use( metadataadder({
+              layout: "blog/page.nunjucks"
+          }))
+  )
+
+  /**
+   * Specific configuration for '*.htm?' and "teaching/*.htm?"
+   * - adding layout metadata
+   */
+  .use( branch()
+      .pattern( ["*.md", "teaching/*.md"] )
+          .use( metadataadder({
+              layout: "root/walkie.nunjucks"
+          }))
+  )
+  
+
+  /**
    * markdown processing: converting all '.md' files in '.html' files
    */
   .use( markdown('full', {
@@ -186,31 +209,11 @@ let site = Metalsmith(__dirname)
   .use( copying_contents() )
 
   /**
-   * Specific configuration for '/blog/*.htm?' and "blog/personal/*.htm?"
-   * - adding layout metadata
+   * Specific configuration for all files that are not a post:
    * - renaming from '/blog/about.html' to '/blog/about/index.html'
    */
   .use( branch()
-          .pattern( ["blog/*.htm?", "blog/personal/*.htm?"] )
-          .use( metadataadder({
-              layout: "blog/page.nunjucks"
-          }))
-          .use( permalinks({
-              pattern: undefined,
-              relative: false
-          }))
-  )
-
-  /**
-   * Specific configuration for '*.htm?' and "teaching/*.htm?"
-   * - adding layout metadata
-   * - renaming from 'research.html' to 'research/index.html'
-   */
-  .use( branch()
-      .pattern( ["*.htm?", "teaching/*.htm?"] )
-          .use( metadataadder({
-              layout: "root/walkie.nunjucks"
-          }))
+      .pattern( ["*.htm?", "teaching/*.htm?", "blog/*.htm?", "blog/personal/*.htm?"] )
           .use( permalinks({
               pattern: undefined,
               relative: false
