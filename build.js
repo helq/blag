@@ -165,7 +165,7 @@ let site = Metalsmith(__dirname)
    * Removing drafts and everything inside blog/notes and blog/.git
    */
   .use( drafts(remove_drafts) )
-  //.use( remove_match( RegExp('^blog/\\.git') ) )
+  .use( remove_match( RegExp('^teaching/[^/]*/[^/]*/.*') ) )
   //.use( remove_match( RegExp('^blog/notes/') ) )
 
   /**
@@ -184,7 +184,7 @@ let site = Metalsmith(__dirname)
    * - adding layout metadata
    */
   .use( branch()
-      .pattern( ["*.md", "teaching/*.md"] )
+      .pattern( ["*.md", "teaching/**/*.md"] )
           .use( metadataadder({
               layout: "root/walkie.nunjucks"
           }))
@@ -213,7 +213,7 @@ let site = Metalsmith(__dirname)
    * - renaming from '/blog/about.html' to '/blog/about/index.html'
    */
   .use( branch()
-      .pattern( ["*.htm?", "teaching/*.htm?", "blog/*.htm?", "blog/personal/*.htm?"] )
+      .pattern( ["*.htm?", "teaching/**/*.htm?", "blog/*.htm?", "blog/personal/*.htm?"] )
           .use( permalinks({
               pattern: undefined,
               relative: false

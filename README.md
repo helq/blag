@@ -15,7 +15,7 @@ To compile the site/blog you will require [npm]() and [nodejs]().
 In a shell run:
 
 ``` .sh
-git clone https://github.com/helq/blag
+git clone --recursive https://github.com/helq/blag
 cd blag
 npm install
 node build

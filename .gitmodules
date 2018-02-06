@@ -1,0 +1,3 @@
+[submodule "src/teaching/coding-2018-I"]
+	path = src/teaching/coding-2018-I
+	url = git@github.com:helq/coding-2018-I.git
