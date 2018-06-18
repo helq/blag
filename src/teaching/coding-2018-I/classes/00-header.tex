@@ -1,0 +1,19 @@
+\usepackage[%
+  textsize=tiny,
+  bordercolor=yellow,
+  color=yellow,
+  textwidth=4cm,
+  disable
+]{todonotes}
+
+\newcommand{\inlinetodo}[1]{\todo[inline,size=\normalsize]{#1}}
+
+% Trick taken from: https://tex.stackexchange.com/questions/16003/phantom-and-line-break/16004#16004
+\usepackage[normalem]{ulem}
+\makeatletter
+\def\UL@putbox{\ifx\UL@start\@empty \else % not inner
+  \vrule\@width\z@ \LA@penalty\@M
+  {\UL@skip\wd\UL@box \UL@leaders \kern-\UL@skip}%
+    \phantom{\box\UL@box}%
+  \fi}
+\makeatother

@@ -24,7 +24,7 @@ title: Home
 
 ## Teaching ##
 
-I'm a master's student at the [UNAL][nacho]. I'm currently also a teacher assistant in
+I'm a master's student at the [UNAL][nacho]. I'm, also, currently a teacher assistant in
 the Faculty of Engineering.
 
 [nacho]: http://unal.edu.co
