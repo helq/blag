@@ -101,6 +101,7 @@ url: <http://www.qwantz.com/?comic={num}>
 - `3058`: {web developing} developing a web site should be done once and for live, but it so hard and frustraiting
 - `3069`: {intelligence,knowledge} "[He] explained to [them] that just because you're smart doesn't mean you know everything, but [them] didn't want to hear it ..."
 - `3074`: {mixing} creating new semiconductor fabrication techniques isn't as easy as taking ideas from diverse methods and applying them
+- `3269`: {astrophysics} shooting the sun, shooting the stars, or multistage rockets
 
 ## SMBC ##
 url: <http://www.smbc-comics.com/?id={num}>
