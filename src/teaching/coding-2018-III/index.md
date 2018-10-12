@@ -20,11 +20,11 @@ title: Intro to Programming with C++
 
 **Instructor:** Elkin Cruz, <elacruzca@unal.edu.co>
 
-**Office Hours:** Tuesday 14:00-16:00, Wednesday 9:00-11:00. Lab 207 - Aulas de
+**Office Hours:** Wednesday 14:00-16:00, Friday 9:00-11:00. Lab 207 - Aulas de
 Ingeniería[^nosimplereply]
 
-[^nosimplereply]: Please send me an email before you arrive to the lab in the office
-  hours. I may not be there if nobody sends me an email.
+[^nosimplereply]: Please send me an email before you arrive to the lab. I may not be
+  present if I don't receive an email.
 
 **Webpage:** [here](https://helq.github.io/teaching/coding-2018-III) (slides, contents and announcements)
 
