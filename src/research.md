@@ -2,13 +2,16 @@
 title: Research
 ---
 
-I've been always inclined for obscure and seemingly math heavy areas of programming
-languages, such as Functional Programming and Type theory behind it. Thanks to my love to
-learning programming languages I have tried to learn many of them, including (non
-extensibly) Haskell, C++, Python, Scheme, Ruby, Java, Scala, miniKanren, and Bash.
+My main interests are in Programming Languages, specifically in Functional Programming,
+and Static Analysis, specifically Type Theory.
 
-Some of my projects related to these things:
+I do love to learn new Programming Languages, mainly those which are completely different
+to what I'm used to see. A list of some the languages I've tried and liked: Haskell, C++,
+Python, Scheme, Ruby, Java, Scala, miniKanren, and Bash.
 
+Some of my projects on the area of Programming Languages:
+
+- [Static (type) checking of tensor/array operations in Python](https://github.com/helq/pytropos)
 - [Checking at compile time size of tensors in TensorFlow library (for haskell) (2017-2018)][tensorflow-haskell-deptyped]
 - [An introductory book to C++][cppler], used to teach ["Intro to Programming" at UNAL (2018)](/teaching/coding-2018-I)
 - [A lambda calculus calculator (2014)](https://github.com/helq/simple-interpreter)
@@ -17,10 +20,9 @@ Some of my projects related to these things:
 [tensorflow-haskell-deptyped]: https://github.com/helq/tensorflow-haskell-deptyped
 [cppler]: https://github.com/helq/the-little-cppler-book
 
-I've studied also more traditional stuff outside of programming languages such as Machine
-Learning (some theory and practice) and Deep Learning, Theory of (Parametric) Complexity,
-and sound and image processing/manipulation. Some of the code I could find in
-my github on the topics:
+I've also done some stuff in other Computer Areas such as Machine Learning (some theory
+and practice) and Deep Learning, Theory of (Parametric) Complexity, and Sound and Image
+processing/manipulation. Code for some of that stuff:
 
 - Machine Learning using haskell [(class assignment) (2017) using Grenade lib][mlwh1]
 - [Song recognition in matlab][songrecognition], based on [this blog post][howshazam] and a [paper][shazampaper]
@@ -30,7 +32,12 @@ my github on the topics:
 [howshazam]: https://laplacian.wordpress.com/2009/01/10/how-shazam-works/ "How shazam works"
 [shazampaper]: http://www.ee.columbia.edu/~dpwe/papers/Wang03-shazam.pdf "An Industrial-Strength Search Algorithm"
 
-You can look at more things I have done in these years on
-[my github repositories][github] and in some (actually only one) entries on my [blog](/blog).
+I've also worked for a year as research staff for a chemistry/math project on
+homochirality. The end programs can be found at <https://gitlab.com/homochirality>
+
+<!--
+   -You can look at more things I have done in these years on [my github repositories][github]
+   -and in some (actually only one) entries on my [blog](/blog).
+   -->
 
 [github]: https://github.com/helq
