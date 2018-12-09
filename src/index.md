@@ -69,7 +69,7 @@ of Engineering.
 
 [nacho]: http://unal.edu.co
 
-[Intro to Programming with C++ (Programación de Computadores) - 2018-I](teaching/coding-2018-I/)
+[Intro to Programming with C++ (Programación de Computadores) - 2018-III](teaching/coding-2018-III/)
 
 ## Research Interests ##
 
@@ -90,10 +90,9 @@ You can look at what have I done in the last few years on [my github page][githu
 ## Other stuff about myself ##
 
 Writing has become one of my hobbies. I like to read, watch series and movies, and --in
-general-- entertain myself, and I want to create something of my own, so I am trying write
-but I haven't made anything public yet. It isn't ready for publication.
+general-- entertain myself with hard science fiction.
 
-I live with a beautiful kitty. We love her.
+I live with my mom and grandma and a beautiful kitty.
 
 I suffer from chronic[^joking] paranoia (i.e., you'll never find an account on my name in
 twitter, fb, or any other platform. My only public profile is this webpage ;) )

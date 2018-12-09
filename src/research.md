@@ -3,15 +3,17 @@ title: Research
 ---
 
 My main interests are in Programming Languages, specifically in Functional Programming,
-and Static Analysis, specifically Type Theory.
+and Static Analysis, though I've worked in Machine Learning and Signal Processing, where I
+know how to do a couple of things.
 
 I do love to learn new Programming Languages, mainly those which are completely different
 to what I'm used to see. A list of some the languages I've tried and liked: Haskell, C++,
-Python, Scheme, Ruby, Java, Scala, miniKanren, and Bash.
+Python, Scheme, Ruby, Java, Scala, miniKanren, Janus, and Bash.
 
 Some of my projects on the area of Programming Languages:
 
-- [Static (type) checking of tensor/array operations in Python](https://github.com/helq/pytropos)
+- [Static (type) checking of tensor/array operations in Python](https://github.com/helq/pytropos).
+  It's a piece of software I'm writing as part of my master's work.
 - [Checking at compile time size of tensors in TensorFlow library (for haskell) (2017-2018)][tensorflow-haskell-deptyped]
 - [An introductory book to C++][cppler], used to teach ["Intro to Programming" at UNAL (2018)](/teaching/coding-2018-I)
 - [A lambda calculus calculator (2014)](https://github.com/helq/simple-interpreter)
@@ -26,6 +28,7 @@ processing/manipulation. Code for some of that stuff:
 
 - Machine Learning using haskell [(class assignment) (2017) using Grenade lib][mlwh1]
 - [Song recognition in matlab][songrecognition], based on [this blog post][howshazam] and a [paper][shazampaper]
+<!--TODO: Add reversible programming stuff (language and nns)-->
 
 [mlwh1]: https://github.com/helq/haskell-binary-classification "Binary classification in Haskell"
 [songrecognition]: https://github.com/helq/song_recognition_matlab
