@@ -47,10 +47,12 @@ challenges.
 Anyway, in the rest of this post I want to give an overview of what you should know before
 you go deep into your ear (and pronunciation) training.
 
-I hope that by breaking the problem into little steps, I will be able to learn a new
-characteristic of the language at the time and not be overwelmed by the immense difference
-between the phonetic systems of my mother language and Mandarin.  This is of course an
-oversimplification, but it is an useful simplification.
+<!--
+   -I hope that by breaking the problem into little steps, I will be able to learn a new
+   -characteristic of the language at the time and not be overwelmed by the immense difference
+   -between the phonetic systems of my mother language and Mandarin.  This is of course an
+   -oversimplification, but it is an useful simplification.
+   -->
 
 So, let's start. First, you need to know IPA!
 
@@ -84,7 +86,7 @@ pinyin and IPA. The subdecks are:
 
 _Beware:_ there are two kinds of 3rd tones in the recordings. The first kind is the
 "traditional 3rd tone", i.e. the 3rd tone that is taught everywhere. The second kind is
-the "Spoken/Real 4th Tone", which is is the tone spoken by people in real conversations.
+the "Spoken/Real 3rd Tone", which is the tone spoken by people in real conversations.
 For a detailed explanation on what I mean by traditional vs spoken see
 [Toward Better Tones in Natural Speech](http://www.sinosplice.com/life/archives/2008/12/10/toward-better-tones-in-natural-speech).
 
