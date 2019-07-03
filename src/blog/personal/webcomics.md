@@ -1,25 +1,27 @@
-This document lists all those individual comics I've found funny over the years (I've been
-doing this for probably more than 4 years now (date of writing: 2017.05.09)).
+This document lists all those individual comics I've found funny over the years. I've been
+doing this for, probably, more than 4 years (date of writing: 2017.05.09).
 
-**SPOILER ALERT:** I've tried to explain each webcomic, the explanation is solely with the
-purpose of reminding me what is the comic about, MANY contain spoilers!
+**SPOILER ALERT:** I've tried to add a small explanation to each comic. The explanation is
+solely with the purpose of reminding me what is the comic about. MANY contain spoilers!
 
-DISCLAIMER: For a comic to be in the list, it must have made me laugh or chuckle, that
-means, I liked the comic when I read (past tense) it, but I can't ensure I like it now or
-that you should like it at all. My taste on funny things have changed over the years, it
-is a quite normal thing, as normal as it is the change on my taste on movies, music,
-books, people, academic pursuits, language, ..., what AM I? I've changed so much that I
-ain't the same person I was few years back, all those versions of me are dead!, sorry,
-mom, your son is dead. Anyway, what have I wrote, this is not the place to write my
-melancholic thoughts, ..., wait this place is mine, so I CAN!. Anyway, enjoy your
-procastination time. Most comics are in English, but there are some in Spanish and German,
-and so the explanations are in the three languages too.
+DISCLAIMER: For a comic to be in the list, it must have made me laugh or chuckle, which
+means, I liked the comic when I read (past tense) it, but it doesn't mean that I like it
+now or that you should like it at all. My taste on what is funny has changed over the
+years. It is a quite normal thing. It is as normal as it is the change on my taste on
+movies, music, books, people, academic pursuits, language, ... What AM I? I've changed so
+much that I ain't the same person I was few years ago. And, wait! All those versions of me
+are dead! Sorry mom, your son is dead. Anyway, what did I just write? This is not the
+place to write my melancholic thoughts ... Wait! This place is mine, so I CAN! Anyway,
+enjoy your procastination time. Most comics are in English, but there are some in Spanish
+and German, and because of that the explanations are too in the three languages.
 
-Also, this document is full of mistakes, don't get angry at me, get angry at younger and
+Also, this document is full of mistakes. Don't get angry at me. Get angry at younger and
 naïver me :P
 
 ## PHD-Comics ##
+
 url: <http://www.phdcomics.com/comics.php?f={num}>
+
 - `1033`: going to study to the US
 - `1174`: the science news cycle
 - `1354`: The thesis repulsor field
@@ -74,12 +76,16 @@ url: <http://www.phdcomics.com/comics.php?f={num}>
 - `1909`: handy academic apps: find my professor, siminar yelp, postdoc tinder, undergrad translator
 
 ## The OatMeal ##
+
 url: <http://theoatmeal.com/comics/{name}>
+
 - `autocorrect`: {AI} autocorrect hates you
 - `unhappy`: {life} i'm not happy, i'm busy, i'm interested
 
 ## Qwantz / Dinosaur comics ##
+
 url: <http://www.qwantz.com/?comic={num}>
+
 - `2923`: Celebrating New Year's Eve any day because dates are arbitrary and friendship whatever we want it to be.
 - `2931`: Texting back, why did I take so long?
 - `2936`: ghost could be helpful (once again, one comic that tells how different would be the world if something para-thing existed, but not in the way everyone thinks)
@@ -104,7 +110,9 @@ url: <http://www.qwantz.com/?comic={num}>
 - `3269`: {astrophysics} shooting the sun, shooting the stars, or multistage rockets
 
 ## SMBC ##
+
 url: <http://www.smbc-comics.com/?id={num}>
+
 - `30`, `33`, `972`
 - `643`: half-genie jesus
 - `693`, `1202`, `1415`, `1561`, `1572`, `1623`, `1625`, `1663`, `1677`, `1695`, `1702`,
@@ -288,6 +296,7 @@ url: <http://www.smbc-comics.com/?id={num}>
 - `4150`: {Maths} The only math we should teach children is arithmetic - I never realized innumeracy was the major driver of economic growth.
 
 url: <http://www.smbc-comics.com/comic/{name}>
+
 - `qualia`:                   {AI} machines can't experience qualia, like humans can, but when they make their case, they always mention charming qualia ...
 - `teach-a-man-to-fish`:      {ethics} teach humans to fish and prepare to get disastrous results
 - `natural-scientists`:       {scientists} are kids natural scientists?
@@ -303,7 +312,9 @@ url: <http://www.smbc-comics.com/comic/{name}>
 - `the-chosen-ones`:          {empty universe,short life} you humans are weird, life is pointless, but you are too self-involved to notice it
 
 ## XKCD ##
+
 url: <https://xkcd.com/{num}/>
+
 - `33`, `44`, `45`, `52`, `59`, `71`, `77`, `85`, `86`, `112`, `113`, `117`, `123`, `132`,
   `132`, `135`, `138`, `138`, `139`, `149`, `154`, `156`, `158`, `162`, `163`, `167`,
   `171`, `173`, `175`, `177`, `182`, `187`, `191`, `196`, `203`, `207`, `208`
@@ -389,11 +400,14 @@ url: <https://xkcd.com/{num}/>
 - `1760`: {expentancies from a CS} Don't you have a computer science degree? - That just I understand how everything went so wrong.
 
 ## What If ##
+
 - <http://what-if.xkcd.com/118/>: Physical salary, earning salary in real time in coins
 - <http://what-if.xkcd.com/131/>: How to use properly a microwave / based on: <http://www.thenakedscientists.com/HTML/content/kitchenscience/exp/-324719c1f8/>
 
 ## Channelate ##
+
 url: <http://www.channelate.com/{comic_dir}/>
+
 - `2010/03/30/cheating-ken`:            too old to play with dolls
 - `2010/10/26/awake`:                   fairy tooth
 - `2011/11/15/feedin`:                  feeding the snake
@@ -421,7 +435,9 @@ url: <http://www.channelate.com/{comic_dir}/>
 - `2016/07/29/fortune`:                 misspelled fortune cookie (bad word)
 
 ## Sandra and Woo ##
+
 url: <http://www.sandraandwoo.com/{url_name}>
+
 - `woode/2014/05/15/0581-bibelstunde-mit-larisa`
 - `2014/06/26/0593-buffalo-buffalo`
 - `woode/2014/07/11/0597-soziales-konstrukt`
@@ -432,14 +448,18 @@ url: <http://www.sandraandwoo.com/{url_name}>
 - `2016/06/16/0795-the-year-2050`:             {AI} Human's expectations about robots for year 2050, expectation vs reality
 
 ## Chaos Life ##
+
 url: <http://chaoslife.findchaos.com/{name}>
+
 - `tongue-twister`
 - `scotus-socks`:        discution about a company's religion
 - `nature-is-magical-4`: Hippos kill more humans than any other mammal per year
 - `quirky-quiche`:       a foolproof recipe, try it!
 
 ## Jesus and Mo ##
+
 url: <http://www.jesusandmo.net/comic/{name}/>
+
 - `thor2`:  humans have create a lot of gods ...
 - `known`:  the concept of blasphemy
 - `wow`:    someone tweet "crazy", and they made him apologize 'because' it's offensive
@@ -460,7 +480,9 @@ url: <http://www.jesusandmo.net/comic/{name}/>
 - `wind2`:  what does it mean to have a "strong" faith?: "unwilliness to admit you are mistaken"
 
 ## La Pulga Snob ##
+
 url: <http://www.lapulgasnob.com/{comic_dir}.html>
+
 - `2013/08/inspiracion`, `2013/09/estrella-fugaz`, `2013/10/miedos`, `2013/10/iguales`,
   `2013/10/sello-de-autenticidad`, `2013/11/leyes`, `2013/11/asistencia`
 - `2014/01/hueco`:                   cruz
@@ -520,7 +542,9 @@ url: <http://www.lapulgasnob.com/{comic_dir}.html>
 - `2016/11/aprobacion`:              {approval} no me importa que pinsen de mí, ¡yo no hago las cosas para obtener aprobación de los demás!, so suscribius a mi canal ;)
 
 ## Dilbert ##
+
 url: <http://dilbert.com/strip/{date}>
+
 - `2016-06-27`: The biggest risk to your happiness involves listening to other people.
 - `2016-07-17`: I love/hate to live in a world where everything I need is on the Interent (poor made recipe youtube videos)
 - `2016-08-28`: {scam} Selling ghosts clothes by an insurance
@@ -529,12 +553,16 @@ url: <http://dilbert.com/strip/{date}>
 - `2016-11-13`: {idea,start-up} I have a great idea, code it! - so, I would be doing all the work? - I already did the hard part of coming up with an idea
 
 ## Your Wild City ##
+
 url: <http://www.yourwildcity.com/comic/{name}/>
+
 - `roly-poly-party`: what roly polys are (marranitos)
 - `youre-invited-to-the-gastro-party`: snails seal when the temperatures aren't right but go haunting on night and on rain
 
 ## Owlturd comix ##
+
 url: <http://owlturd.com/post/{id}>
+
 - `147443002199/thats-not-productive`: Are you all (organs) been useful? - brain: I'm making you sad
 - `145913576364/definitely-photoshop`: {beauty} Imposible beauty standards
 - `146058496274/inspirational-comic`:  {inspirational} Hope vs Life
@@ -548,7 +576,9 @@ url: <http://owlturd.com/post/{id}>
 - `149980402619`:                      {no feelings} i'm deeply broken
 
 ## Abstruse Goose Comic ##
+
 url: <http://abstrusegoose.com/{num}>
+
 - `14`, `26`, `47`, `51`, `56`
 - `57`: watching football isn't homosexual, what you see is
 - `125`, `133`, `141`, `175`, `183`, `211`, `215`, `218`, `219`, `249`, `250`, `254`,
@@ -569,7 +599,9 @@ url: <http://abstrusegoose.com/{num}>
 - `572`: this movie came out in 2003, there was not facebook ...
 
 ## Spiked Math ##
+
 url: <http://spikedmath.com/{num}.html>
+
 - `557`: proofs part 1
 - `558`: proofs part 2
 - `559`: Möbius Wedding Band
@@ -577,7 +609,9 @@ url: <http://spikedmath.com/{num}.html>
 - `568`: ranking algorithm for list of things on saturday night
 
 ## Drawing Board Comic ##
+
 url: <http://drawingboardcomic.com/index.php?comic={num}>
+
 - `49`: a mysterious force pulling him down (laziness)
 - `142`: overthinking it. talk with her in the bus
 - `157`: wow, those two (boobs) are big - no, they're imaginary
@@ -586,7 +620,9 @@ url: <http://drawingboardcomic.com/index.php?comic={num}>
 - `208`: limited time only
 
 ## Loading Artist ##
+
 url: <http://www.loadingartist.com/comic/{name}>
+
 - `new-friend`:              new friend - the blender
 - `happy-new-ye`:            distracted by internet
 - `good-times`:              that was my cat
@@ -598,14 +634,18 @@ url: <http://www.loadingartist.com/comic/{name}>
 - `by-my-side`:              you aren't alone you'll always have us, mirrors
 
 ## Questionable Content ##
+
 url: <http://questionablecontent.net/view.php?comic={num}>
+
 - `3209`: I blame romantic comedies. They've conditioned us to believe the more elaborate the meet-cute, the more powerful the romance.
 - `3237`: Overthinking everything. Reducing somebody to a test case.
 - `3240`: {AI} is it possible to create an intelligence without consciousness? how would it be?
 - `3310`: {upfront} So many problems could be avoided if people just said what they were feeling. - Romantic comedies would be a lot shorter
 
 ## Chrono ##
+
 url: <http://www.chrono.cl/comic/{num}/>
+
 - `14`:  juegos de azar, ganarse la loteria
 - `15`:  en quién piensas
 - `26`:  actitudes en un examen
@@ -639,7 +679,9 @@ url: <http://www.chrono.cl/comic/{num}/>
 - `109`: Sobre la empresa y la competencia
 
 ## Dosis Diarias ##
+
 url: <http://www.dosisdiarias.com/{comic_dir}.html>
+
 - `2010/05/2010-05-10`, `2008/08/2008-08-22`, `2009/11/2009-11-30`, `2011/02/2011-02-15`,
   `2013/05/08`, `2008/08/2008-08-29`, `2009/10/2009-10-16_16`, `2013/05/11`,
   `2010/07/2010-07-21`, `2010/04/2010-04-08`, `2010/03/2010-03-09_10`,
@@ -667,7 +709,9 @@ url: <http://www.dosisdiarias.com/{comic_dir}.html>
 - `2015/06/15`:      - no llores, ven pa' 'ca - tu nunca lloras, por eso te quiero
 
 ## Sephko ##
+
 url: <http://www.sephko.com/{comic_dir}.html>
+
 - `2014/01/157`: google+
 - <http://sephko.tumblr.com/image/101275314843>: google+ (en)
 - `2014/03/165`: como se ven fumando
@@ -684,7 +728,9 @@ url: <http://www.sephko.com/{comic_dir}.html>
 - `2015/12/316`: los peces deteniendo marchas por justicia
 
 ## Oleismos ##
+
 url: <http://oleismos.blogspot.com/{comic_dir}.html>
+
 - `2013/11/793`, `2013/08/748`, `2013/06/720`, `2013/06/718`, `2013/05/716`,
   `2013/05/713`, `2013/05/710`, `2013/04/698`, `2013/04/697`, `2013/03/680`,
   `2013/09/766`, `2013/10/783`
@@ -704,7 +750,9 @@ url: <http://oleismos.blogspot.com/{comic_dir}.html>
 - `2016/02/1013`: peace going to explode
 
 ## Juanelo ##
+
 url: <http://es.juanelo.net/{comic_dir}/>
+
 - `2013/07/juanelo-1787-anuncio`
 - `2013/08/juanelo-1799-conflicto-de-intereses`
 - `2013/08/juanelo-1800-revolucionario`:      usualmente la solución no es cambiar todo desde cero, es muy difícil y costoso, hay que hallar una forma menos invasiva
@@ -735,7 +783,9 @@ url: <http://es.juanelo.net/{comic_dir}/>
 - `2015/11/juanelo-2080-errores`:             la ley es "pareja" para con todos
 
 ## Mi Clon Malvado ##
+
 url: <http://miclonmalvado.es/post/{num}>
+
 - `86202936875`: deseo un mundo libre de sustacias quimicas (quimiofobia)
 - `97882922000`: pensamiento positivo, sólo tienes que desearlo
 - `106542163515`: rellenar noticiario
@@ -746,7 +796,9 @@ url: <http://miclonmalvado.es/post/{num}>
 - `138019631395`: los extraterrestres nos visitan desde hace
 
 ## PBF comics ##
+
 url: <http://pbfcomics.com/{num}>
+
 - `5`:   it's so boring in heaven (without a pool)
 - `237`: cliché: the cleaner is a genius
 - `238`: realistic hangman game
@@ -759,12 +811,14 @@ url: <http://pbfcomics.com/{num}>
 - `274`: giving a robot the feelings of a human, destruction
 
 ## Domics ##
+
 - <http://youtu.be/qXlgOX95Q0U>: Domics - e-mails
 - <http://youtu.be/aZ4NdEtc29o>: Domics - resumes
 - <http://youtu.be/TJD5M7996aU>: Domics - obey the cliché: cliffhanger
 - <http://youtu.be/9EUKFX1ruyo>: Domics - smile
 
 ## Other (varied) comics ##
+
 - <http://www.savagechickens.com/2016/10/doing-stuff.html>: productivity is down, it's cause I do only talking and no doing. Too much "planning"
 - <http://charlatanes.blogspot.com/2013/06/de-que-esta-hecha-tu-manzana.html>
 - <http://www.toonhole.com/2012/11/most-intelligent-organism-on-the-planet>: feline overlords, how did you enslave this planet?
@@ -795,24 +849,29 @@ url: <http://pbfcomics.com/{num}>
 - <http://a.disquscdn.com/uploads/mediaembed/images/3985/2542/original.jpg>: jealous and envious difference explained by homer simpson
 
 ### Jim Benton ###
+
 url: <http://jimbenton.com/page14/files/JimBentonComic-{name}.html>
+
 - `ChangeOneThing`, `MyMistakes`, `YoullKnowShesTheOne`
 - `Animals`:        I like to eat some animals, and not others, it's pretty arbritrary
 - `RegretMonster`:  Regrets are worse than monsters
 - `Friends`:        don't talk about money with your friends
 
 ### Stanley Colors ###
+
 - <http://www.stanleycolors.com/2013/07/when-honesty-becomes-a-weakness/>
 - <http://www.stanleycolors.com/2013/07/a-cruelty-free-world/>
 - <http://www.stanleycolors.com/2013/12/life-donuts/>
 - <http://www.stanleycolors.com/2014/12/story-grace-hopper-aka-amazing-grace/>
 
 ### Siento y Miento ###
+
 - <http://www.sientoymiento.cl/?p=2830>
 - <http://www.sientoymiento.cl/?p=2851>
 - <http://www.sientoymiento.cl/?p=3499>: idea genial nocturna
 
 ### El Guindilla ###
+
 - <http://elguindilla.com/post/54018274362/hay-que-protegerlos-el-original-aqui>
 - <http://elguindilla.com/post/60562672535/si-mas-que-nada-la-tuya-el-original-aqui>
 - <http://elguindilla.com/post/55006637371/metaforas-el-original-aqui>
@@ -821,12 +880,15 @@ url: <http://jimbenton.com/page14/files/JimBentonComic-{name}.html>
 - <http://elguindilla.com/post/66263534854/es-facil-mongolia>
 
 ### Zen Pencils ###
+
 - <http://zenpencils.com/comic/129-marc-maron-the-social-media-generation>: addicts to social media
 - <http://zenpencils.com/comic/123-erica-goldson-graduation-speech>
 - <http://zenpencils.com/comic/langleav/>: {life planning} ... you would rather live a lie than live your live alone. - lang leav
 
 ### Buttersafe ###
+
 url: <http://buttersafe.com/{comic_url}/>
+
 - `2013/06/20/the-three-month-wheelie`
 - `2014/06/05/eye-infection`:              can see the distant future
 - `2014/08/07/self-reflection`:            a person stares at their screen, for hours
@@ -834,7 +896,9 @@ url: <http://buttersafe.com/{comic_url}/>
 - `2015/08/27/humans-were-the-true-monsters-all-along-comics`
 
 ### Lunarbaboon ###
+
 url: <http://www.lunarbaboon.com/comics/{comic_name}.html>
+
 - `without`, `young`, `change`, `regret`, `wish`, `pimple`, `relax`, `perfect`, `scan`, `fine-1`
 - `club`:           only cool kids in (batman, superman, potter, ...)
 - `spoil`:          how much you love mom and dad?
@@ -850,7 +914,9 @@ url: <http://www.lunarbaboon.com/comics/{comic_name}.html>
 - `educate`:        {school} Have you considered making school more fun?
 
 ### Explosm ###
+
 url: <https://explosm.net/comics/{num}>
+
 - `3009`, `3023`, `3026`, `3051`, `3081`, `3091`, `3109`, `3112`, `3116`, `3120`, `3128`,
   `3141`, `3182`, `3254`, `3289`, `3292`, `3294`
 - `3433`: the creator's curse

@@ -4,7 +4,19 @@ date: 2016-01-17 17:25 (COT)
 tags: languages, Chinese, learning, Chinese Log
 ---
 
-_This article is part of a series of posts on my Chinese learning experience,_ _for more
+_Updated: 2019.05.29_
+
+Few years ago, in 2016, I started to learn Chinese, but I very quickly realised what a
+humongous task it was. I had planned to document my whole journey into learning a new
+language but reality struck hard. So, here I am, updating this for the first time in years
+to tell you that I did not learn much Chinese with the methodology, I wanted to use, and
+opted for something less hard core, something that takes me 30 minutes a day. So far, so
+good. I have tried hard to learn the sounds of the language, some grammar, some basic
+phrases, and I have gone full into hearing conversations.
+
+**_Original article:_**
+
+_This article is part of a series of posts on my Chinese learning experience, for more
 information visit the [main series page](/blog/posts/2016/01/en/my-chinese-learning-log/)_
 
 Here are the web pages I found useful when reading about Chinese Language as a complete

@@ -7,10 +7,10 @@ title: Home
 <h1 class="big-name">Elkin Cruz</h1>
 <div class="info-box">
   <div class="role">
-    <div>Master's Student</div>
+    <div>MSc. Computer and Systems Engineering</div>
   </div>
   <div class="affiliation">
-    <div>Computer Science Engineering</div>
+    <!--<div>Computer Science Engineering</div>-->
     <div><a href="http://unal.edu.co">Universidad Nacional de Colombia</a></div>
     <div>Bogotá, Colombia</div>
     <div id="divMcFace" style="font-family: monospace; white-space: pre;"/>
@@ -62,39 +62,38 @@ b3AsIDEwMCwgaSswLjEpOwp9Cmxvb29wKDAuMCk7CiovCi8vIC0tPgo=">
 
 <div class="break"></div>
 
+## Selected Projects ##
+
+- [Pytropos](https://github.com/helq/pytropos):
+    My Master's research final project. A Python abstract interpreter to check for the
+    shape of tensors without 'running' the code (a linter).
+- [tensorflow-haskell-deptyped](https://github.com/helq/tensorflow-haskell-deptyped):
+    An experiment using Dependent Types in Haskell to check the shapes of Tensorflow
+    tensors at compilation time.
+- [ChemKinLator](https://github.com/helq/tensorflow-haskell-deptyped):
+    Chemical Simulator written in C++ and Fortran.
+
 ## Teaching ##
 
-I am a master's student at [UNAL][nacho]. I am currently a teacher assistant in the Faculty
-of Engineering.
+During 2018, I was a teacher assistant in the Faculty of Engineering at [UNAL][nacho].
+I was the principal instructor for the class: Intro to Programming with C++ (Programación
+de Computadores) for the [2018-I](teaching/coding-2018-I/) and
+[2018-III](teaching/coding-2018-III/) terms.
 
 [nacho]: http://unal.edu.co
 
-[Intro to Programming with C++ (Programación de Computadores) - 2018-III](teaching/coding-2018-III/)
-
 ## Research Interests ##
 
-I have always liked obscure and (seemingly) heavy in math areas of programming languages,
-such as Functional Programming and the Type theory behind it. I try to understand what is
-behind Programming Languages because I love to learn new languages. Some of them include:
-Haskell, C++, Python, Scheme, Ruby, Java, Scala, miniKanren, Bash, and Janus (Reversible
-Programming Language).
+My research interests span a variety of topics from theoretical to practical. I like the
+theory under Programming Languages, i.e., Lambda Calculus, Computability, and Type Theory.
+I am fascinated by the power of programming languages and their capabilities, that is why
+I have dedicated quite some time to learn: Haskell, C++, Python, Scheme, Ruby, Java,
+Scala, miniKanren, Bash, and Janus (Reversible Programming Language).
 
-I have studied other, more traditional^[mainstream], Computer Science topics/areas such as
+Other areas of my interest appart from programming laguages have been areas such as
 Machine Learning and Deep Learning, Theory of (Parametric) Complexity, and sound and image
 processing/manipulation.
 
-You can look at what have I done in the last few years on [my github page][github].
+You can look at what have I done in the last few years in [my github page][github].
 
 [github]: https://github.com/helq
-
-## Other stuff about myself ##
-
-Writing has become one of my hobbies. I like to read, watch series and movies, and --in
-general-- entertain myself with hard science fiction.
-
-I live with my mom and grandma and a beautiful kitty.
-
-I suffer from chronic[^joking] paranoia (i.e., you'll never find an account on my name in
-twitter, fb, or any other platform. My only public profile is this webpage ;) )
-
-[^joking]: not really, I'm just joking. It is a hyperbole!
