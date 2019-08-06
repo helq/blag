@@ -3,7 +3,7 @@ title: Home
 ---
 
 <div></div> <!-- this is to force the markdown converter to don't take the following line as a paragraph -->
-<img class="img-me no-print" src="/data/me.png" alt="Me">
+<img class="img-me no-print" src="/data/me.jpg" alt="Me">
 <h1 class="big-name">Elkin Cruz</h1>
 <div class="info-box">
   <div class="role">
@@ -70,15 +70,16 @@ b3AsIDEwMCwgaSswLjEpOwp9Cmxvb29wKDAuMCk7CiovCi8vIC0tPgo=">
 - [tensorflow-haskell-deptyped](https://github.com/helq/tensorflow-haskell-deptyped):
     An experiment using Dependent Types in Haskell to check the shapes of Tensorflow
     tensors at compilation time.
-- [ChemKinLator](https://github.com/helq/tensorflow-haskell-deptyped):
+- [ChemKinLator](https://gitlab.com/homochirality/chemkinlator):
     Chemical Simulator written in C++ and Fortran.
+- [Listanalchem](https://gitlab.com/homochirality/listanalchem):
+    Tool written in Python to check for homochirality in chemical reaction networks.
 
 ## Teaching ##
 
 During 2018, I was a teacher assistant in the Faculty of Engineering at [UNAL][nacho].
-I was the principal instructor for the class: Intro to Programming with C++ (Programación
-de Computadores) for the [2018-I](teaching/coding-2018-I/) and
-[2018-III](teaching/coding-2018-III/) terms.
+I taught Intro to Programming with C++ (Programación de Computadores) for the
+[2018-I](teaching/coding-2018-I/) and [2018-III](teaching/coding-2018-III/) terms.
 
 [nacho]: http://unal.edu.co
 
