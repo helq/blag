@@ -1,5 +1,7 @@
+Latest update: 2019.10.22
+
 This document lists all those individual comics I've found funny over the years. I've been
-doing this for, probably, more than 4 years (date of writing: 2017.05.09).
+doing this for, probably, more than 4 years now (date of writing: 2017.05.09).
 
 **SPOILER ALERT:** I've tried to add a small explanation to each comic. The explanation is
 solely with the purpose of reminding me what is the comic about. MANY contain spoilers!
@@ -12,7 +14,7 @@ movies, music, books, people, academic pursuits, language, ... What AM I? I've c
 much that I ain't the same person I was few years ago. And, wait! All those versions of me
 are dead! Sorry mom, your son is dead. Anyway, what did I just write? This is not the
 place to write my melancholic thoughts ... Wait! This place is mine, so I CAN! Anyway,
-enjoy your procastination time. Most comics are in English, but there are some in Spanish
+enjoy your procrastination time. Most comics are in English, but there are some in Spanish
 and German, and because of that the explanations are too in the three languages.
 
 Also, this document is full of mistakes. Don't get angry at me. Get angry at younger and
@@ -74,6 +76,17 @@ url: <http://www.phdcomics.com/comics.php?f={num}>
 - `1899`: {conference,abstract} is an abstract call 'abstract' because 'it is vage and open to interpretation'?
 - `1910`: {papers} number of papers you should be reading: start writing!
 - `1909`: handy academic apps: find my professor, siminar yelp, postdoc tinder, undergrad translator
+- `1915`: {thesis,procrastination} thesis word count vs time
+- `1924`: {academia freedom} Everyday is a saturday and every saturday has work
+- `1932`: {thesis,ending} How to manage the end of the thesis
+- `1937`: {vacations} Tricking the professor to go on vacations, giving him the data he wished for
+- `1945`: {focus} The reply we would like to give everybody when we are trying to do something that requires focus
+- `1947`: {research,sisyphus} Research may be like trying to carry a heavy rock to the top of a mountain and the advisor is just whoever thinks knows better the way while on top of the rock
+- `1967`: {work,vacations} Work follows me even when I'm on vacations!
+- `1936`: {academia,relationship} Professors and students wish the other would be a totally different person they are
+- `1989`: {workload} Do more things on the side because I, the professor, say so
+- `2017`: {draft,urgency} Getting stressed by your advisor and he is not
+- `1922`, `1938`, `1963`, `1970`, `1972`, `1976`, `1996`, `1997`, `2000`, `2002`, `2006`, `2011`, `2013`, `2015`, `2022`, `2024`
 
 ## The OatMeal ##
 
@@ -81,6 +94,8 @@ url: <http://theoatmeal.com/comics/{name}>
 
 - `autocorrect`: {AI} autocorrect hates you
 - `unhappy`: {life} i'm not happy, i'm busy, i'm interested
+- `nobody_cares`: {doing} What do you `____` if nobody ever reads it
+- `diet_train`, `believe`
 
 ## Qwantz / Dinosaur comics ##
 
@@ -107,7 +122,32 @@ url: <http://www.qwantz.com/?comic={num}>
 - `3058`: {web developing} developing a web site should be done once and for live, but it so hard and frustraiting
 - `3069`: {intelligence,knowledge} "[He] explained to [them] that just because you're smart doesn't mean you know everything, but [them] didn't want to hear it ..."
 - `3074`: {mixing} creating new semiconductor fabrication techniques isn't as easy as taking ideas from diverse methods and applying them
+- `3085`: {genius in bad place,*} Org, a human who was 10 times better than sherlock holmes, but never solved a case because he was trying to keep himself alive
+- `3087`: {bugs,life,game} harsh truths about the world taking inspiration on software
+- `3092`: {regrets} what if everything could be solved by the way we try to solve our stuff often, by overthinking or procrastinating
+- `3093`: {random} Learning something at random may not give you the results you want
+- `3097`: {science to fairy tales} If you put science into fary tales, like Jack and the Beanstalk, it will derail into madness or death XD
+- `3117`: {science,unknowns} Science can't explain everything to the moment, a little bit depressing at first, but exciting to investigate further
+- `3135`: {bulding anything} Building anything is incredibly hard
+- `3161`: {adulthood} Nobody really knows what is an adult, nobody really feels like an adult, ever
+- `3173`: {neural network} Technically we are neural networks, so we can call ourselves that
+- `3177`: {best,dystopia} Creating the objectively best of anything would be less than good from everybody
+- `3238`: {gay,outlawed,phycallity} Men are afraid of being perceived as less than masculine
+- `3266`: {exposition} Some stories are only exposition. That's nerving
 - `3269`: {astrophysics} shooting the sun, shooting the stars, or multistage rockets
+- `3296`: {vr,imagination} Imagination is the ultimate VR! We can all imagine whatever we want and it could be come true (in our minds)
+- `3297`: {worldbuilding} If there is a world that we can't imagine, why would you try to do so anyway. Lier
+- `3309`: {book,judge} You should judge a modern book by its cover to some degree
+- `3332`: {proverbs} Many russian, chinese and japanase proverbs rock
+- `3339`: {batman,saving the world} What if the riddler dedicated his intellect for good?
+- `3348`: {love} I want everybody to love themselves so I can be loved better
+- `3457`: {god,restart} If god wanted to solve the big problems, he should restart the universe, which nobody really wants
+- `3095`, `3096`, `3099`, `3102`, `3106`, `3109`, `3113`, `3114`, `3118`, `3120`, `3131`,
+  `3136`, `3139`, `3140`, `3149`, `3153`, `3160`, `3164`, `3174`, `3201`, `3210`, `3213`,
+  `3215`, `3221`, `3222`, `3223`, `3225`, `3227`, `3230`, `3250`, `3262`, `3267`, `3276`,
+  `3280`, `3282`, `3290`, `3293`, `3294`, `3306`, `3307`, `3320`, `3328`, `3336`, `3337`,
+  `3340`, `3346`, `3377`, `3388`, `3396`, `3404`, `3411`, `3419`, `3429`, `3435`, `3442`,
+  `3447`, `3456`, `3467`,
 
 ## SMBC ##
 
@@ -297,7 +337,7 @@ url: <http://www.smbc-comics.com/?id={num}>
 
 url: <http://www.smbc-comics.com/comic/{name}>
 
-- `qualia`:                   {AI} machines can't experience qualia, like humans can, but when they make their case, they always mention charming qualia ...
+- `qualia`:                   {kids,AI} machines can't experience qualia, like humans can, but when they make their case, they always mention charming qualia ...
 - `teach-a-man-to-fish`:      {ethics} teach humans to fish and prepare to get disastrous results
 - `natural-scientists`:       {scientists} are kids natural scientists?
 - `an-important-distinction`: {nationalism,patriotism} nationalism != patriotism, but they get confussed because nationalism kills patriotism
@@ -310,6 +350,59 @@ url: <http://www.smbc-comics.com/comic/{name}>
 - `the-greatest-possible-superhero`: {economics,philosophy,superhero} The Utilitarian (superhero): his consciousness is dead, but the remainder of his brain will keep his organs alive while I harvest them
 - `the-talk-3`:               {quantum computing} quantum computing is not really about trying all computations at once, that's just not right, it's really something more complex and interesting (making use of complex numbers and other stuff)
 - `the-chosen-ones`:          {empty universe,short life} you humans are weird, life is pointless, but you are too self-involved to notice it
+- `scrooging`:                {scrooge} changing ones perspective with time
+- `bad-parents`:              {parent} I don't have any, but I'd be good at it if I had
+- `pop-music`:                {mainstream,rejection} a song about two people rejecting societies norms and becoming normal thing, and then, rejection of the trope
+- `eat-the-apple`:            {enocomics} changing the price trick to trick eve into eating the damn fruit
+- `we-are-special`:           {special} Humans aren't special, anything that might make us humans different from other animals, some animal may have it
+- `the-real-villain`:         {housing,busting} The scooby group finds that the real villain is humans
+- `snowflake`:                {realist} The best parent would be that which is realistic but sweet
+- `perception-of-colors`:     {kids,qualia} Could the perception of colors differ, could we have different qualias altogether
+- `advanced`:                 {overqualified} Wasted skills in the private sector, and busy navigating the burocracy of the public sector
+- `platypus`:                 {behaviour} We are the weird ones
+- `yelling`:                  {understanding} Yelling to an inanimate object or unconsious being doesn't solve anything
+- `wrapping-paper`:           {gifts,anticipation} Gifts are wrapped to teach a lesson, the lesson of anticipation
+- `college-level-mathematics`: {university fees} University fees are so insanely high that you could just hire a few research asistants and buy a tiger, and it would still be cheaper
+- `biology-2`:                {biologists} Biologists don't just admire nature, they want to tamper with it in ways normal people wouldn't think of
+- `toe`:                      {only god} Guy hurts its toe and god tells him it was for a reason, a sinister reason
+- `ai-3`:                     {AI} Human Level Intelligence can be achieved by lower human intelligence
+- `comedy`:                   {parenting} Raise a kid believen stuff that doesn't exist to make fun of him later on
+- `sob`:                      {language} "Son of a gun" is worst than "son of a bitch"
+- `ambition`:                 {ambition} Letting dreams control your life makes you sad
+- `modern-epic`:              {kids,superheroes} The modern epic is the superheroes. And they reflect our perception of how should we behave, and it's sad.
+- `modules`:                  {kids,biases} We all have incomplete and bised models of the world. It's scary that nobody really knows much about anything
+- `the-truth-about-parenting`: {parenting} Parenting is hard, harder than most things
+- `the-ugly-duckling`:        {swan,duckling} Not a nice story
+- `requiem-for-a-dil`:        {job} Dilbert could get a different job but he doesn't want, he "likes" his job
+- `life-philosophy`:          {life} Living as if the past or the future were worst makes one somewhat happier
+- `formality`:                {language} Languages differences doesn't mean there are things in your society that others like and viceversa
+- `soul-2`:                   {soul,cryptography} If there is anything unexplainable it could be used as a source of randomness
+- `problem`:                  {mathematicians} Mathematicians are the only field where people get excited to be proven wrong after a life time of work
+- `suffering`:                {robots,philosophy,life} What life means and what is the proof of something living depends on whathever is on the top of the ladder of power
+- `listening`:                {data} Getting peoples data nowadays is easy, they just give it for comodity
+- `conscious`:                {memory} Implicit memory (eg. motor memory) vs declarative memory. A monk telling his student why to let the mind go when practicing combat, because you want to use and store the motor skills!
+- `bar-joke`:                 {free will,determinism} Only (non-existant) god can have true free will and determinism
+- `mined`:                    {inside} Imagining the inside of our brains as a cave being explored
+- `this-town`:                {burocracy} Investing in peoples lives is often better for rich people to keep making more unless burocracy
+- `dear-science`:             {god,science} Anthropomorphising science and making it like god
+- <https://twitter.com/smbccomics/status/859123621259689984?lang=en>: {science,photographs} How to photograph science
+- `2011-07-13`, `academics`, `anomie`, `anything`, `art-2`, `astrobiology`,
+  `bees-2`, `brain`, `calculate`, `capacity`, `cats`, `coffee`, `coupling`, `cranium`,
+  `diet`, `disc-world`, `ducklings`, `elephant-in-the-room`, `evolution-3`, `explain`,
+  `extinction`, `findings`, `free-will-3`, `fridge`, `game`, `gan`, `get-me-a-scientist`,
+  `gmo`, `gojirasaurus`, `golden-age`, `hiring`, `history`, `ideal`, `intelligence`,
+  `intelligence-2`, `language`, `life`, `literary-analysis`, `loans`, `love-3`, `monkey`,
+  `monster`, `oops`, `organs`, `oxford-comma`, `potential-2`, `precision-medicine`,
+  `rapunzel`, `real-life-2`, `right`, `robins`, `self-assessment`, `shake-it`, `song`,
+  `straw-men`, `teaching-2`, `the-horrible-future`, `the-offensive-truth`, `the-old-days`,
+  `the-real-supervillain`, `they`, `thin-ice`, `tldr`, `vavilov`, `vintage`, `virus`,
+  `we-are-here` `a-job`, `a-math-lesson`, `become-one`, `best-life-advice`,
+  `blood-of-the-bayesian`, `dungeon-classes`, `ethical-consumption`, `fascinating`,
+  `finals-nightmare`, `fish-don39t-feel-pain`, `flawed`, `grim`,
+  `how-to-photograph-science`, `killing-all-humans`, `lemonade`, `loss-aversion`, `moody`,
+  `on-the-island`, `pareto-romantic`, `sacrifice`, `sleeping-beauty-2`, `smalltalk`,
+  `smoking-kills`, `special`, `specialization`, `the-best-day-ever`, `the-bones-speak`,
+  `the-uses-of-bureaucracy`, `western-sociology`, `words`
 
 ## XKCD ##
 
@@ -321,6 +414,7 @@ url: <https://xkcd.com/{num}/>
 - `208`: making fake stories for my new skills
 - `209`, `212`, `217`, `219`, `224`
 - `239`: how the people from the future will see the bloggin from now *
+- <https://explainxkcd.com/285/>
 - `327`: good old Boby Tables, sanatizing database inputs
 - `356`: a new sport: nerd spining, stop a nerd in the middle of the path
 - `435`: fields arranged by purity. Math rocks
@@ -332,10 +426,13 @@ url: <https://xkcd.com/{num}/>
 - `826`: xkcd comic done by smbc's guy
 - `891`, `893`, `895`, `898`, `904`, `910`
 - `915`: connoisseur. Expend enough time with something and you will become a connoiseur
+- <https://explainxkcd.com/wiki/index.php/931:_Lanes>: {cancer} An explanation of what "surviving" a cancer means
 - `936`: passwords for humans
+- `951`: {money} Doing stuff just to save a few cents is stupid and you should avoided
 - `974`: {optimization} I find that when someone's taking time to do something right in the present, they're a perfectionist with no ability to prioritize, whereas when someone took time to do something right in the past, they're a master artisan of great foresight.
 - `1033`: formal logic: honk iff you love formal logic
 - `1104`: dinosaurs with feathers are awesome
+- `1145`: {question} Sky color, tricky question
 - `1168`, `1168`, `1171`
 - `1172`: bugs interpreted as features
 - `1205`: {optimization,priorities} how long can you work making a routine task more efficient before you're spending more time than you save
@@ -398,6 +495,28 @@ url: <https://xkcd.com/{num}/>
 - `1749`: {mushrooms} in tree of live, mushrooms are closer to animals than to plants
 - `1758`: Department of Astrophysics: "[...] everybody has already had the idea, "Maybe there's no dark matter—Gravity just works differently on large scales!" It sounds good but doesn't really fit the data."
 - `1760`: {expentancies from a CS} Don't you have a computer science degree? - That just I understand how everything went so wrong.
+- `1793`: {sugar} Comparing how much sugar is in a sugared beverage (ans: a lot)
+- `1035`: {sugar} drinking things with a lot of sugar should feel gross
+- `1827`: {survivor bias} Inspirational speeches as well as motivational books are often shams and unrealistic to those who read them because of survivor bias and other things
+- `1873`: {email,reply} Replying to an email takes too much time
+- `1908`: {obsessive optimization} Optimizing everything leads to frustration
+- `1915`: {email,reply} The worst reply function from an email could be telling the recipient how long did it take since the respondent looked at it
+- <https://explainxkcd.com/wiki/index.php/1928:_Seven_Years>: {cancer,recovery} Randall's wife recovery path (7 years later)
+- `1963`: {username} Usernames that can break a system or confuse anybody
+- <https://explainxkcd.com/1966/>, <https://explainxkcd.com/1971/>
+- `1979`: {history} History is so big and messy that is a wonder historians pull it out to grab a few answers and insights from it
+- `2021`: {software development} Brute force is the solution in software development
+- `2030`: {safety} Aircraft designers and elevator manufacturers know how secure their stuff is, computer scientists know how bad their stuff is. It is really bad.
+- `2048`: {statistics} The more complex the model you use the more you assume about the distribution of the data (aka. how to do bad science, use adhoc testing methods and statistics)
+- `2085`: {papers,publications} Arxiv manages to keep working and not destroying the big players. Why?
+- `2102`: {oblivion,remembering} The Internet Archive is awesome but pretty weird. We may be in the moment in history where all is lost
+- `2156`: {ufo} Why would the marine lie about a weather baloon framing it as if it was extraterrestrial evidence. Well, because we don't know what they may be doing with the weather baloon-looking thingy
+- `2184`: {unpopular opinion} An positive unpopular opinion is hard to find
+- `1211`, `1319`, `1799`, `1807`, `1823`, `1831`, `1838`, `1839`, `1842`,
+  `1849`, `1863`, `1888`, `1894`, `1898`, `1901`, `1909`, `1916`, `1932`,
+  `1934`, `1938`, `1944`, `1954`, `1958`, `1972`, `2006`, `2025`, `2034`,
+  `2042`, `2044`, `2054`, `2143`, `2154`, `2155`, `2158`, `2165`, `2169`,
+  `2170`
 
 ## What If ##
 
@@ -438,20 +557,23 @@ url: <http://www.channelate.com/{comic_dir}/>
 
 url: <http://www.sandraandwoo.com/{url_name}>
 
-- `woode/2014/05/15/0581-bibelstunde-mit-larisa`
-- `2014/06/26/0593-buffalo-buffalo`
-- `woode/2014/07/11/0597-soziales-konstrukt`
+- `woode/2014/05/15/0581-bibelstunde-mit-larisa`, `2014/06/26/0593-buffalo-buffalo`,
+  `woode/2014/07/11/0597-soziales-konstrukt`, `2012/11/19/0430-software-engineering-now-with-cats`,
+  `2017/04/02/raccoon-power`, `2018/09/06/1019-theres-always-a-bigger-spider-in-the-pond`,
+  `2019/04/21/1076-art-styles`, `woode/2017/01/23/0854-geisterbahn`,
+  `woode/2017/09/25/0923-larisa-aendert-sich`, `woode/2017/10/16/0929-haette-ich-nicht-sagen-sollen`
 - `2014/11/24/0636-hodge-theater`:             ABC conjecture proof
 - `woode/2014/12/08/0640-stehkarussell-ii`:    Sicherheit macht kein Spaß
 - `2015/08/13/0709-pandering-to-the-audience`: betraying one's ideals
 - `2015/09/10/0717-dropping-the-bomb`:         I’ll be blind in ten years and dead in twenty. I don’t give a damn if some puritans have a problem with my naked body.
 - `2016/06/16/0795-the-year-2050`:             {AI} Human's expectations about robots for year 2050, expectation vs reality
+- `2019/01/21/1052-core-memory`:               {spanking,grown up} Something that Ye Thuza loves as a grown up
 
 ## Chaos Life ##
 
 url: <http://chaoslife.findchaos.com/{name}>
 
-- `tongue-twister`
+- `tongue-twister`, `seizure-smarts`
 - `scotus-socks`:        discution about a company's religion
 - `nature-is-magical-4`: Hippos kill more humans than any other mammal per year
 - `quirky-quiche`:       a foolproof recipe, try it!
@@ -478,6 +600,13 @@ url: <http://www.jesusandmo.net/comic/{name}/>
 - `crime`:  religion can be a useful tool for tricking criminals into behaving themselves
 - `policy`: religion has nothing to do with *cof* terrorism, even if the terrorists say it's because of religion
 - `wind2`:  what does it mean to have a "strong" faith?: "unwilliness to admit you are mistaken"
+- `tool`:   {niqab} tool of patriarchal control and forced upon women, but weirdly rephrased as religious freedom
+- `fake`:   {bible,koran,fake news} People have been like sheeps forever, now it's no different
+- `errors`: {perfect,believe,logic} It is not the same thing to use logic on some axioms as to excrutinise the axioms to gather whether their true or not
+- `arms2`:  {attacking} One must not know all about a topic to disregard it as bullshit, there are shortcuts. Also, consider all religions
+- `bad`:    Religiosity vs intelligence (negative correlation)
+- `egg`:    {easter} Trying to explain the f*cked up of the trinity tires even god itself
+- `ahead`, `clue`, `code`, `full`, `homo2`, `idiot`, `marry2`, `police`, `saved`, `say`, `speech`, `why-2`
 
 ## La Pulga Snob ##
 
@@ -540,6 +669,10 @@ url: <http://www.lapulgasnob.com/{comic_dir}.html>
 - `2016/09/antirradiacion`:          {radiation} procedimiento efectivo. Impide que su celular emita radiaciones
 - `2016/11/imaginario`:              {god,imaginary} cura a niño jugando pokemón: hijo mío, no piensas dedicarte a buscar seres imaginarios toda tu vida, ¿verdad?
 - `2016/11/aprobacion`:              {approval} no me importa que pinsen de mí, ¡yo no hago las cosas para obtener aprobación de los demás!, so suscribius a mi canal ;)
+- `2017/10/vencedor`:                {argument} El que gana la guerra es el que tiene razón
+- `2017/09/escritura-creativa`:      {god} ¿Entonces te ponés a vos mismo como mártir y protagonista?
+- `2017/03/adaptacion_31`, `2017/04/decadencia-filmica`, `2017/04/sano-debate`,
+  `2017/04/tuerca`, `2017/10/vlog`, `2017/11/balde`, `2017/11/ellos`, `2017/12/critica-cultural`
 
 ## Dilbert ##
 
@@ -551,6 +684,15 @@ url: <http://dilbert.com/strip/{date}>
 - `2016-09-16`: we have plenty of quality in the departement of quality assurance
 - `2016-10-17`: {web developing} every web developer has a different approach to do things and would like to do everything his way
 - `2016-11-13`: {idea,start-up} I have a great idea, code it! - so, I would be doing all the work? - I already did the hard part of coming up with an idea
+- `2017-01-02`: {boss,incompetence} Setting environments, tools of work
+- `2017-01-03`: {boss,incompetence} Paying technical debt, rushing work
+- `2017-01-04`: {boss,incompetence} Several projects concurrently
+- `2017-01-05`: {boss,incompetence} Interruptions at work
+- `2017-01-09`: {boss,incompetence} Work takes time because you are an outsider
+- `2017-02-05`, `2017-03-27`
+- `2017-03-28`: {life,wanting} Always wanting more of life seems counterintuitive. It doesn't let you enjoy the now
+- `2017-04-30`: {ads,mind control} Big companies are forcing us to relinquish our resources to them
+- `2017-04-09`
 
 ## Your Wild City ##
 
@@ -558,22 +700,6 @@ url: <http://www.yourwildcity.com/comic/{name}/>
 
 - `roly-poly-party`: what roly polys are (marranitos)
 - `youre-invited-to-the-gastro-party`: snails seal when the temperatures aren't right but go haunting on night and on rain
-
-## Owlturd comix ##
-
-url: <http://owlturd.com/post/{id}>
-
-- `147443002199/thats-not-productive`: Are you all (organs) been useful? - brain: I'm making you sad
-- `145913576364/definitely-photoshop`: {beauty} Imposible beauty standards
-- `146058496274/inspirational-comic`:  {inspirational} Hope vs Life
-- `146204162294/somebody-please-relate-to-this`: feeling sleepy the whole day but not at bed time :S
-- `146898454674/mush`:                 People go through a lot of rejection. Love, work, school - all full of rejection. We start life as a mushy soft thing, and then, as we get pelted with rejection we transform into a tough, unfeeling, and highly efficient robot piloted by a mushy soft thing.
-- `145854789169/need-my-daily-hit`:    Everyone is better than me in the internet
-- `145352653354`:                      I have a Life Plan
-- `149507237909/no-its-not-your-time-yet`: You need to work till you die
-- `149649136064`:                      {procastination} let's do random chores, and not the big projects
-- `152725645479`:                      {sleep} I love you sleep - I love you t-- - [internet] never cheat on me again
-- `149980402619`:                      {no feelings} i'm deeply broken
 
 ## Abstruse Goose Comic ##
 
@@ -597,6 +723,8 @@ url: <http://abstrusegoose.com/{num}>
 - `563`: neural network that teach itself computer programming
 - `565`: phantom internet, start thinking
 - `572`: this movie came out in 2003, there was not facebook ...
+- `587`: {human life} For an all-knowing creature, a human is blissfully happy
+- `589` ,`598` ,`600` ,`608`
 
 ## Spiked Math ##
 
@@ -632,6 +760,7 @@ url: <http://www.loadingartist.com/comic/{name}>
 - `stuffed-up`:              I have a cold. I wish I could end this.
 - `first-glance`:            {loneliness} {finding someone} why nobody look at me, am i so ugly?. she is looking at me, why? run!
 - `by-my-side`:              you aren't alone you'll always have us, mirrors
+- `deep`
 
 ## Questionable Content ##
 
@@ -641,6 +770,7 @@ url: <http://questionablecontent.net/view.php?comic={num}>
 - `3237`: Overthinking everything. Reducing somebody to a test case.
 - `3240`: {AI} is it possible to create an intelligence without consciousness? how would it be?
 - `3310`: {upfront} So many problems could be avoided if people just said what they were feeling. - Romantic comedies would be a lot shorter
+- `3425`, `3497`
 
 ## Chrono ##
 
@@ -657,7 +787,7 @@ url: <http://www.chrono.cl/comic/{num}/>
 - `44`:  a partir de las 22hrs este canal está autorizado
 - `47`:  no eres tu, soy yo
 - `53`:  el problema de la mochila, knapsack problem
-- `54`:  procastinando
+- `54`:  procrastinando
 - `58`:  debes estar cansada después de mi sueño de anoche
 - `63`:  cómo hacer un examen: selección múltiple
 - `65`:  cómo hacer un examen: verdadero o falso
@@ -670,7 +800,7 @@ url: <http://www.chrono.cl/comic/{num}/>
 - `87`:  típica oferta de trabajo
 - `90`:  integrales hasta en el baño
 - `94`:  Corte de luz nocturno
-- `96`:  decidir que hacer, procastinación
+- `96`:  decidir que hacer, procrastinación
 - `101`: inspiración divina en un exámen
 - `102`: consejo, depresión
 - `104`: idiota en clase de cálculo
@@ -726,6 +856,9 @@ url: <http://www.sephko.com/{comic_dir}.html>
 - `2015/07/299`: calienta menos que el sol de invierno. sol: pero ustedes son los que se alejan T_T
 - `2015/10/302`: ir a la carcel a "reformarse"
 - `2015/12/316`: los peces deteniendo marchas por justicia
+- `2017/01/352`: {tendonitis} ejercicios para la tendonitis
+- `2017/06/399`: {bananin} Se comen los minions a bananin
+- `2017/03/366`, `2017/08/412`, `2017/10/425`, `2017/10/427`, `2018/09/506`, `2018/09/517`
 
 ## Oleismos ##
 
@@ -762,7 +895,7 @@ url: <http://es.juanelo.net/{comic_dir}/>
 - `2013/11/juanelo-1847-cierre-de-campana`
 - `2013/11/juanelo-1848-multitud`
 - `2013/12/juanelo-1855-ruido`
-- `2014/03/juanelo-1893-paternidad`:          tipos de paternidad social y legalmente aceptados
+- `2014/03/juanelo-1893-paternidad`:          {homosexual,moral} tipos de paternidad social y legalmente aceptados
 - `2014/04/juanelo-1901-leccion`:             undir el barco del lider
 - `2014/05/juanelo-1913-sismograma`:          sismograma del periodismo
 - `2014/05/juanelo-1914-rescate`:             capitan constitución
@@ -806,9 +939,10 @@ url: <http://pbfcomics.com/{num}>
 - `261`: lose the hand
 - `262`: get rid of bad dreams
 - `265`: lobster-headed lycanthrope search love
-- `267`: not all in live is mathematics `<3`
+- `267`: not all in love is mathematics `<3`
 - `271`: please let me win the spelling bee
 - `274`: giving a robot the feelings of a human, destruction
+- <https://pbfcomics.com/comics/scorchy/>
 
 ## Domics ##
 
@@ -836,9 +970,6 @@ url: <http://pbfcomics.com/{num}>
 - <http://ro-che.info/ccc/18.html>
 - <http://www.skelding.net/randumb/174/>
 - <http://www.pidjin.net/2013/10/31/the-circle-of-faith/>
-- <http://owlturd.com/post/65996713678/simplify-simplify>
-- <http://www.berkeleymews.com/?p=220>:  nietzsché-mon!
-- <http://www.berkeleymews.com/?p=1006>: what would you say is your greatest weekness? - those eyes - smush
 - <http://www.gocomics.com/jim-benton-cartoons/2015/05/19>: modern art (is what you don't expect)
 - <http://wandpcomic.com/index.php/comic/11/>: troublish kid doing stuff vs. way too logical girl
 - <http://wandpcomic.com/index.php/comic/27-story-time-aidens-first-kiss/>: didn't understand sex and kissed a girl
@@ -847,6 +978,16 @@ url: <http://pbfcomics.com/{num}>
 - <http://yahoberries.tumblr.com/post/135314383576/not-sure-about-anything-anymore>: what's your dream? - I don't know - then what do you live for? - I just kinda exist
 - <https://www.reddit.com/r/webcomics/comments/4cu0cn/april_fools_day_duplicate_comics/>: April fools joke 'maybe i am the fool'
 - <http://a.disquscdn.com/uploads/mediaembed/images/3985/2542/original.jpg>: jealous and envious difference explained by homer simpson
+- <https://www.webtoons.com/en/challenge/clinic-of-horrors/episode-12-the-new-guy/viewer?title_no=274661&episode_no=13>: Asian cute guy is actually a blob that feeds from human teens
+- <http://toonhole.com/comic/in_a_coma/>: {comma,grammar} Tom is in a comma
+- <https://www.webtoons.com/en/challenge/clinic-of-horrors/episode-7-word-worms/viewer?title_no=274661&episode_no=7>: {words,worms} Words eaten by worms!
+- <http://www.commitstrip.com/en/2014/11/06/pendant-ce-temps-sur-mars-3/>: Lonely robot in mars talks to Wilson
+- <https://www.instagram.com/p/Bqgdu8MFYaf/>: Real dream to be a lofi hip hop guy
+- <https://frava8.tumblr.com/post/179316447942/burned>: {inner} The best costume is a mirror, because there is nothing scarier than looking at yourself and confronting your inner deamons
+- <https://i.warosu.org/data/g/img/0589/10/1486941106427.png>: {neural networks} Statistical learning (a lot of work) vs NNs (more layers)
+- <https://www.instagram.com/p/Bsda7Jel3OI/>: {dreams} Dreams only come true with hard work
+- <https://www.webtoons.com/en/drama/space-boy/ep-2/viewer?title_no=400&episode_no=2>: Living in outerspace, in a small comunity, and then bam, new home
+- <https://www.webtoons.com/en/drama/space-boy/ep-10/viewer?title_no=400&episode_no=10>: {Augmented Reality} Using Augmented Reality for everyday life
 
 ### Jim Benton ###
 
@@ -921,6 +1062,16 @@ url: <https://explosm.net/comics/{num}>
   `3141`, `3182`, `3254`, `3289`, `3292`, `3294`
 - `3433`: the creator's curse
 - `3634`: hey kid!, you can't sell limonade in front of my house. Free market
+- `4485`
+
+### Berkeley Mews ###
+
+url: <http://www.berkeleymews.com/{name}>
+
+- `nietzschemon`:  nietzsché-mon!
+- `job-interview`: what would you say is your greatest weekness? - those eyes - smush
+- `text-message`:  {cellphone} God read your message but ignored it
+- `disney`:        {disney} Everything is and will be "del Ratón Mikaelo"
 
 <script>
 "use strict";
