@@ -2,45 +2,34 @@
 title: Research
 ---
 
-My main interests are in Programming Languages, specifically in Functional Programming,
-and Static Analysis, though I've worked in Machine Learning and Signal Processing, where I
-know how to do a couple of things.
+I am currently dipping my toes in Static Verification of Stochastic Processes with
+professor [Carlos Varela][carlos] and his group [WCL][wcl]. The goal of the group's
+research is the construction of verified aviation systems to prevent airplane accidents.
 
-I do love to learn new Programming Languages, mainly those which are completely different
-to what I'm used to see. Some of the languages I've tried and liked are: Haskell, C++,
-Python, Scheme, Ruby, Java, Scala, miniKanren, Janus, and Bash.
+In my masters at [UNAL][unal], I studied in depth how to check for errors produced by
+mismatched tensors in machine learning applications. The result of my work, with the help
+of my advisors [Fabio González][fabio] and [Felipe Restrepo Calle][felipe], was an abstract
+interpreter which could be used as a linter to check for common errors in tensor
+operations using NumPy in Python. Both, the [code (interpreter)][absint] and the
+[thesis document][thesis], can be found online in my github page.
 
-Some of my projects on the area of Programming Languages:
+I also worked for over two years as developer/researcher for a chemistry and maths
+collaboration project at UNAL, [Germina][germina] under the lead of professor
+[Jesús Ágreda][agreda] and the maths expertise of professor [Juan Andrés Montoya][andres]. We
+explored different algorithms that might help on finding chemical networks that explain
+homochirality, a phenomenon found in nature and argued to be a key part of life itself.
+The result of the colaboration can be found at [Gitlab Homochirality Group][homochirality-group].
 
-- [Static Value Analysis of tensor/array operations in Python](https://github.com/helq/pytropos).
-  It's a piece of software I wrote as part of my Master's work.
-- [Checking at compile time the size of tensors using the TensorFlow library for Haskell (2017-2018)][tensorflow-haskell-deptyped]
-- [An introductory book to C++][cppler] that I used to teach ["Intro to Programming" at UNAL (2018)](/teaching/coding-2018-I)
-- [A lambda calculus calculator (2014)](https://github.com/helq/simple-interpreter)
-- [Simple functional programming interpreter (2014)](https://github.com/helq/simple-interpreter)
+[carlos]: https://www.cs.rpi.edu/~cvarela/
+[wcl]: http://wcl.cs.rpi.edu/
 
-[tensorflow-haskell-deptyped]: https://github.com/helq/tensorflow-haskell-deptyped
-[cppler]: https://github.com/helq/the-little-cppler-book
+[unal]: https://unal.edu.co
+[fabio]: https://dis.unal.edu.co/~fgonza/
+[felipe]: https://dis.unal.edu.co/~ferestrepoca/
+[absint]: https://github.com/helq/pytropos
+[thesis]: https://github.com/helq/master-thesis
 
-I've also done some stuff in other Computer Areas such as Machine Learning (some theory
-and practice) and Deep Learning, Theory of (Parametric) Complexity, and Sound and Image
-processing/manipulation. Code for some of these stuff:
-
-- Machine Learning using haskell [(class assignment) (2017) using Grenade lib][mlwh1]
-- [Song recognition in matlab][songrecognition], based on [this blog post][howshazam] and a [paper][shazampaper]
-<!--TODO: Add reversible programming stuff (language and reversible nns)-->
-
-[mlwh1]: https://github.com/helq/haskell-binary-classification "Binary classification in Haskell"
-[songrecognition]: https://github.com/helq/song_recognition_matlab
-[howshazam]: https://laplacian.wordpress.com/2009/01/10/how-shazam-works/ "How shazam works"
-[shazampaper]: http://www.ee.columbia.edu/~dpwe/papers/Wang03-shazam.pdf "An Industrial-Strength Search Algorithm"
-
-I've also worked for over two years as research staff for a chemistry and maths project on
-homochirality. The result of the colaboration can be found at <https://gitlab.com/homochirality>.
-
-<!--
-   -You can look at more things I have done in these years on [my github repositories][github]
-   -and in some (actually only one) entries on my [blog](/blog).
-   -
-   -[github]: https://github.com/helq
-   -->
+[germina]: http://ciencias.bogota.unal.edu.co/gruposdeinvestigacion/grupo-de-estudios-para-la-remediacion-y-mitigacion-de-impactos-negativos-al-ambiente-germina/
+[agreda]: https://www.researchgate.net/profile/Jesus_Agreda
+[andres]: https://www.researchgate.net/profile/Juan_Montoya2
+[homochirality-group]: https://gitlab.com/homochirality

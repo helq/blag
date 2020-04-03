@@ -26,7 +26,7 @@ let content =
 title: 'TITLE'\n\
 date: DATE\n\
 tags: \n\
----\n\n".replace('TITLE', title).replace('DATE', date.format('YYYY-MM-DD HH:mm [(COT)]'));
+---\n\n".replace('TITLE', title).replace('DATE', date.format('YYYY-MM-DD HH:mm [(EST)]'));
 
 /**
  * Creating new post

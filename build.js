@@ -13,6 +13,7 @@ const Metalsmith   = require('metalsmith'),
       tags         = require('metalsmith-tags'),
       feed         = require('metalsmith-feed'),
       blc          = require('metalsmith-broken-link-checker');
+      //bibtex       = require('metalsmith-bibtex');
       //highlight    = require('metalsmith-code-highlight'),
       //beautify     = require('metalsmith-beautify'),
       //compressgzip = require('metalsmith-gzip');
@@ -72,9 +73,41 @@ const log = function() {
     console.log(Object.keys(files));
     //console.log(files);
     //console.log(metalsmith);
-    //console.log(metalsmith.metadata());
+    console.log(metalsmith.metadata());
+    //console.log(Object.keys(metalsmith.metadata()));
     done();
   };
+};
+
+/**
+ * Simple citations plugin based on citation-js
+ */
+const citations = function(options) {
+    var Cite = require('citation-js');
+    var debug = require('debug')('metalsmith-citations');
+    var collections = Object.keys(options.collections);
+
+    return function(files, metalsmith, done) {
+
+        var meta = metalsmith.metadata();
+        meta.citations = {};
+
+        collections.forEach(function(col) {
+            let filename = options.collections[col];
+            debug("Found bib file: %s", filename);
+
+            let collection = Cite(files[filename].contents.toString());
+            let htmlcite = collection.format('bibliography', {
+                format: 'html',
+                template: options.format.template,
+                lang: options.format.lang 
+            })
+            meta.citations[col] = htmlcite;
+            //console.log(htmlcite);
+        });
+
+        done();
+    };
 };
 
 // from: https://stackoverflow.com/a/29939805
@@ -167,6 +200,24 @@ let site = Metalsmith(__dirname)
   .use( drafts(remove_drafts) )
   .use( remove_match( RegExp('^teaching/[^/]*/[^/]*/.*') ) )
   //.use( remove_match( RegExp('^blog/notes/') ) )
+
+  /**
+   * Adding Publications using bibtex
+   */
+  .use( branch()
+          .pattern( ["publications.md", "bib/*"] )
+          .use( citations({
+              collections: {
+                  publications: 'bib/publications.bib',
+                  thesis: 'bib/thesis.bib'
+              },
+              format: {
+                template: 'apa',
+                lang: 'en-US'
+              }
+          }))
+          //.use( log() )
+  )
 
   /**
    * Specific configuration for '/blog/*.htm?' and "blog/personal/*.htm?"

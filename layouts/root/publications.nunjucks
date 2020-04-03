@@ -1,0 +1,13 @@
+{% extends 'layouts/root/walkie.nunjucks' %}
+
+{% block extended_contents_in %}
+
+  <h2>Master Thesis</h2>
+
+  {{ citations.thesis | safe }}
+
+  <h2>Papers</h2>
+
+  {{ citations.publications | safe }}
+
+{% endblock %}

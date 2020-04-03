@@ -1,7 +1,14 @@
+---
+title: A collection of Webcomics I've enjoyed
+---
+
 Latest update: 2019.10.22
 
 This document lists all those individual comics I've found funny over the years. I've been
 doing this for, probably, more than 4 years now (date of writing: 2017.05.09).
+
+I've marked with an asterisk (`*`) those comics which have stuck with me for years and had
+shaped some of my ideas about the world (date: 2020.03.22).
 
 **SPOILER ALERT:** I've tried to add a small explanation to each comic. The explanation is
 solely with the purpose of reminding me what is the comic about. MANY contain spoilers!
@@ -93,7 +100,7 @@ url: <http://www.phdcomics.com/comics.php?f={num}>
 url: <http://theoatmeal.com/comics/{name}>
 
 - `autocorrect`: {AI} autocorrect hates you
-- `unhappy`: {life} i'm not happy, i'm busy, i'm interested
+- `unhappy`: {life,*} i'm not happy, i'm busy, i'm interested
 - `nobody_cares`: {doing} What do you `____` if nobody ever reads it
 - `diet_train`, `believe`
 
@@ -147,7 +154,9 @@ url: <http://www.qwantz.com/?comic={num}>
   `3215`, `3221`, `3222`, `3223`, `3225`, `3227`, `3230`, `3250`, `3262`, `3267`, `3276`,
   `3280`, `3282`, `3290`, `3293`, `3294`, `3306`, `3307`, `3320`, `3328`, `3336`, `3337`,
   `3340`, `3346`, `3377`, `3388`, `3396`, `3404`, `3411`, `3419`, `3429`, `3435`, `3442`,
-  `3447`, `3456`, `3467`,
+  `3447`, `3456`, `3467`
+- `3490`: {what if} Black swan. Predicting the unpredictable
+- `3500`: {ache,age} Talking about our aging and aching bodies vs. immortals
 
 ## SMBC ##
 
@@ -413,7 +422,7 @@ url: <https://xkcd.com/{num}/>
   `171`, `173`, `175`, `177`, `182`, `187`, `191`, `196`, `203`, `207`, `208`
 - `208`: making fake stories for my new skills
 - `209`, `212`, `217`, `219`, `224`
-- `239`: how the people from the future will see the bloggin from now *
+- `239`: {*} how the people from the future will see the bloggin from now
 - <https://explainxkcd.com/285/>
 - `327`: good old Boby Tables, sanatizing database inputs
 - `356`: a new sport: nerd spining, stop a nerd in the middle of the path
@@ -458,8 +467,8 @@ url: <https://xkcd.com/{num}/>
 - `1391`: light-night cycle
 - `1393`: time factoids ghost
 - `1409`: loaded table: people
-- `1421`: dear future self *
-- `1423`: what do you do in your free time? - think in an answer *
+- `1421`: {*} dear future self
+- `1423`: {*} what do you do in your free time? - think in an answer
 - `1425`: in CS, difference between easy and difficult tasks
 - `1445`: time cost, efficiency
 - `1453`: fMRI study, activation in the brain
@@ -517,6 +526,8 @@ url: <https://xkcd.com/{num}/>
   `1934`, `1938`, `1944`, `1954`, `1958`, `1972`, `2006`, `2025`, `2034`,
   `2042`, `2044`, `2054`, `2143`, `2154`, `2155`, `2158`, `2165`, `2169`,
   `2170`
+- `2196`: {greetings} Nice to e-meet you
+- `2200`: {software} Unreachable error reached!
 
 ## What If ##
 
@@ -545,7 +556,7 @@ url: <http://www.channelate.com/{comic_dir}/>
 - `2014/10/01/something-to-talk-about`: broke, or not, yes
 - `2015/01/09/science-2`:               i didn't get into science to make weapons, ... friends
 - `2015/05/28/turtle`:                  talk to the talkin' turtle
-- `2015/07/10/ted`:                     "ted" became an insult after ted III kill his people
+- `2015/07/10/ted`:                     {*} "ted" became an insult after ted III kill his people
 - `2015/10/27/baby-poop`:               you can change yourself (going to the future)
 - `2016/01/02/i-t-dracula`:             The adventures of IT Dracula
 - `2016/02/01/i-t-dracula-2`:           you're a great guy, so... my computer isn't working
@@ -712,7 +723,7 @@ url: <http://abstrusegoose.com/{num}>
   `304`, `320`, `323`, `325`, `329`, `330`, `339`, `350`, `353`, `354`, `356`, `360`,
   `361`, `366`, `371`, `373`, `376`, `377`, `378`, `379`, `380`, `385`, `393`, `394`,
   `395`, `397`, `401`, `406`, `415`, `416`
-- `418`: {real world} entering the real world after college
+- `418`: {real world,*} entering the real world after college
 - `419`, `421`, `424`, `425`, `430`, `432`, `435`, `443`, `447`, `449`, `451`, `457`,
   `467`, `469`, `471`, `474`, `479`, `482`, `487`, `488`, `493`, `502`, `504`, `507`,
   `508`, `511`, `516`, `517`, `525`, `526`, `528`, `540`, `541`, `542`, `544`, `545`,
@@ -724,7 +735,7 @@ url: <http://abstrusegoose.com/{num}>
 - `565`: phantom internet, start thinking
 - `572`: this movie came out in 2003, there was not facebook ...
 - `587`: {human life} For an all-knowing creature, a human is blissfully happy
-- `589` ,`598` ,`600` ,`608`
+- `589`, `598`, `600`, `608`
 
 ## Spiked Math ##
 
@@ -741,11 +752,11 @@ url: <http://spikedmath.com/{num}.html>
 url: <http://drawingboardcomic.com/index.php?comic={num}>
 
 - `49`: a mysterious force pulling him down (laziness)
-- `142`: overthinking it. talk with her in the bus
+- `142`: {*} overthinking it. talk with her in the bus
 - `157`: wow, those two (boobs) are big - no, they're imaginary
-- `176`: life would be sooo easy if I had X power - wrong, it would be the same!
-- `204`: feeling lonely
-- `208`: limited time only
+- `176`: {*} life would be sooo easy if I had X power - wrong, it would be the same!
+- `204`: {*} feeling lonely
+- `208`: {*} limited time only
 
 ## Loading Artist ##
 
@@ -766,10 +777,10 @@ url: <http://www.loadingartist.com/comic/{name}>
 
 url: <http://questionablecontent.net/view.php?comic={num}>
 
-- `3209`: I blame romantic comedies. They've conditioned us to believe the more elaborate the meet-cute, the more powerful the romance.
+- `3209`: {*} I blame romantic comedies. They've conditioned us to believe the more elaborate the meet-cute, the more powerful the romance.
 - `3237`: Overthinking everything. Reducing somebody to a test case.
 - `3240`: {AI} is it possible to create an intelligence without consciousness? how would it be?
-- `3310`: {upfront} So many problems could be avoided if people just said what they were feeling. - Romantic comedies would be a lot shorter
+- `3310`: {upfront,*} So many problems could be avoided if people just said what they were feeling. - Romantic comedies would be a lot shorter
 - `3425`, `3497`
 
 ## Chrono ##
@@ -783,14 +794,14 @@ url: <http://www.chrono.cl/comic/{num}/>
 - `30`:  el regalo perfecto, tesis
 - `32`:  predicciones año que viene
 - `34`:  por qué trabajar aquí
-- `43`:  examen de ética
+- `43`:  {*} examen de ética
 - `44`:  a partir de las 22hrs este canal está autorizado
 - `47`:  no eres tu, soy yo
 - `53`:  el problema de la mochila, knapsack problem
 - `54`:  procrastinando
 - `58`:  debes estar cansada después de mi sueño de anoche
-- `63`:  cómo hacer un examen: selección múltiple
-- `65`:  cómo hacer un examen: verdadero o falso
+- `63`:  {*} cómo hacer un examen: selección múltiple
+- `65`:  {*} cómo hacer un examen: verdadero o falso
 - `69`:  preguntar como va la tesis
 - `70`:  `<3 == (-inf, 3)`
 - `77`:  al que no le interese puede retirarse
@@ -827,7 +838,7 @@ url: <http://www.dosisdiarias.com/{comic_dir}.html>
   `2008/01/2008-01-03`, `2008/02/2008-02-22`, `2008/02/2008-02-18`, `2008/04/2008-04-08`,
   `2008/07/2008-07-02`, `2008/12/2008-12-05`, `2008/12/2008-12-09`, `2009/06/2009-06-16`,
   `2010/11/2010-11-12`, `2013/08/14`, `2013/08/18`, `2013/09/46`, `2013/11/62`
-- `2012/07/2012-07-31`:  amigos: foto
+- `2012/07/2012-07-31`:  {*} amigos: foto
 - `2013/12/72`:      autoayuda entorpece tu andar (camino)
 - `2014/01/90`:      mejor los dioses griegos
 - `2014/05/155`:     mala ortografía, que se joda
@@ -859,6 +870,7 @@ url: <http://www.sephko.com/{comic_dir}.html>
 - `2017/01/352`: {tendonitis} ejercicios para la tendonitis
 - `2017/06/399`: {bananin} Se comen los minions a bananin
 - `2017/03/366`, `2017/08/412`, `2017/10/425`, `2017/10/427`, `2018/09/506`, `2018/09/517`
+- `2017/01/352`: Tendinitis
 
 ## Oleismos ##
 
@@ -922,7 +934,7 @@ url: <http://miclonmalvado.es/post/{num}>
 - `86202936875`: deseo un mundo libre de sustacias quimicas (quimiofobia)
 - `97882922000`: pensamiento positivo, sólo tienes que desearlo
 - `106542163515`: rellenar noticiario
-- `108279961425`: en mi vida han pasado cosas horribles, algunas incluso sucedieron * (la sabiduria de Mark Twain)
+- `108279961425`: {*} en mi vida han pasado cosas horribles, algunas incluso sucedieron (la sabiduria de Mark Twain)
 - `111367386995`: no importa la ortografía, entonces no importa la comida
 - `127222509160`: una lluvia tan fuerte que el paraguas del esceptismo cambia su forma por la presión de las idioteces
 - `133856578130`: autoayuda: a la vida le importa una mierda lo que tú creas
@@ -940,9 +952,12 @@ url: <http://pbfcomics.com/{num}>
 - `262`: get rid of bad dreams
 - `265`: lobster-headed lycanthrope search love
 - `267`: not all in love is mathematics `<3`
-- `271`: please let me win the spelling bee
 - `274`: giving a robot the feelings of a human, destruction
-- <https://pbfcomics.com/comics/scorchy/>
+
+url: <https://pbfcomics.com/comics/{name}/>
+
+- `scorchy`
+- `spelling`: {religion,*} Please let me win the spelling bee. Jesus vs Ganesha
 
 ## Domics ##
 
@@ -955,7 +970,8 @@ url: <http://pbfcomics.com/{num}>
 
 - <http://www.savagechickens.com/2016/10/doing-stuff.html>: productivity is down, it's cause I do only talking and no doing. Too much "planning"
 - <http://charlatanes.blogspot.com/2013/06/de-que-esta-hecha-tu-manzana.html>
-- <http://www.toonhole.com/2012/11/most-intelligent-organism-on-the-planet>: feline overlords, how did you enslave this planet?
+- <http://toonhole.com/2012/11/most-intelligent-organism-on-the-planet>: feline overlords, how did you enslave this planet?
+- <http://toonhole.com/comic/in_a_coma/>: {comma,grammar} Tom is in a comma
 - <http://lolnein.com/2013/08/28/smartphones>: you think you're awesome smartphones, but you can't do this
 - <http://forlackofabettercomic.com/?id=267>
 - <http://asperusualcomics.com/post/60844733445/late-retort-an-illustrated-version-of>
@@ -979,11 +995,10 @@ url: <http://pbfcomics.com/{num}>
 - <https://www.reddit.com/r/webcomics/comments/4cu0cn/april_fools_day_duplicate_comics/>: April fools joke 'maybe i am the fool'
 - <http://a.disquscdn.com/uploads/mediaembed/images/3985/2542/original.jpg>: jealous and envious difference explained by homer simpson
 - <https://www.webtoons.com/en/challenge/clinic-of-horrors/episode-12-the-new-guy/viewer?title_no=274661&episode_no=13>: Asian cute guy is actually a blob that feeds from human teens
-- <http://toonhole.com/comic/in_a_coma/>: {comma,grammar} Tom is in a comma
 - <https://www.webtoons.com/en/challenge/clinic-of-horrors/episode-7-word-worms/viewer?title_no=274661&episode_no=7>: {words,worms} Words eaten by worms!
 - <http://www.commitstrip.com/en/2014/11/06/pendant-ce-temps-sur-mars-3/>: Lonely robot in mars talks to Wilson
 - <https://www.instagram.com/p/Bqgdu8MFYaf/>: Real dream to be a lofi hip hop guy
-- <https://frava8.tumblr.com/post/179316447942/burned>: {inner} The best costume is a mirror, because there is nothing scarier than looking at yourself and confronting your inner deamons
+- <https://frava8.tumblr.com/post/179316447942/burned>: {inner,*} The best costume is a mirror, because there is nothing scarier than looking at yourself and confronting your inner deamons
 - <https://i.warosu.org/data/g/img/0589/10/1486941106427.png>: {neural networks} Statistical learning (a lot of work) vs NNs (more layers)
 - <https://www.instagram.com/p/Bsda7Jel3OI/>: {dreams} Dreams only come true with hard work
 - <https://www.webtoons.com/en/drama/space-boy/ep-2/viewer?title_no=400&episode_no=2>: Living in outerspace, in a small comunity, and then bam, new home
