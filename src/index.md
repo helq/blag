@@ -14,6 +14,7 @@ title: Home
     <div>PhD Student at</div>
     <div><a href="https://rpi.edu">Rensselaer Polytechnic Institute</a></div>
     <div>Troy, NY, USA</div>
+  </div>
   <div class="contact">
     <!--<div>Office: not for now :(</div>-->
     <div>Email: <span id="divMcFace" style="font-family: monospace; white-space: pre;">
@@ -62,14 +63,18 @@ CiovCi8vIC0tPgo="></script>
 
 <div class="break"></div>
 
-Hello visitor! Welcome to my site. I have in here all kinds of sorts of types of classes
-of stuff related to my professional life but also not. Just random thoughts.
+Hello visitor! Welcome to my site. I have here all kinds of sorts of types of classes
+of stuff related to my professional life but also not. Just random thoughts here in there
+at times and my professional stuff.
 
-I am a Computer and Systems Engineer from the [UNAL][nacho] (Colombia). I hold a MSc. in
-Computer and Systems Engineering from the same university. I like to write code in
-Haskell, Python, and, recently, Agda. I am also good in C++ (few years of experience) but
-I don't enjoy writing in it as much as in the more abstract and functional programming
-languages.
+I am a Computer and Systems Engineer from [UNAL][nacho] (Colombia). I hold a MSc. in
+Computer and Systems Engineering from the same university.
+
+My main focus is on understanding Programming Languages theory and practice.
+
+I generally enjoy coding in Haskell, Python, and, recently, Agda. I am also good at C++
+(a few years of experience) but I don't enjoy writing in it as much as in the more abstract
+and functional programming languages.
 
 ## Selected Projects ##
 
@@ -87,28 +92,28 @@ languages.
 ## Research Interests ##
 
 I am mainly interested in problems regarding Programming Languages, both theoretical and
-practical: Lambda Calculus, Computability, Type Theory, Abstract Interepretation, Software
+practical: Lambda Calculus, Computability, Type Theory, Abstract Interpretation, Software
 Verification, and the Development of tools for programmers to use (aka. application of
 theory to practice and development of libraries).
 
-I am fascinated by the power of programming languages and their capabilities, that is why
-I have dedicated quite some time to learn: Haskell, C\+\+, Python, Scheme, Ruby, Java,
+I am fascinated by the power of programming languages and their capabilities. That is why,
+I have dedicated quite some time to learn Haskell, C\+\+, Python, Scheme, Ruby, Java,
 Scala, miniKanren, Bash, Janus (Reversible Programming Language), and many others.
 
-I have enjoyed the luxury of: making part of collaborations with expertes from different
+I have enjoyed the luxury of making part of collaborations with experts from different
 areas of knowledge like chemistry, physics and mathematics; and, studying varied areas in
-Compumputer Science like Machine and Deep Learning, Parametric Complexity, and Sound and
+Computer Science like Machine and Deep Learning, Parametric Complexity, and Sound and
 Image Processing.
 
-For a deeper look on what I have been doing these past years you can take a look at
+For a deeper look at what I have been doing these past years, you can take a look at
 [my github page][github].
 
 [github]: https://github.com/helq
 
 ## (Past) Teaching ##
 
-During 2018, I was a Teaching Assistant and Lecturer in the Faculty of Engineering at
-[UNAL][nacho]. I taught Intro to Programming with C++ (Programación de Computadores) for
+During 2018, I was a Teaching Assistant/Lecturer in the Faculty of Engineering at
+[UNAL][nacho]. I taught Intro to Programming in C++ (Programación de Computadores) for
 the [2018-I](teaching/coding-2018-I/) and [2018-III](teaching/coding-2018-III/) terms.
 
 [nacho]: https://unal.edu.co

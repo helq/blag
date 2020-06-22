@@ -1037,9 +1037,12 @@ url: <http://jimbenton.com/page14/files/JimBentonComic-{name}.html>
 
 ### Zen Pencils ###
 
-- <http://zenpencils.com/comic/129-marc-maron-the-social-media-generation>: addicts to social media
-- <http://zenpencils.com/comic/123-erica-goldson-graduation-speech>
-- <http://zenpencils.com/comic/langleav/>: {life planning} ... you would rather live a lie than live your live alone. - lang leav
+url: <https://zenpencils.com/comic/{name}>
+
+- `129-marc-maron-the-social-media-generation`: addicts to social media
+- `123-erica-goldson-graduation-speech`: {school} School sucks
+- `langleav`: {loneliness} ... you would rather live a lie than live your live alone. - lang leav (Why to attach yourself to another if it hinders what you want to do?)
+- `kurosawa`: {journaling} Akira Kurosawa, a journaler
 
 ### Buttersafe ###
 

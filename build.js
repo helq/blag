@@ -103,6 +103,7 @@ const citations = function(options) {
                 lang: options.format.lang 
             })
             meta.citations[col] = htmlcite;
+            delete files[filename]
             //console.log(htmlcite);
         });
 
