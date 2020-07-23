@@ -64,7 +64,7 @@ CiovCi8vIC0tPgo="></script>
 <div class="break"></div>
 
 Hello visitor! Welcome to my site. I have here all kinds of sorts of types of classes
-of stuff related to my professional life but also not. Just random thoughts here in there
+of stuff related to my professional life but also not. Just random thoughts here and there
 at times and my professional stuff.
 
 I am a Computer and Systems Engineer from [UNAL][nacho] (Colombia). I hold a MSc. in
