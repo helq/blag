@@ -31,6 +31,7 @@ const metadataadder    = require('./helpers/add-metadata');
 const copying_contents = require('./helpers/copying_contents');
 const drafts           = require('./helpers/drafts');
 const remove_match     = require('./helpers/remove_match');
+const licensing        = require('./helpers/licensing');
 
 /**
  * Global variables
@@ -223,12 +224,14 @@ let site = Metalsmith(__dirname)
   /**
    * Specific configuration for '/blog/*.htm?' and "blog/personal/*.htm?"
    * - adding layout metadata
+   * - adding license information
    */
   .use( branch()
           .pattern( ["blog/*.md", "blog/personal/*.md"] )
           .use( metadataadder({
               layout: "blog/page.nunjucks"
           }))
+          .use( licensing() )
   )
 
   /**
@@ -281,6 +284,7 @@ let site = Metalsmith(__dirname)
    * - creating a posts collection
    * - renaming posts from 'blog/posts/2999-99-99-post-name.html'
    *                 to -> 'blog/posts/2999/99/en/post-name/index.html'
+   * - adding license data
    */
   .use( branch("blog/posts/*")
           .use( metadataadder({
@@ -323,6 +327,8 @@ let site = Metalsmith(__dirname)
               date: "YYYY/MM",
               relative: false
           }))
+
+          .use( licensing() )
           //.use( log() )
   )
 
@@ -412,6 +418,7 @@ let site = Metalsmith(__dirname)
   /**
    * copying assets from the './assets' folder
    */
+  //.use( remove_match( RegExp('^assets/[^/]*/[^/]*/.less') ) )
   .use( assets({
       source: "./assets/blog",
       destination: "blog/assets"

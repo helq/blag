@@ -1,5 +1,8 @@
 {
+	"me": "su persona",
 	"archive": "archivo",
-    "home": "inicio",
-    "about": "acerca de"
+  "home": "inicio",
+  "about": "acerca de",
+  "i'm a subtitle!": "¡soy un subtítulo!",
+  "This article's source code!": "¡Click para ver el código fuente de esta página!"
 }

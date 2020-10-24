@@ -1,5 +1,5 @@
 <p align="right">
-    <a href="{{ blog.sourcecode_url }}{{ orig_filename }}">This article's source code!</a>
+    <a href="{{ blog.sourcecode_url }}{{ orig_filename }}">{{ __("This article's source code!") }}</a>
 </p>
 
 {# vim: set ts=4 sw=4 ft=html et: #}

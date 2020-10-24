@@ -4,7 +4,7 @@
 			<div id="site">
 				<h1><a href="/blog/">{{ blog.title }}</a></h1>
 				{% if blog.subtitle %}
-				<h2><a href="/blog/">{{ blog.subtitle }}</a></h2>
+				<h2><a href="/blog/">{{ __(blog.subtitle) }}</a></h2>
 				{% endif %}
 			</div>
 			<nav id="menu">

@@ -1,5 +1,6 @@
 ---
 title: A collection of Webcomics I've enjoyed
+license: "CC BY-SA 4.0"
 ---
 
 Latest update: 2019.10.22

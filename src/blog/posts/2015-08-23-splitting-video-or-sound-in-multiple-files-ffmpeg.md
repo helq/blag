@@ -2,6 +2,8 @@
 title: Splitting video or sound in multiple files - ffmpeg [bash script]
 date: 2015-08-23 15:12 (COT)
 tags: ffmpeg, bash, programming, scripting
+license: "CC BY-SA 4.0"
+license-code: CC0
 ---
 
 ## **Edit: 2016-08-02** ##

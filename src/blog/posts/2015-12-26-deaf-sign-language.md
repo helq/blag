@@ -2,6 +2,8 @@
 title: Deaf Sign Language
 date: 2015-12-26 12:40 (COT)
 tags: languages, deaf sign language
+license: "CC BY-SA 4.0"
+license-code: CC0
 ---
 
 *This article is based in an essay I wrote for an English class in the second semester of

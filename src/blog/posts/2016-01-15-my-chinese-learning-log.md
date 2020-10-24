@@ -2,6 +2,8 @@
 title: My Chinese Learning Log
 date: 2016-01-15 14:25 (COT)
 tags: languages, Chinese, learning, Chinese Log
+license: "CC BY-SA 4.0"
+license-code: CC0
 ---
 
 Welcome to my log! I intend to write here my progress while I learn Chinese from zero.

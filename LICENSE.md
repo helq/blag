@@ -1,17 +1,15 @@
 The BSD-3 license is applied to all files in this project except for those
 inside the `src/` folder.
 
-[by-sa]: http://creativecommons.org/licenses/by-sa/4.0/ (license's webpage)
+The following is a detailed list of the licenses under which the each files inside the
+folder `src/` are released, unless other license is stated or all rights are reserved.
 
-All code snippets found in the posts (files: `src/blog/posts/*`) are released
-under the [CC0]() unless otherwise is stated.
-
-All files under the folder `src/`, excluding the files under `src/blog/data/`,
-are released under the "[Attribution-ShareAlike 4.0 International][by-sa]"
-Creative Commons License unless otherwise is stated. That means, that all my
-posts are released under "[Attribution-ShareAlike 4.0 International][by-sa]".
-
-[CC0]: http://creativecommons.org/publicdomain/zero/1.0/ (CC0 license webpage)
+* Files with the pattern `src/*.md` (i.e, only `.md` files on the top of the `src/`
+    directory), and all files under folders `src/teaching/` and `src/bib/` are released
+    under [Attribution-ShareAlike 4.0 International][by-sa].
+* All files under the folders `src/blog/` and `src/data/` are released under the license
+    that each file displays. If no license is given to a specific file, all rights are
+    reserved for the file in question.
 
 The files contained in `assets/blog` and `layouts/blog` are sublicensed under
 the BSD-3, see more in `LICENSE.theme.orig.md`
@@ -20,7 +18,9 @@ The files contained in `assets/root` and `layouts/root` have been taken from the
 personal webpage of [Eric Walkingshaw][eric]. He released the code for the html
 and css code under the public domain. I, here, take the liberty of changing the
 license of the modified code (based on Eric's templates) to BSD-3, just for
-convenience (but if anybody wants me to put it in CC0, please tell me).
+convenience.
+
+[by-sa]: http://creativecommons.org/licenses/by-sa/4.0/ (BY-SA license webpage)
 
 [eric]: http://web.engr.oregonstate.edu/~walkiner/
 

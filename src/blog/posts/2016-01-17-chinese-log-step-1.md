@@ -2,6 +2,8 @@
 title: 'Chinese Log - Step 1: Searching for Resources'
 date: 2016-01-17 17:25 (COT)
 tags: languages, Chinese, learning, Chinese Log
+license: "CC BY-SA 4.0"
+license-code: CC0
 ---
 
 _Updated: 2019.05.29_

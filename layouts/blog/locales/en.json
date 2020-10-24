@@ -1,8 +1,9 @@
 {
 	"archive": "archive",
-    "home": "home",
-    "about": "about",
-    "prev": "prev",
-    "next": "next",
-    "tag": "tag"
+  "home": "home",
+  "about": "about",
+  "prev": "prev",
+  "next": "next",
+  "tag": "tag",
+  "This article's source code!": "This article's source code!"
 }

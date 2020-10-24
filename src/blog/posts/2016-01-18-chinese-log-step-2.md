@@ -2,6 +2,8 @@
 title: 'Chinese Log - Step 2: Learning Pronunciation'
 date: 2016-01-18 19:45 (COT)
 tags: languages, Chinese, learning, Chinese Log, Mandarin
+license: "CC BY-SA 4.0"
+license-code: CC0
 ---
 
 _Updated: 2019.05.29_

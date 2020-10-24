@@ -4,6 +4,8 @@ started_writing: 2017-06-26 11:41 (COT)
 date: 2017-06-28 13:08 (COT)
 updated: 2019-07-03 13:00 (COT)
 tags: development, haskell, lambda calculus, learning
+license: "CC BY-SA 4.0"
+license-code: CC0
 ---
 
 **Disclaimer:** I'm not an expert on type systems. I was just trying to figure out what
@@ -11,6 +13,10 @@ tags: development, haskell, lambda calculus, learning
 Calculus.  For what I've been reading for the last hour, all "code" below is in something
 close to "System F" ([wikipedia][wSf], and [an in-depth explanation of System F with an
 interpreter and actual runnable code][blynnSf]).
+
+<!--Note to self: Actually. After a couple of years and some weeks studying lambda
+calculus I came to understand that the lambda calculus variant used in this document is:
+λ2 . You can read more about it in here: https://en.wikipedia.org/wiki/Lambda_cube#(%CE%BB2)_System_F -->
 
 [wSf]: https://en.wikipedia.org/wiki/System_F
 [blynnSf]: https://crypto.stanford.edu/~blynn/lambda/systemf.html

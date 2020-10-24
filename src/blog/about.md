@@ -2,6 +2,8 @@
 title: About me
 date: 2015-08-24
 modified: 2016-03-11
+license: "CC BY-SA 4.0"
+license-code: CC0
 ---
 
 For a more "serious" _about me_ go to the [start page](/).
