@@ -11,7 +11,7 @@ title: Home
          <a href="https://unal.edu.co">UNAL</a></div>
   </div>
   <div class="affiliation">
-    <div>PhD Student at</div>
+    <div>CS PhD Student at</div>
     <div><a href="https://rpi.edu">Rensselaer Polytechnic Institute</a></div>
     <div>Troy, NY, USA</div>
   </div>
