@@ -1,6 +1,7 @@
 ---
 title: 'Improvisioning 2'
 date: 2020-10-23 12:14 (EST)
+modified: 2020-11-22 22:39 (EST)
 tags: improv, 'creative writing'
 license: "CC BY-NC-SA 4.0"
 ---

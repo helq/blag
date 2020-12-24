@@ -78,6 +78,9 @@ and functional programming languages.
 
 ## Selected Projects ##
 
+- [Safety Envelopes](https://github.com/helq/safety-envelopes-sentinels):
+    Agda code implementing the concept of Safety Envelopes for stall detection.
+    Current PhD work.
 - [Pytropos](https://github.com/helq/pytropos):
     My Master's research final project. A Python abstract interpreter to check for the
     shape of tensors without 'running' the code (a linter).
@@ -86,8 +89,10 @@ and functional programming languages.
     tensors at compilation time.
 - [ChemKinLator](https://gitlab.com/homochirality/chemkinlator):
     Chemical Simulator written in C++ and Fortran.
-- [Listanalchem](https://gitlab.com/homochirality/listanalchem):
-    Tool written in Python to check for homochirality in chemical reaction networks.
+<!--
+   -- [Listanalchem](https://gitlab.com/homochirality/listanalchem):
+   -    Tool written in Python to check for homochirality in chemical reaction networks.
+   -->
 
 ## Research Interests ##
 
