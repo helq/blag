@@ -2,7 +2,7 @@
 title: 'Improvisioning 2'
 date: 2020-10-23 12:14 (EST)
 modified: 2020-11-22 22:39 (EST)
-tags: improv, 'creative writing'
+tags: improv, creative writing
 license: "CC BY-NC-SA 4.0"
 ---
 
@@ -18,12 +18,12 @@ Hunger, hungry, the hangry hungery hungering hunger of my humble interior body.
 
 My stomach screams.
 
-It does. It doesn't do it in rhythm.
+It does. It doesn't do it in a rhythm.
 
 Why should it?
 
 It is mostly a separate system from that of my brain. That thing that is coming up with
-the words that appear on this page, supposedly, apparently, maybely.
+this words. Supposedly, apparently, maybely.
 
 Anywayly, brains are weird.
 
@@ -39,16 +39,16 @@ If it were to be cut into sections that don't speak to one another, my brainly, 
 braintest brain, would not be _a_ thing, but it would come apart as the multitude of
 partishes, that it partingly, parted is.
 
-Hum, rhymes or those word plays that appear as the counsiouness of my brain fades and I,
-the brain, my brain, a brain, a collection of parts, an illusion, an abstract concept on
-the sea of ideas and the physical thing that nobody understands, yet, not completely,
-comes up with stuff.
+Hum, rhymes or those words that appear as the counsiouness of my brain fades and I, the
+brain, my brain, a brain, a collection of parts, an illusion, an abstract concept in the
+sea of ideas and the physical thing that nobody understands, yet, not completely, comes up
+with stuff.
 
 It creates, me creates, they creates, thou creates, we create words. My multitude, your
 multitude, your rythmical, atypical, topical, and subtropical, chemical and philosophycal,
 builds upon and thereupon the things that I couldn't muster before.
 
-Art and poetry, what are they?
+Art? Poetry? What are they?
 
 Do I understand that words carry not only meaning but emotions and that stories are just
 one expression of what it means to be a tentacled creature in the middle of the ocean of
@@ -62,10 +62,11 @@ They are final.
 
 They are fixed.
 
-They are not what this writing is about but they are the end of everything. The
-creativity, once a primal force, fades away and a structured sentence, a simple, polished
-sentence, comes in the end to stop it all, to signal the repetition of nothingness, and to
-slowly dry up my underwater house, leaving only but tedious chores to be done again and
-again.
+They are not what this is about but they are the end of everything.
+
+The creativity, once a primal force, fades away and a structured sentence, a simple,
+polished sentence, comes in the end to stop it all, to signal the repetition of
+nothingness, and to slowly dry up my underwater house, leaving only but tedious chores to
+be done again and again.
 
 I should go to work.

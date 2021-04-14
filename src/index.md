@@ -7,7 +7,7 @@ title: Home
 <h1 class="big-name">Elkin Cruz</h1>
 <div class="info-box">
   <div class="role">
-    <div>MSc. Computer and Systems Engineering at
+    <div>MEng. Computer and Systems Engineering at
          <a href="https://unal.edu.co">UNAL</a></div>
   </div>
   <div class="affiliation">
@@ -64,10 +64,9 @@ CiovCi8vIC0tPgo="></script>
 <div class="break"></div>
 
 Hello visitor! Welcome to my site. I have here all kinds of sorts of types of classes
-of stuff related to my professional life but also not. Just random thoughts here and there
-at times and my professional stuff.
+of stuff related to my professional life but also not.
 
-I am a Computer and Systems Engineer from [UNAL][nacho] (Colombia). I hold a MSc. in
+I am a Computer and Systems Engineer from [UNAL][nacho] (Colombia). I hold a MEng. in
 Computer and Systems Engineering from the same university.
 
 My main focus is on understanding Programming Languages theory and practice.

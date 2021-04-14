@@ -1,7 +1,7 @@
 ---
 title: 'Improvisionando 1'
 date: 2020-10-16 15:20 (EST)
-tags: improv, 'creative writing'
+tags: improv, creative writing
 locale: es
 license: "CC BY-NC-SA 4.0"
 ---
