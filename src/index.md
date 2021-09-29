@@ -11,9 +11,8 @@ title: Home
          <a href="https://unal.edu.co">UNAL</a></div>
   </div>
   <div class="affiliation">
-    <div>CS PhD Student at</div>
-    <div><a href="https://rpi.edu">Rensselaer Polytechnic Institute</a></div>
-    <div>Troy, NY, USA</div>
+    <div>CS PhD Student at <a href="https://rpi.edu">RPI</a>, Troy, NY, USA</div>
+    <div><em>Advisor:</em> <a href="https://www.cs.rpi.edu/~chrisc/">Prof. Christopher D. Carothers</a></div>
   </div>
   <div class="contact">
     <!--<div>Office: not for now :(</div>-->
@@ -63,23 +62,26 @@ CiovCi8vIC0tPgo="></script>
 
 <div class="break"></div>
 
-Hello visitor! Welcome to my site. I have here all kinds of sorts of types of classes
-of stuff related to my professional life but also not.
+Hello visitor! Welcome to my site. I have here all kinds of sorts of types of groups of
+classes of stuff related to my professional life but also not.
 
 I am a Computer and Systems Engineer from [UNAL][nacho] (Colombia). I hold a MEng. in
-Computer and Systems Engineering from the same university.
+the same subject from the same university.
 
-My main focus is on understanding Programming Languages theory and practice.
-
-I generally enjoy coding in Haskell, Python, and, recently, Agda. I am also good at C++
-(a few years of experience) but I don't enjoy writing in it as much as in the more abstract
-and functional programming languages.
+The things I like to do include: coding and fiction writing. The things I tend to enjoy
+the most are often weird, niche and obscure, _i.e.,_ most things creative.
 
 ## Selected Projects ##
 
+The following is a list of the projects in which I have been the main contributor, sorted
+from more recent to oldest:
+
+- [Doryta](https://github.com/helq/doryta):
+    Spiking neuron model simulator written as a PDES model (Parallel Discrete Event
+    Simulation). Current PhD work.
 - [Safety Envelopes](https://github.com/helq/safety-envelopes-sentinels):
-    Agda code implementing the concept of Safety Envelopes for stall detection.
-    Current PhD work.
+    Agda code implementing the concept of "safety envelopes" applied to the classical
+    aerospacial problem of stall detection.
 - [Pytropos](https://github.com/helq/pytropos):
     My Master's research final project. A Python abstract interpreter to check for the
     shape of tensors without 'running' the code (a linter).
@@ -87,37 +89,48 @@ and functional programming languages.
     An experiment using Dependent Types in Haskell to check the shapes of Tensorflow
     tensors at compilation time.
 - [ChemKinLator](https://gitlab.com/homochirality/chemkinlator):
-    Chemical Simulator written in C++ and Fortran.
+    Simulator of chemical networks written in C++ and Fortran.
 <!--
-   -- [Listanalchem](https://gitlab.com/homochirality/listanalchem):
-   -    Tool written in Python to check for homochirality in chemical reaction networks.
+   - - [Listanalchem](https://gitlab.com/homochirality/listanalchem):
+   -     Tool written in Python to check for homochirality in chemical reaction networks.
    -->
 
-## Research Interests ##
+## Research/Coding Interests ##
 
-I am mainly interested in problems regarding Programming Languages, both theoretical and
-practical: Lambda Calculus, Computability, Type Theory, Abstract Interpretation, Software
-Verification, and the Development of tools for programmers to use (aka. application of
-theory to practice and development of libraries).
+I have been enthrawled by computers, algorithms and programming languages for over a
+decade now. As any other computer guy, I like to try to solve everything by discretizing
+and writing down a problem as a computer program.
 
-I am fascinated by the power of programming languages and their capabilities. That is why,
-I have dedicated quite some time to learn Haskell, C\+\+, Python, Scheme, Ruby, Java,
-Scala, miniKanren, Bash, Janus (Reversible Programming Language), and many others.
+Of the many languages that I have learnt, used, forgotten and hated, I shall say that the
+languages I have the most experience are Python, C and Haskell, in descending order of
+coding prowess. Some other languages I have a bit of experience on include Agda, Scheme,
+Ruby, Java, Scala, miniKanren, Bash, and Janus (Reversible Programming Language).
 
-I have enjoyed the luxury of making part of collaborations with experts from different
-areas of knowledge like chemistry, physics and mathematics; and, studying varied areas in
-Computer Science like Machine and Deep Learning, Parametric Complexity, and Sound and
-Image Processing.
+Although I have been fascinated by the power of programming languages and their
+capabilities in the past, I am much more a tool user than a tool designer myself nowadays.
+Still, I like to build tools when I seed the need for them.
 
-For a deeper look at what I have been doing these past years, you can take a look at
-[my github page][github].
+If there is one thing constant about what I have done in my research and professional
+career is that I want unexpected, new, weird and creative ideas on virtually anything. I
+have had the luxury of exploring many areas of computer science, including: programming
+languages theory, (everybody's current favourite topic) machine learning, software
+verification, parallel programming, and simulation (of chemical networks); yet I feel a
+need to know more, to explore more and to talk about these subjects in the larger
+framework of life. Currently I am working on building a neuromorphic simulator for HPC
+(High Performance Computing) and trying to answer "what is this new paradigm most useful
+for?"
 
-[github]: https://github.com/helq
+To see some of the projects I have worked on, you can take a look at
+[my github page][github-helq].
+
+[github-helq]: https://github.com/helq
 
 ## (Past) Teaching ##
 
-During 2018, I was a Teaching Assistant/Lecturer in the Faculty of Engineering at
-[UNAL][nacho]. I taught Intro to Programming in C++ (Programación de Computadores) for
-the [2018-I](teaching/coding-2018-I/) and [2018-III](teaching/coding-2018-III/) terms.
+I find teaching very rewarding, even though I have only been able to perform as a Lecturer
+for two terms. During 2018, I was a Teaching Assistant/Lecturer in the Faculty of
+Engineering at [UNAL][nacho]. I taught Intro to Programming in C++ (Programación de
+Computadores) for the [2018-I](teaching/coding-2018-I/) and
+[2018-III](teaching/coding-2018-III/) terms.
 
 [nacho]: https://unal.edu.co

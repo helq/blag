@@ -6,30 +6,31 @@ locale: es
 license: "CC BY-NC-SA 4.0"
 ---
 
-Hace un poco más dos años me dije a mi mismo: "mi mismo tienes que dejar de pensar que
-quieres escribir algo y más bien ponte a escribirlo de una vez". Bueno, no fui yo el qué me
-dijera eso primero. Yo ya le había comentado a alguien que quería escribir. Le había
-comentado a esa persona no sólo en una ocasión sino muchas. Por eso que creo que cuando le
-dijé que quería escribir una vez más, me refunñó: "bueno tienes que dejar de pensar en que
-quieres escribir y ponte a escribir más bien carajo". Creo que la idea de _quiero
-escribir_ la estaba usando como excusa para justificar mi ineptitudo social, pero esa es
-otra historia.
+[Puedes saltar el preámbulo un poco instrospectivo (dos parágrafos) y leer las
+microficciones en la parte de abajo. La primera se llama "compañía".]
+
+Hace un poco más dos años me dije a mí mismo: "mí mismo tienes que dejar de pensar que
+quieres escribir algo y más bien ponte a escribirlo de una vez". Bueno, en realidad no fui
+yo el qué me dijera eso por primera vez. Yo ya le había comentado a alguien más que tenía
+ganas de escribir. Le había comentado a esa persona, no sólo en una ocasión, sino en muchas.
+Así que cuando le dijé una vez más que tenía ganas de escribir algo distinto, algo
+entretenido, algo que saliera de mi alma, me refunñó: "bueno, vale, sabes lo que tienes
+que hacer? Dejar de decir que quieres escribir y ponte más bien a escribir ya, carajo!".
+Ella tenía toda la razón, debía ponerme a escribir en vez de andar pensando que quería, o
+peor andar diciéndole a la gente que _quiero escribir_. La verdad es que era un tema de
+conversación que ponía en la mesa porque no era capaz de pensar en nada más, culpa de mi
+ineptitud social supongo, pero esa es otra historia.
 
 Hace un poco menos de dos años me inscribí a un curso de escritura creativa. No tenía ni
 idea de qué se iba a tratar, como en casi todo lo que me he metido, y resultó en una
-experiencia muy formativa porque me encontré con gente que no sabía escribir casi nada, y
-con gente que sabía escribir mucho y era muy buena. Estoy muy agradecido por aquella
-oportunindad que me obligó a escribir de una vez por todas.
-
-Sin más preámbulos, presento aquí una serie de microficciones que escribí como parte de
-una tarea que nos dejó el tallerista de dicho curso. Las encontré entre el montón de
-chucherías que tenía en mi computador en algún lugar.
+experiencia muy formativa. Habían personas que no sabían escribir casi nada y otros que me
+hacían sentir como una ameba. En dicho taller tuvimos cerca de ocho ejercicios de
+escritura. Presento aquí una serie de microficciones que escribí como parte de
+una tarea para el curso.
 
 ---
 
-Cada microficción está compuesta de un título y la historia como tal.
-
-Copiadas y ligeramente editadas de un pdf con fecha del: 11 de Julio de 2019. Bogotá.
+Cada microficción está compuesta de: un título y la historia como tal.
 
 ---
 

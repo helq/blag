@@ -2,9 +2,10 @@
 title: Research
 ---
 
-I am currently dipping my toes in Static Verification of Stochastic Processes with
-professor [Carlos Varela][carlos] and his group [WCL][wcl]. The goal of the group's
-research is the construction of verified aviation systems to prevent airplane accidents.
+I am dipping my toes in PDES (Parallel Discrete Event Simulation) and neuromorphic
+computing under the supervision of Professor [Christopher D. Carothers][chris]. I am
+building a spiking neural network (SNN) simulator for HPC (High Performance Computing)
+called [doryta][].
 
 In my masters at [UNAL][unal], I studied in depth how to check for errors produced by
 mismatched tensors in machine learning applications. The result of my work, with the help
@@ -20,8 +21,8 @@ explored different algorithms that might help on finding chemical networks that 
 homochirality, a phenomenon found in nature and argued to be a key part of life itself.
 The result of the colaboration can be found at [Gitlab Homochirality Group][homochirality-group].
 
-[carlos]: https://www.cs.rpi.edu/~cvarela/
-[wcl]: http://wcl.cs.rpi.edu/
+[chris]: https://www.cs.rpi.edu/~chrisc/
+[doryta]: https://github.com/helq/doryta
 
 [unal]: https://unal.edu.co
 [fabio]: https://dis.unal.edu.co/~fgonza/
