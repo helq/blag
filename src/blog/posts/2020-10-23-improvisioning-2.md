@@ -23,7 +23,7 @@ It does. It doesn't do it in a rhythm.
 Why should it?
 
 It is mostly a separate system from that of my brain. That thing that is coming up with
-this words. Supposedly, apparently, maybely.
+these words. Supposedly, apparently, maybely.
 
 Anywayly, brains are weird.
 

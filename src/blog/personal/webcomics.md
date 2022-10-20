@@ -94,7 +94,7 @@ url: <http://www.phdcomics.com/comics.php?f={num}>
 - `1936`: {academia,relationship} Professors and students wish the other would be a totally different person they are
 - `1989`: {workload} Do more things on the side because I, the professor, say so
 - `2017`: {draft,urgency} Getting stressed by your advisor and he is not
-- `1922`, `1938`, `1963`, `1970`, `1972`, `1976`, `1996`, `1997`, `2000`, `2002`, `2006`, `2011`, `2013`, `2015`, `2022`, `2024`
+- `1922`, `1938`, `1963`, `1970`, `1972`, `1976`, `1996`, `1997`, `2000`, `2002`, `2006`, `2011`, `2013`, `2015`, `2022`, `2024`, `2038`
 
 ## The OatMeal ##
 
@@ -103,7 +103,7 @@ url: <http://theoatmeal.com/comics/{name}>
 - `autocorrect`: {AI} autocorrect hates you
 - `unhappy`: {life,*} i'm not happy, i'm busy, i'm interested
 - `nobody_cares`: {doing} What do you `____` if nobody ever reads it
-- `diet_train`, `believe`
+- `diet_train`, `believe`, `creativity_things`, `plunge`
 
 ## Qwantz / Dinosaur comics ##
 
@@ -158,6 +158,7 @@ url: <http://www.qwantz.com/?comic={num}>
   `3447`, `3456`, `3467`
 - `3490`: {what if} Black swan. Predicting the unpredictable
 - `3500`: {ache,age} Talking about our aging and aching bodies vs. immortals
+- `3497`, `3501`, `3502`, `3507`, `3521`, `3524`, `3529`, `3530`, `3543`, `3544`
 
 ## SMBC ##
 
@@ -522,13 +523,17 @@ url: <https://xkcd.com/{num}/>
 - `2102`: {oblivion,remembering} The Internet Archive is awesome but pretty weird. We may be in the moment in history where all is lost
 - `2156`: {ufo} Why would the marine lie about a weather baloon framing it as if it was extraterrestrial evidence. Well, because we don't know what they may be doing with the weather baloon-looking thingy
 - `2184`: {unpopular opinion} An positive unpopular opinion is hard to find
-- `1211`, `1319`, `1799`, `1807`, `1823`, `1831`, `1838`, `1839`, `1842`,
-  `1849`, `1863`, `1888`, `1894`, `1898`, `1901`, `1909`, `1916`, `1932`,
-  `1934`, `1938`, `1944`, `1954`, `1958`, `1972`, `2006`, `2025`, `2034`,
-  `2042`, `2044`, `2054`, `2143`, `2154`, `2155`, `2158`, `2165`, `2169`,
-  `2170`
+- `1205`, `1211`, `1319`, `1799`, `1807`, `1823`, `1831`, `1838`, `1839`,
+  `1842`, `1849`, `1863`, `1888`, `1894`, `1898`, `1901`, `1909`, `1916`,
+  `1932`, `1934`, `1938`, `1944`, `1954`, `1958`, `1972`, `2006`, `2025`,
+  `2034`, `2042`, `2044`, `2054`, `2143`, `2154`, `2155`, `2158`, `2165`,
+  `2169`, `2170`
 - `2196`: {greetings} Nice to e-meet you
 - `2200`: {software} Unreachable error reached!
+- `406`, `1732`, `2224`, `2228`, `2242`, `2249`, `2268`, `2272`, `2278`,
+  `2337`, `2390`, `2411`, `2450`, `2451`, `2456`, `2460`, `2476`, `2494`,
+  `2519`, `2520`
+- `2546`: {star wars,titles} The truth about star troopers! A documentary
 
 ## What If ##
 
@@ -959,6 +964,7 @@ url: <https://pbfcomics.com/comics/{name}/>
 
 - `scorchy`
 - `spelling`: {religion,*} Please let me win the spelling bee. Jesus vs Ganesha
+- `the-report`: {virus}
 
 ## Domics ##
 
@@ -967,43 +973,20 @@ url: <https://pbfcomics.com/comics/{name}/>
 - <http://youtu.be/TJD5M7996aU>: Domics - obey the cliché: cliffhanger
 - <http://youtu.be/9EUKFX1ruyo>: Domics - smile
 
-## Other (varied) comics ##
+## Clinic of Horrors ##
 
-- <http://www.savagechickens.com/2016/10/doing-stuff.html>: productivity is down, it's cause I do only talking and no doing. Too much "planning"
-- <http://charlatanes.blogspot.com/2013/06/de-que-esta-hecha-tu-manzana.html>
-- <http://toonhole.com/2012/11/most-intelligent-organism-on-the-planet>: feline overlords, how did you enslave this planet?
-- <http://toonhole.com/comic/in_a_coma/>: {comma,grammar} Tom is in a comma
-- <http://lolnein.com/2013/08/28/smartphones>: you think you're awesome smartphones, but you can't do this
-- <http://forlackofabettercomic.com/?id=267>
-- <http://asperusualcomics.com/post/60844733445/late-retort-an-illustrated-version-of>
-- <http://www.cinismoilustrado.com/2013/08/credito.html>
-- <http://www.victimsofcircumsolar.com/comic/female-comedians/>
-- <http://racheldraws.blogspot.com.es/2010/11/birthday-pony.html>
-- <http://www.microsiervos.com/archivo/frases-citas/inteligencia-colectiva-ya.html>
-- <http://invisiblebread.com/2013/07/my-wallet/>
-- <http://formalsweatpants.com/the-ugly-duckling/>
-- <http://piecomic.tumblr.com/post/64247840292>
-- <http://chuckleaduck.com/comic/shoot-first/>
-- <http://ro-che.info/ccc/18.html>
-- <http://www.skelding.net/randumb/174/>
-- <http://www.pidjin.net/2013/10/31/the-circle-of-faith/>
-- <http://www.gocomics.com/jim-benton-cartoons/2015/05/19>: modern art (is what you don't expect)
-- <http://wandpcomic.com/index.php/comic/11/>: troublish kid doing stuff vs. way too logical girl
-- <http://wandpcomic.com/index.php/comic/27-story-time-aidens-first-kiss/>: didn't understand sex and kissed a girl
-- <https://s3.amazonaws.com/codementor_content/2015-May-week4/bug.jpg>:     99 little bugs in the code, take one down, 127 little bugs in the code
-- <https://imgur.com/gallery/1cOemxp>: how people are on the internet. I like his work but I don't say a thing, I don't like his work I'm gonna show him why!
-- <http://yahoberries.tumblr.com/post/135314383576/not-sure-about-anything-anymore>: what's your dream? - I don't know - then what do you live for? - I just kinda exist
-- <https://www.reddit.com/r/webcomics/comments/4cu0cn/april_fools_day_duplicate_comics/>: April fools joke 'maybe i am the fool'
-- <http://a.disquscdn.com/uploads/mediaembed/images/3985/2542/original.jpg>: jealous and envious difference explained by homer simpson
-- <https://www.webtoons.com/en/challenge/clinic-of-horrors/episode-12-the-new-guy/viewer?title_no=274661&episode_no=13>: Asian cute guy is actually a blob that feeds from human teens
-- <https://www.webtoons.com/en/challenge/clinic-of-horrors/episode-7-word-worms/viewer?title_no=274661&episode_no=7>: {words,worms} Words eaten by worms!
-- <http://www.commitstrip.com/en/2014/11/06/pendant-ce-temps-sur-mars-3/>: Lonely robot in mars talks to Wilson
-- <https://www.instagram.com/p/Bqgdu8MFYaf/>: Real dream to be a lofi hip hop guy
-- <https://frava8.tumblr.com/post/179316447942/burned>: {inner,*} The best costume is a mirror, because there is nothing scarier than looking at yourself and confronting your inner deamons
-- <https://i.warosu.org/data/g/img/0589/10/1486941106427.png>: {neural networks} Statistical learning (a lot of work) vs NNs (more layers)
-- <https://www.instagram.com/p/Bsda7Jel3OI/>: {dreams} Dreams only come true with hard work
-- <https://www.webtoons.com/en/drama/space-boy/ep-2/viewer?title_no=400&episode_no=2>: Living in outerspace, in a small comunity, and then bam, new home
-- <https://www.webtoons.com/en/drama/space-boy/ep-10/viewer?title_no=400&episode_no=10>: {Augmented Reality} Using Augmented Reality for everyday life
+url: <https://www.webtoons.com/en/challenge/clinic-of-horrors/{id}>
+
+- `episode-12-the-new-guy/viewer?title_no=274661&episode_no=13`: Asian cute guy is actually a blob that feeds from human teens
+- `episode-7-word-worms/viewer?title_no=274661&episode_no=7`: {words,worms} Words eaten by worms!
+- `ep-32-nostalgia/viewer?title_no=274661&episode_no=34`
+- `ep-33-the-experience-machine/viewer?title_no=274661&episode_no=35`
+- `ep-38-energy-drinks/viewer?title_no=274661&episode_no=40`
+- `ep-41-cage-of-flesh/viewer?title_no=274661&episode_no=43`
+- `episode-23-fate-of-humanity/viewer?title_no=274661&episode_no=24`
+
+(All the above links are dead :/. Gotta find the particular episodes now in
+<https://www.webtoons.com/en/supernatural/clinic-of-horrors/list?title_no=3414>)
 
 ### Jim Benton ###
 
@@ -1091,6 +1074,51 @@ url: <http://www.berkeleymews.com/{name}>
 - `job-interview`: what would you say is your greatest weekness? - those eyes - smush
 - `text-message`:  {cellphone} God read your message but ignored it
 - `disney`:        {disney} Everything is and will be "del Ratón Mikaelo"
+
+## they can talk ##
+
+url: <https://theycantalk.com/post/{id}>
+
+- `626017136906797056/imitation`: {koalas} what if reality isn't real?
+- `631088275196641280/identity-crisis`: what is that cat doing outside?
+- `641238503847559168/also-known-as`: my name is kevin
+- `645674264621711360/attract`: acting out to get the attention of others
+
+## Other (varied) comics ##
+
+- <http://www.savagechickens.com/2016/10/doing-stuff.html>: productivity is down, it's cause I do only talking and no doing. Too much "planning"
+- <http://charlatanes.blogspot.com/2013/06/de-que-esta-hecha-tu-manzana.html>
+- <http://toonhole.com/2012/11/most-intelligent-organism-on-the-planet>: feline overlords, how did you enslave this planet?
+- <http://toonhole.com/comic/in_a_coma/>: {comma,grammar} Tom is in a comma
+- <http://lolnein.com/2013/08/28/smartphones>: you think you're awesome smartphones, but you can't do this
+- <http://forlackofabettercomic.com/?id=267>
+- <http://asperusualcomics.com/post/60844733445/late-retort-an-illustrated-version-of>
+- <http://www.cinismoilustrado.com/2013/08/credito.html>
+- <http://www.victimsofcircumsolar.com/comic/female-comedians/>
+- <http://racheldraws.blogspot.com.es/2010/11/birthday-pony.html>
+- <http://www.microsiervos.com/archivo/frases-citas/inteligencia-colectiva-ya.html>
+- <http://invisiblebread.com/2013/07/my-wallet/>
+- <http://formalsweatpants.com/the-ugly-duckling/>
+- <http://piecomic.tumblr.com/post/64247840292>
+- <http://chuckleaduck.com/comic/shoot-first/>
+- <http://ro-che.info/ccc/18.html>
+- <http://www.skelding.net/randumb/174/>
+- <http://www.pidjin.net/2013/10/31/the-circle-of-faith/>
+- <http://www.gocomics.com/jim-benton-cartoons/2015/05/19>: modern art (is what you don't expect)
+- <http://wandpcomic.com/index.php/comic/11/>: troublish kid doing stuff vs. way too logical girl
+- <http://wandpcomic.com/index.php/comic/27-story-time-aidens-first-kiss/>: didn't understand sex and kissed a girl
+- <https://s3.amazonaws.com/codementor_content/2015-May-week4/bug.jpg>:     99 little bugs in the code, take one down, 127 little bugs in the code
+- <https://imgur.com/gallery/1cOemxp>: how people are on the internet. I like his work but I don't say a thing, I don't like his work I'm gonna show him why!
+- <http://yahoberries.tumblr.com/post/135314383576/not-sure-about-anything-anymore>: what's your dream? - I don't know - then what do you live for? - I just kinda exist
+- <https://www.reddit.com/r/webcomics/comments/4cu0cn/april_fools_day_duplicate_comics/>: April fools joke 'maybe i am the fool'
+- <http://a.disquscdn.com/uploads/mediaembed/images/3985/2542/original.jpg>: jealous and envious difference explained by homer simpson
+- <http://www.commitstrip.com/en/2014/11/06/pendant-ce-temps-sur-mars-3/>: Lonely robot in mars talks to Wilson
+- <https://www.instagram.com/p/Bqgdu8MFYaf/>: Real dream to be a lofi hip hop guy
+- <https://frava8.tumblr.com/post/179316447942/burned>: {inner,*} The best costume is a mirror, because there is nothing scarier than looking at yourself and confronting your inner deamons
+- <https://i.warosu.org/data/g/img/0589/10/1486941106427.png>: {neural networks} Statistical learning (a lot of work) vs NNs (more layers)
+- <https://www.instagram.com/p/Bsda7Jel3OI/>: {dreams} Dreams only come true with hard work
+- <https://www.webtoons.com/en/drama/space-boy/ep-2/viewer?title_no=400&episode_no=2>: Living in outerspace, in a small comunity, and then bam, new home
+- <https://www.webtoons.com/en/drama/space-boy/ep-10/viewer?title_no=400&episode_no=10>: {Augmented Reality} Using Augmented Reality for everyday life
 
 <script>
 "use strict";
