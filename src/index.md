@@ -69,7 +69,7 @@ I am a Computer and Systems Engineer from [UNAL][nacho] (Colombia). I hold a MEn
 the same subject from the same university.
 
 The things I like to do include: coding and fiction writing. The things I tend to enjoy
-the most are often weird, niche and obscure, _i.e.,_ most things creative.
+the most are often absurd, niche and obscure, _i.e.,_ most things creative.
 
 ## Selected Projects ##
 

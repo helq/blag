@@ -534,6 +534,7 @@ url: <https://xkcd.com/{num}/>
   `2337`, `2390`, `2411`, `2450`, `2451`, `2456`, `2460`, `2476`, `2494`,
   `2519`, `2520`
 - `2546`: {star wars,titles} The truth about star troopers! A documentary
+- `2682`, `2683`, `2684`, `2685`
 
 ## What If ##
 

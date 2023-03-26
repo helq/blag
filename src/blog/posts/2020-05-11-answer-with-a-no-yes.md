@@ -27,3 +27,9 @@ Well, I want to claim that even _that_ is a lie. It is in fact impossible to ans
 post's question irrefutably.
 
 Gotta love Russell's paradox :).
+
+---
+
+Note (just 20 minutes later): darn it! The question asked in the title is actually
+answerable lol. Well, that happens when you try to be smartypants about your logic in a
+blogpost.
