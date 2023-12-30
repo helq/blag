@@ -32,6 +32,7 @@ const copying_contents = require('./helpers/copying_contents');
 const drafts           = require('./helpers/drafts');
 const remove_match     = require('./helpers/remove_match');
 const licensing        = require('./helpers/licensing');
+const citations        = require('./helpers/citations');
 
 /**
  * Global variables
@@ -78,38 +79,6 @@ const log = function() {
     //console.log(Object.keys(metalsmith.metadata()));
     done();
   };
-};
-
-/**
- * Simple citations plugin based on citation-js
- */
-const citations = function(options) {
-    var Cite = require('citation-js');
-    var debug = require('debug')('metalsmith-citations');
-    var collections = Object.keys(options.collections);
-
-    return function(files, metalsmith, done) {
-
-        var meta = metalsmith.metadata();
-        meta.citations = {};
-
-        collections.forEach(function(col) {
-            let filename = options.collections[col];
-            debug("Found bib file: %s", filename);
-
-            let collection = Cite(files[filename].contents.toString());
-            let htmlcite = collection.format('bibliography', {
-                format: 'html',
-                template: options.format.template,
-                lang: options.format.lang 
-            })
-            meta.citations[col] = htmlcite;
-            delete files[filename]
-            //console.log(htmlcite);
-        });
-
-        done();
-    };
 };
 
 // from: https://stackoverflow.com/a/29939805
@@ -201,24 +170,24 @@ let site = Metalsmith(__dirname)
    */
   .use( drafts(remove_drafts) )
   .use( remove_match( RegExp('^teaching/[^/]*/[^/]*/.*') ) )
+  .use( remove_match( RegExp('^teaching/[^/]*/.*\.tar\.zst') ) )
   //.use( remove_match( RegExp('^blog/notes/') ) )
 
   /**
    * Adding Publications using bibtex
    */
-  .use( branch()
-          .pattern( ["publications.md", "bib/*"] )
-          .use( citations({
-              collections: {
-                  publications: 'bib/publications.bib',
-                  thesis: 'bib/thesis.bib'
-              },
-              format: {
-                template: 'apa',
-                lang: 'en-US'
-              }
-          }))
-          //.use( log() )
+  .use( citations({
+         collections: {
+             publications: 'bib/publications.bib',
+             thesis: 'bib/thesis.bib'
+         },
+         format: {
+           template: 'apa',
+           lang: 'en-US'
+         },
+         docs_dir: 'bib/docs',
+         bolden: /Cruz, E\.|Cruz-Camacho, E\.|Cruz Camacho, E\. A\./g
+     })
   )
 
   /**

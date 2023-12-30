@@ -1,29 +1,31 @@
-# Code of my personal blog #
+# My blog's source code
 
-Welcome everyone!. This is the source code to my personal site/blog, it uses
+Welcome everyone! Here lies the source code for my personal site/blog. It uses
 [Metalsmith][].
 
 [Metalsmith]: http://www.metalsmith.io/ (Metalsmith's official site)
 
-## Requirements ##
-To compile the site/blog you will require [npm]() and [nodejs]().
+## Requirements
+
+To compile the website, you need [npm]() and [nodejs]().
 
 [npm]: https://www.npmjs.com/ (npm's official site)
 [nodejs]: https://nodejs.org/ (nodejs's official site)
 
-## How to compile ##
+## How to compile
+
 In a shell run:
 
-``` .sh
+```bash
 git clone --recursive https://github.com/helq/blag
 cd blag
 npm install
 node build
 ```
 
-You will see after a folder called `_site`, that folder contains the site/blog.
+The website is built under `_site/`.
 
-## Directory structure ##
+## Directory structure
 
 ```
 /blag

@@ -4,8 +4,8 @@ inside the `src/` folder.
 The following is a detailed list of the licenses under which the each files inside the
 folder `src/` are released, unless other license is stated or all rights are reserved.
 
-* Files with the pattern `src/*.md` (i.e, only `.md` files on the top of the `src/`
-    directory), and all files under folders `src/teaching/` and `src/bib/` are released
+* Files with the pattern `src/*.md` (i.e, `.md` files only on the top directory
+    `src/`), and all files under folders `src/teaching/` and `src/bib/` are released
     under [Attribution-ShareAlike 4.0 International][by-sa].
 * All files under the folders `src/blog/` and `src/data/` are released under the license
     that each file displays. If no license is given to a specific file, all rights are
@@ -26,7 +26,7 @@ convenience.
 
 ## BSD-3 License: ##
 
-Copyright (c) 2015-2018, Elkin Cruz
+Copyright (c) 2015-2023, Elkin Cruz
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without

@@ -4,7 +4,7 @@
   <title>{{ title }}</title>
 </head>
 <body>
-  <p>{{ layout_name(layout) }}</p>
+{# <p>{{ layout_name(layout) }}</p> #}
   {{ contents|safe }}
 </body>
 </html>
