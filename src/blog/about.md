@@ -6,22 +6,16 @@ license: "CC BY-SA 4.0"
 license-code: CC0
 ---
 
-For a more "serious" _about me_ go to the [start page](/).
-
-Hi, welcome to my (maybe) personal, mathematical, computer science and other
-things blog.
+Welcome to my (maybe) personal, mathematical, computer science and other things
+blog (that I very rarely update).
 
 As an imperfect **real** human that I am, and not a spider, I make many mistakes
 of many kinds, and usually I’m not able to detect them on time. So, please,
-don't hesitate to write to me if you find any grammatical, typographical,
+don't hesitate to send me a message if you find any grammatical, typographical,
 computational, mathematical, logical, illogical, physical or science fictional
-mistake. I thank you with all my guts! But please don’t if you are a panda or
-a koala, because I don’t like how all humans treat you. It seems like they
-think you're like gods and not species that are doomed because you are not
-resilient enough (come on, you eat only one kind of vegetable). So go and make cute
-faces to others, not to me.
+mistakes.
 
-So, anyway, here is my email:
+Here is my email:
 
 <div id="divMcFace"></div>
 

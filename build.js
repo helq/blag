@@ -32,7 +32,6 @@ const copying_contents = require('./helpers/copying_contents');
 const drafts           = require('./helpers/drafts');
 const remove_match     = require('./helpers/remove_match');
 const licensing        = require('./helpers/licensing');
-const citations        = require('./helpers/citations');
 
 /**
  * Global variables
@@ -166,29 +165,11 @@ let site = Metalsmith(__dirname)
   .clean(false) // TODO: clean all the files except for the .git folder which lies in `./_site'
 
   /**
-   * Removing drafts and everything inside blog/notes and blog/.git
+   * Removing drafts and files inside teaching subdirectories
    */
   .use( drafts(remove_drafts) )
   .use( remove_match( RegExp('^teaching/[^/]*/[^/]*/.*') ) )
   .use( remove_match( RegExp('^teaching/[^/]*/.*\.tar\.zst') ) )
-  //.use( remove_match( RegExp('^blog/notes/') ) )
-
-  /**
-   * Adding Publications using bibtex
-   */
-  .use( citations({
-         collections: {
-             publications: 'bib/publications.bib',
-             thesis: 'bib/thesis.bib'
-         },
-         format: {
-           template: 'apa',
-           lang: 'en-US'
-         },
-         docs_dir: 'bib/docs',
-         bolden: /Cruz, E\.|Cruz-Camacho, E\.|Cruz Camacho, E\. A\./g
-     })
-  )
 
   /**
    * Specific configuration for '/blog/*.htm?' and "blog/personal/*.htm?"
@@ -204,16 +185,15 @@ let site = Metalsmith(__dirname)
   )
 
   /**
-   * Specific configuration for '*.htm?' and "teaching/*.htm?"
+   * Specific configuration for "teaching/"
    * - adding layout metadata
    */
   .use( branch()
-      .pattern( ["*.md", "teaching/**/*.md"] )
+      .pattern( ["teaching/**/*.md"] )
           .use( metadataadder({
               layout: "root/walkie.nunjucks"
           }))
   )
-  
 
   /**
    * markdown processing: converting all '.md' files in '.html' files
@@ -237,7 +217,7 @@ let site = Metalsmith(__dirname)
    * - renaming from '/blog/about.html' to '/blog/about/index.html'
    */
   .use( branch()
-      .pattern( ["*.htm?", "teaching/**/*.htm?", "blog/*.htm?", "blog/personal/*.htm?"] )
+      .pattern( ["teaching/**/*.htm?", "blog/*.htm?", "blog/personal/*.htm?"] )
           .use( permalinks({
               pattern: undefined,
               relative: false
